@@ -1,0 +1,44 @@
+/* Styles for the entire website */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 60px 0 0;
+}
+
+/* Styles for the wrapper */
+.wrapper {
+    background-color: orange;
+    padding: 2px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Styles for the header section */
+.header {
+    background-color: #011078;
+    color: white;
+    padding: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /*z-index: 9999;*/
+}
+
+/* Styles for the main section */
+.main {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    max-width: 400px;
+    word-wrap: break-word;
+    margin-top: 35px; /* Add margin to create space below the fixed header */
+}
+
+/* Styles for the footer section */
+.footer {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
