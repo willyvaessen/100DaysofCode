@@ -1,0 +1,58 @@
+/* Styles for the entire website */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 60px 0 0;
+}
+
+/* Font face declaration */
+@font-face {
+    font-family: 'glass_tty_vt220medium';
+    src: url('/assets/fonts/glass_tty_vt220-webfont.woff2') format('woff2'),
+    url('/assets/fonts/glass_tty_vt220-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Styles for the wrapper */
+.wrapper {
+    background-color: #D3D5BA;
+    padding: 1px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Styles for the header section */
+.header {
+    background-color: #011078;
+    color: #D3D5BA;
+    padding: 3px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+h1  {
+    font-family: glass_tty_vt220medium, sans-serif;
+}
+
+/* Styles for the main section */
+.main {
+    background-color: #BEC2B4;
+    color: #011078;
+    padding: 20px;
+    max-width: 400px;
+    word-wrap: break-word;
+    margin-top: 35px; /* Add margin to create space below the fixed header */
+}
+
+/* Styles for the footer section */
+.footer {
+    background-color: #D3D5BA;
+    color: #6D769A;
+    padding: 10px;
+    text-align: center;
+}
