@@ -1,0 +1,66 @@
+/* General Styles */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 100px 0 0; /* Add 100px top padding */
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b);
+}
+
+/* Wrapper Styles */
+.wrapper {
+    height: auto; /* Allow the wrapper to adjust its height based on content */
+    padding: 0 15px; /* Add 15px padding on the left and right sides for smaller screens */
+    max-width: 800px; /* Set the maximum width of the wrapper to 800px on larger screens */
+    margin: 0 auto; /* Center the wrapper horizontally */
+    background-color: #f2f3eb;
+    box-sizing: border-box; /* Ensure padding is included within the specified width */
+    position: relative; /* Add relative positioning to enable overlapping elements */
+}
+
+/* Header Styles */
+.header {
+    position: absolute; /* Set absolute positioning for the header */
+    top: -75px; /* Move the header 75px above the wrapper (half of the image height) */
+    left: 50%; /* Center the header horizontally */
+    transform: translateX(-50%); /* Adjust centering with negative translateX */
+    width: 150px; /* Set the width of the header to half of the image width */
+    height: 150px; /* Set the height of the header to half of the image height */
+    border-radius: 50%; /* Make the header rounded (circle) */
+    overflow: hidden; /* Hide any content that might overflow the circle */
+}
+
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills the circle without distortion */
+}
+
+/* Title Styles */
+.title {
+    font-size: 32px; /* Set the font size of the title */
+    text-align: center; /* Center the title text */
+    margin-top: 20px; /* Add margin between the image and the title */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 850px) {
+    body {
+        padding-top: 100px; /* Reduce top padding on smaller screens */
+    }
+
+    .wrapper {
+        height: auto; /* Allow the wrapper to adjust its height based on content */
+        padding: 0 15px; /* Add 15px padding on the left and right sides for smaller screens */
+        max-width: calc(100% - 30px); /* Adjust max-width to account for the added padding */
+    }
+
+    .header {
+        width: 120px;
+        height: 120px;
+        top: -60px; /* Move the header 60px above the wrapper (half of the new image height) */
+    }
+}
