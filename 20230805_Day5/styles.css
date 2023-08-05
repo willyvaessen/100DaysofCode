@@ -1,4 +1,3 @@
-
 /* General Styles */
 html {
     height: 100%;
@@ -6,10 +5,14 @@ html {
 
 body {
     font-family: Arial, sans-serif;
-    color: #011078; /* Set the global font color to #011078 */
+    color: #011078;
     margin: 0;
     padding: 100px 0 0; /* Add 100px top padding */
     background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b);
+    background-attachment: fixed; /* Fix the background gradient in place */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
 }
 
 /* Wrapper Styles */
@@ -17,7 +20,7 @@ body {
     display: flex; /* Use flexbox to arrange the header image and header title */
     flex-direction: column; /* Stack the elements vertically */
     align-items: center; /* Center the elements horizontally */
-    height: auto; /* Allow the wrapper to adjust its height based on content */
+    flex-grow: 1; /* Allow the wrapper to fill the available vertical space */
     padding: 0 15px; /* Add 15px padding on the left and right sides for smaller screens */
     max-width: 800px; /* Set the maximum width of the wrapper to 800px on larger screens */
     margin: 0 auto; /* Center the wrapper horizontally */
@@ -94,6 +97,64 @@ body {
     max-width: 400px;
 }
 
+/* Add this CSS to styles.css */
+
+
+/* Social Media Links styles */
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #6D769A;
+    color: #CACEB1;
+    font-size: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    background-color: #011078;
+}
+
+
+
+/*!* Styles for the button on smaller screens *!*/
+@media (max-width: 850px) {
+    .small-screen-button {
+        display: block; /* Show the button on smaller screens */
+    }
+    .large-screen-button {
+        display: none; /* Hide the button on larger screens */
+    }
+}
+
+/* Styles for the button on larger screens */
+@media (min-width: 850px) {
+    .small-screen-button {
+        display: none; /* Hide the button on smaller screens */
+    }
+    .large-screen-button {
+        display: inline-block; /* Show the button on larger screens */
+    }
+}
+
+
+
+.bio p {
+    margin-top: 7px;
+    margin-bottom: 8px;
+}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 850px) {
@@ -120,7 +181,7 @@ body {
     .header {
         display: block; /* Show the header on larger screens */
         background-color: #011078;
-        color: #D3D5BA;
+        color: #CACEB1; /*#D3D5BA;*/
         text-align: center;
         padding: 10px 0;
         position: absolute;
@@ -144,7 +205,15 @@ body {
     }
 }
 
+/* Spacer between the wrapper and the footer bar */
+.spacer {
+    height: 50px; /* Set the height of the spacer as desired */
+    background-color: transparent; /* Set the background color as transparent */
+}
 
+.footer {
+    /* ... your existing styles for the footer ... */
+}
 
 /* Footer Styles */
 .footer {
@@ -153,7 +222,7 @@ body {
     font-size: 78%;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
-    width: 100%;
+    /*width: 100%;*/
 }
