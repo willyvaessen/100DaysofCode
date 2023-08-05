@@ -12,6 +12,9 @@ body {
 
 /* Wrapper Styles */
 .wrapper {
+    display: flex; /* Use flexbox to arrange the header image and header title */
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center the elements horizontally */
     height: auto; /* Allow the wrapper to adjust its height based on content */
     padding: 0 15px; /* Add 15px padding on the left and right sides for smaller screens */
     max-width: 800px; /* Set the maximum width of the wrapper to 800px on larger screens */
@@ -22,28 +25,28 @@ body {
 }
 
 /* Header Styles */
-.header {
-    position: absolute; /* Set absolute positioning for the header */
-    top: -75px; /* Move the header 75px above the wrapper (half of the image height) */
-    left: 50%; /* Center the header horizontally */
-    transform: translateX(-50%); /* Adjust centering with negative translateX */
-    width: 150px; /* Set the width of the header to half of the image width */
-    height: 150px; /* Set the height of the header to half of the image height */
-    border-radius: 50%; /* Make the header rounded (circle) */
+.header-image {
+    margin-top: -75px; /* Move the header image 75px above the default position */
+    width: 150px; /* Set the width of the header image */
+    height: 150px; /* Set the height of the header image */
+    border-radius: 50%; /* Make the header image rounded (circle) */
     overflow: hidden; /* Hide any content that might overflow the circle */
 }
 
-.header img {
+.header-image img {
     width: 100%;
     height: 100%;
     object-fit: cover; /* Ensure the image fills the circle without distortion */
 }
 
+.header-title { /* Styles for the header title */
+    text-align: center; /* Center the header title */
+    margin-top: 20px; /* Add margin between the image and the title */
+}
+
 /* Title Styles */
 .title {
     font-size: 32px; /* Set the font size of the title */
-    text-align: center; /* Center the title text */
-    margin-top: 20px; /* Add margin between the image and the title */
 }
 
 /* Media Queries for Responsiveness */
@@ -58,9 +61,9 @@ body {
         max-width: calc(100% - 30px); /* Adjust max-width to account for the added padding */
     }
 
-    .header {
+    .header-image {
         width: 120px;
         height: 120px;
-        top: -60px; /* Move the header 60px above the wrapper (half of the new image height) */
+        margin-top: -60px; /* Move the header image 60px above the default position */
     }
 }
