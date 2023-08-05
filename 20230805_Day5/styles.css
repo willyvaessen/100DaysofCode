@@ -22,6 +22,7 @@ body {
     background-color: #f2f3eb;
     box-sizing: border-box; /* Ensure padding is included within the specified width */
     position: relative; /* Add relative positioning to enable overlapping elements */
+    border-radius: 5px; /* Add subtle border-radius for rounded corners */
 }
 
 /* Header Styles */
@@ -41,7 +42,7 @@ body {
 
 .header-title { /* Styles for the header title */
     text-align: center; /* Center the header title */
-    margin-top: 20px; /* Add margin between the image and the title */
+    margin-top: 10px; /* Add margin between the image and the title */
 }
 
 /* Title Styles */

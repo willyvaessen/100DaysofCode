@@ -23,3 +23,7 @@ Continuing work on my (mobile) about me page. Not too happy with yesterday's res
 - etc...
 
 Since AI will be a thing of the near future, I will ask ChatGPT to assist me in the process.
+Quite happy with the result so far today.  The mobile version looks like this now:
+![about-me-mobile.png](20230805_Day5%2Fassets%2Fabout-me-mobile.png)
+
+Of course it's nowhere near finished, but it's a great start as far as I'm concerned.
