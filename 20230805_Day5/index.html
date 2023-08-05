@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="styles.css">
+  <!--  <link rel="stylesheet" href="header.css"> &lt;!&ndash; Add the link to the header stylesheet &ndash;&gt;-->
 </head>
 <body>
+
+<div class="header"> <!-- Add a separate header for larger screens -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+</div>
+
 <div class="wrapper">
   <div class="header-image">
     <img src="assets/willyvaessen_sunlight_forest.jpg" alt="Willy Vaessen profile picture"/>
@@ -14,9 +25,25 @@
   <div class="header-title"> <!-- New div for the header title -->
     <h1 class="title">Willy Vaessen</h1>
   </div>
+  <div class="headline">
+    <p>System Administrator | Web Developer | Photographer | Nature Lover</p>
+    <p>Landgraaf, The Netherlands</p>
+  </div>
   <div class="profile-content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae mattis lectus, vel iaculis odio.</p>
+    <section class="spotlight">
+      <a class="profile-button" href="#">Button</a>
+    </section>
+    <section class="bio">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae mattis lectus, vel iaculis odio.</p>
+      <p>Feel free to reach out me via post [A T] willyvaessen [dot} nl</p>
+    </section>
+    <section class="social-links">
+
+    </section>
   </div>
 </div>
+<footer class="footer">
+  <p>&copy; 2023 Willy Vaessen. All rights reserved.</p>
+</footer>
 </body>
 </html>
