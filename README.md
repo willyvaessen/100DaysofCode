@@ -27,3 +27,10 @@ Quite happy with the result so far today.  The mobile version looks like this no
 ![about-me-mobile.png](20230805_Day5%2Fassets%2Fabout-me-mobile.png)
 
 Of course, it's nowhere near finished, but it's a great start as far as I'm concerned.
+
+## 6 August 2023
+Today I'll continue working on my (mobile) website that I built yesterday. Overall I'm quite happy with how it turned out but there is some tweaking left to do.
+First thing I'll look at, is getting rid of unnecessary scroll bars, especially on large screens.
+
+At the end of the day, I ended up redoing the whole thing, but I'm quite happy with the result. As far as I can see, there are no scroll bars now on mobile, on which I concentrated today.
+Tomorrow I want to work on larger screen sizes.
