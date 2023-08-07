@@ -34,3 +34,9 @@ First thing I'll look at, is getting rid of unnecessary scroll bars, especially 
 
 At the end of the day, I ended up redoing the whole thing, but I'm quite happy with the result. As far as I can see, there are no scroll bars now on mobile, on which I concentrated today.
 Tomorrow I want to work on larger screen sizes.
+
+## 7 August 2023
+This morning I already made some minor adjustments to yesterday's work. The responsive part of the site, when turned to landscape mode
+on mobile screens, appeared to be a little too large on my iPhone 13 mini, so I shrunk that a little.
+Today I want to try and use the base that I created yesterday in a desktop website, but there's also the end of my summer 
+vacation, so back to work again.

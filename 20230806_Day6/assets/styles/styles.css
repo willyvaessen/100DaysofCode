@@ -241,8 +241,7 @@ is best viewed in portrait mode or on a larger screen. */
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh; /* Adjust the height as needed */
-        /*background-color: #f2f3eb; !* Add a background color if necessary *!*/
+        height: 64vh; /* Adjust the height as needed */
         flex-direction: column;
         text-align: center;
     }
