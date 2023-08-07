@@ -69,3 +69,7 @@ The provided CSS code is a stylesheet that defines the styling for a website. He
 11. **Media Query for Landscape Orientation**: This media query targets landscape-oriented mobile devices and hides the profile wrapper while showing a warning message to view the site in portrait mode or on a larger screen.
 
 Overall, this stylesheet provides a structured and visually appealing design for the website's profile section, including responsive styles for different screen orientations. However, without seeing the HTML code that utilizes these CSS classes and styles, it's challenging to visualize the actual layout and appearance of the website. The functionality and appearance will also depend on how these styles are combined with HTML elements on the website.
+
+
+## A smallPython project, just to try something out
+With the help of ChatGPT I started creating a small application that allows me to create and use text snippets. In my work, I use the same text a lot of times. Having to copy them from the notepad application takes quite some steps, so I want to simplify that.
