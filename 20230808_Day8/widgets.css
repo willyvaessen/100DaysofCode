@@ -1,0 +1,200 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Some styling for really small screens */
+.micro-screen{
+    display: block;
+}
+
+/* Style for the page wrapper */
+.page-wrapper {
+    margin: 0 auto;
+    border: 2px solid greenyellow;
+    background-color: darkseagreen;
+}
+
+/* Style for the header */
+header {
+    background-color: pink;
+    border: 4px solid red;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Smaller screens (<375px) */
+@media screen and (max-width: 374px) {
+    .page-wrapper {
+    display: none;
+    }
+}
+
+/* Screens between 375px and 400px */
+@media screen and (min-width: 375px) and (max-width: 400px) {
+
+    .micro-screen{
+        display: none;
+    }
+
+    .page-wrapper {
+        max-width: calc(100% - 20px); /* Account for 10px left and 10px right */
+        padding: 0;
+    }
+}
+
+/* Screens between 401px and 750px */
+@media screen and (min-width: 401px) and (max-width: 750px) {
+
+    .micro-screen{
+        display: none;
+    }
+
+    .page-wrapper {
+        max-width: 375px;
+        padding: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: calc(100%); /* Account for spacing between boxes */
+        max-width: 375px;
+    }
+}
+
+
+/* Screens between 751px and 1125px */
+@media screen and (min-width: 751px) and (max-width: 1125px) {
+    .micro-screen {
+        display: none;
+    }
+
+    .page-wrapper {
+        max-width: 750px;
+        padding: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: calc(50%); /* Account for spacing between boxes */
+        max-width: 375px;
+    }
+}
+
+/* Screens larger than 1124px */
+@media screen and (min-width: 1125px) {
+    .micro-screen {
+        display: none;
+    }
+
+    .page-wrapper {
+        max-width: 1125px;
+        padding: 0;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start; /* Align flex items at the top */
+    }
+
+    .profile-wrapper {
+        flex: 0 0 auto;
+        width: calc(33.33%);
+        max-width: 375px;
+    }
+
+    .box {
+        width: calc(33.33%);
+        max-width: 375px;
+
+    }
+
+    /* Adjust order to place the profile-wrapper first */
+    .profile-wrapper {
+        order: -1;
+    }
+}
+
+
+
+
+/* Create the wrapper for the content boxes */
+.wrapper {
+    max-width: 1125px; /* Maximum width for larger screens */
+    margin: 0 auto;
+}
+
+/* Styling for the Profile Wrapper */
+.profile-wrapper{
+    padding: 20px;
+    border: 1px solid red;
+    background-color: #9fa49e;
+    box-sizing: border-box;
+    /*min-height: 200px;*/
+    height: 500px;
+    max-width: 375px;
+}
+
+/* Style for individual content boxes */
+.box {
+    /*margin: 10px;*/
+    padding: 20px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    min-height: 200px;
+}
+
+/*!* Apply different border colors to even and odd boxes *!*/
+/*.box:nth-child(even) {*/
+/*    border-color: blue;*/
+/*    background-color: #CCCFB8;*/
+/*}*/
+
+/*.box:nth-child(odd) {*/
+/*    border-color: deeppink;*/
+/*    background-color: #D3D5BA;*/
+/*}*/
+
+/* Apply different background color for every 3 boxes */
+.box:nth-child(3n+1) {
+    background-color: lightblue;
+}
+
+.box:nth-child(3n+2) {
+    background-color: lightgreen;
+}
+
+.box:nth-child(3n+3) {
+    background-color: lightyellow;
+}
+
+/* Style for the footer */
+footer {
+    border: 2px solid purple;
+    background-color: #011078;
+    color: #BEC2B4;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Adjust main column position */
+.main-column {
+    margin-top: calc(667px - 40px); /* Subtract header height and padding */
+}
+
+/* Adjust for smaller screens */
+@media screen and (max-width: 767px) {
+    .main-column {
+        margin-top: 0;
+    }
+}

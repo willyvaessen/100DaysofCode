@@ -40,3 +40,9 @@ This morning I already made some minor adjustments to yesterday's work. The resp
 on mobile screens, appeared to be a little too large on my iPhone 13 mini, so I shrunk that a little.
 Today I want to try and use the base that I created yesterday in a desktop website, but there's also the end of my summer 
 vacation, so back to work again.
+
+## 8 August 2023
+Today I'll be working with ChatGPT to create some sort of template, that can hold small pieces of website, like widgets. Each widget should contain the GUI part of some 
+JavaScript code that I think of to practice JavaScript.
+
+The basic layout of this template is now finished, although a lot of work is still needed to get it perfect(ly right for me).
