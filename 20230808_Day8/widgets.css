@@ -14,6 +14,7 @@ body, h1, h2, h3, p {
     margin: 0 auto;
     border: 2px solid greenyellow;
     background-color: darkseagreen;
+    /*max-height: 1080px;*/
 }
 
 /* Style for the header */
@@ -24,7 +25,7 @@ header {
     text-align: center;
 }
 
-/* Smaller screens (<375px) */
+/* Smaller screens (375px) */
 @media screen and (max-width: 374px) {
     .page-wrapper {
     display: none;
@@ -38,8 +39,12 @@ header {
         display: none;
     }
 
+    .nav-bar{
+        display: none;
+    }
+
     .page-wrapper {
-        max-width: calc(100% - 20px); /* Account for 10px left and 10px right */
+        max-width: calc(100% - 10px); /* Account for 10px left and 10px right */
         padding: 0;
     }
 }
@@ -51,19 +56,25 @@ header {
         display: none;
     }
 
+    .nav-bar{
+        display: none;
+    }
+
     .page-wrapper {
         max-width: 375px;
         padding: 0;
     }
 
-    .wrapper {
+
+    .main-content {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        /*flex-wrap: wrap;*/
     }
 
     .box {
-        width: calc(100%); /* Account for spacing between boxes */
-        max-width: 375px;
+        /*width: calc(100%); !* Account for spacing between boxes *!*/
+        width: 375px;
     }
 }
 
@@ -77,15 +88,27 @@ header {
     .page-wrapper {
         max-width: 750px;
         padding: 0;
+        margin-top: 30px;
     }
 
-    .wrapper {
+    .wrapper{
         display: flex;
+        flex-direction: row;
+    }
+
+    .side-bar{
+        max-width: calc(50%);
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
+        max-width: calc(50%);
     }
 
     .box {
-        width: calc(50%); /* Account for spacing between boxes */
+        /*width: calc(50%); !* Account for spacing between boxes *!*/
         max-width: 375px;
     }
 }
@@ -99,30 +122,47 @@ header {
     .page-wrapper {
         max-width: 1125px;
         padding: 0;
+        margin-top: 50px;
     }
 
-    .wrapper {
+    .side-bar{
+        /* Adjust width and spacing */
+        /*flex: 0 0 calc(33.33%); !* Account for spacing between elements *!*/
+        max-width: calc(33.34%); /* Account for spacing between elements */
+        /*max-width: 375px;*/
+    }
+    .wrapper{
         display: flex;
+        flex-direction: row;
+        max-height: 980px;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
-        align-items: flex-start; /* Align flex items at the top */
+        /*align-items: flex-start; !* Align flex items at the top *!*/
+        /*flex: 0 0 calc(66.66%); !* Account for spacing between elements *!*/
+        max-width: calc(66.66%); /* Account for spacing between elements */
+        /*max-height: 1080px;*/
     }
 
     .profile-wrapper {
-        flex: 0 0 auto;
-        width: calc(33.33%);
-        max-width: 375px;
+        /*flex: 0 0 auto;*/
+        /*width: calc(33.33%);*/
+        /*max-width: 375px;*/
     }
 
     .box {
-        width: calc(33.33%);
+        /*width: calc(50%);*/
         max-width: 375px;
 
     }
 
-    /* Adjust order to place the profile-wrapper first */
-    .profile-wrapper {
-        order: -1;
-    }
+    /*!* Adjust order to place the profile-wrapper first *!*/
+    /*.profile-wrapper {*/
+    /*    order: -1;*/
+    /*}*/
 }
 
 
@@ -142,7 +182,7 @@ header {
     box-sizing: border-box;
     /*min-height: 200px;*/
     height: 500px;
-    max-width: 375px;
+    /*max-width: 375px;*/
 }
 
 /* Style for individual content boxes */
@@ -152,6 +192,7 @@ header {
     border: 2px solid #ccc;
     box-sizing: border-box;
     min-height: 200px;
+    width: 375px;
 }
 
 /*!* Apply different border colors to even and odd boxes *!*/
@@ -187,10 +228,10 @@ footer {
     text-align: center;
 }
 
-/* Adjust main column position */
-.main-column {
-    margin-top: calc(667px - 40px); /* Subtract header height and padding */
-}
+/*!* Adjust main column position *!*/
+/*.main-column {*/
+/*    margin-top: calc(667px - 40px); !* Subtract header height and padding *!*/
+/*}*/
 
 /* Adjust for smaller screens */
 @media screen and (max-width: 767px) {
