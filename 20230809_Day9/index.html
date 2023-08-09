@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>//web/willyvaessen</title>
-    <link rel="stylesheet" href="assets/styles/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <!-- This is my website as it has been published on 7 August 2023 -->
+    <title>Responsive Layout Template</title>
+    <link rel="stylesheet" href="assets/styles/style-reset.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
 </head>
 <body>
 <!-- This portion of the site will only be visible once the user turns their mobile device in landscape mode. -->
-<div class="landscape-text">
+<section class="landscape-text">
     <img src="assets/images/rotate_192.png" alt="Rotate Device" height="192">
     <p>Please rotate your device to portrait mode for a better experience.</p>
-</div>
-
-
-<main class="profile-wrapper">
+</section>
+<aside class="profile-wrapper">
     <div class="spacer-30px"></div>
     <section class="profile-picture">
         <h6>This section is used to display my profile picture.</h6>
@@ -169,13 +165,6 @@
         <h6>This section contains the footer for the wrapper area.</h6>
         <p>&copy; 2006 - <span id="currentYear"></span> Willy Vaessen. All rights reserved.</p> <!-- The domain willyvaessen.nl was registered by me on 2006-07-13 -->
     </section>
-</main>
-
-<!-- Scripts Section -->
-<script src="assets/scripts/dateTimeFunctions.js"></script>
-<script src="assets/scripts/toggleMailLink.js"></script>
-<script>
-    getCurrentYear();
-</script>
+</aside>
 </body>
 </html>

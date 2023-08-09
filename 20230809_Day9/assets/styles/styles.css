@@ -1,0 +1,279 @@
+/* This stylesheet for my website was 7 August 2023 */
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*border: 4px solid blue;*/
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+    font-family: Arial, sans-serif;
+    color: #011078;
+}
+/* Spacers */
+p, h4 {
+    font-size: 16px;
+}
+
+h6 {
+    display: none;
+}
+
+.spacer-15px {
+    height: 15px;
+}
+
+.spacer-30px {
+    height: 30px;
+}
+.spacer-60px {
+    height: 60px;
+}
+
+/* Some variables to use */
+
+:root {
+    --wrapper-background-color: #F2F3EB; /* Sets the background color for the various wrapper elements */
+}
+
+.page-wrapper{
+    border: 2px solid orange;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.site-header{
+    border: 2px solid red;
+}
+
+/* Profile Wrapper Styles */
+
+.profile-wrapper {
+    border: 2px solid green;
+    width: calc(100% - 30px);
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 0 auto;
+}
+
+/* This section styles the profile picture */
+
+/* Position the top and bottom containers relative to the parent */
+
+.profile-picture {
+    position: relative;
+    text-align: center;
+}
+
+.image-container-top,
+.image-container-bottom {
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    color: transparent;
+}
+
+/* Style for the top container */
+.image-container-top {
+    background-color: transparent;
+    padding: 20px;
+    /*height: 60px;*/
+}
+
+/* Style for the bottom container */
+.image-container-bottom {
+    background-color: var(--wrapper-background-color);
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    /*height: 60px;*/
+}
+
+/* Position the overlay image on top */
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px; /* Adjust the width of the image */
+    height: 120px; /* Adjust the height of the image */
+    border-radius: 50%; /* To make it a circle if the image is round */
+    z-index: 1; /* To ensure the image is above the containers */
+}
+
+
+.wrapper-header {
+    background-color: var(--wrapper-background-color);
+    padding: 15px;
+    /*border: 2px solid red;*/
+}
+
+.header-title { /* Styles for the header title */
+    text-align: center; /* Center the header title */
+    margin-top: 10px; /* Add margin between the image and the title */
+    margin-bottom: 5px; /* Add margin between the image and the title */
+    text-transform: uppercase; /* Convert the text to uppercase */
+}
+
+/* Title Styles */
+.title {
+    font-size: 32px; /* Set the font size of the title */
+}
+
+/* Headline Styles */
+.headline {
+    text-align: center; /* Center the headline text */
+    margin: 5px 17px; /* Add margin (top, right, bottom, left) around the headline */
+}
+
+.location {
+    text-align: center; /* Center the headline text */
+    /*margin: 5px; !* Add margin around the headline *!*/
+}
+
+/* Profile Spotlight area */
+
+.profile-spotlight {
+    background-color: var(--wrapper-background-color);
+    text-align: center;
+    padding: 0 15px;
+}
+
+.profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6D769A; /* Set the background color of the button */
+    color: #F2F3EB; /* Set the text color of the button */
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto 5px;
+    min-width: 285px;
+    max-width: 400px;
+}
+
+
+.profile-content {
+    /*border: 2px solid purple;*/
+    background-color: var(--wrapper-background-color);
+    /*text-align: center;*/
+    padding: 10px 34px;
+    min-height: 175px;
+}
+
+.profile-content p {
+    padding-bottom: 5px;
+}
+.social-links {
+    background-color: var(--wrapper-background-color);
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 10px 34px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    fill: #6D769A; /* Set the color of the icon */
+}
+
+.social-links i {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 10px; /* Adjust the spacing between icons as needed */
+    color: #6D769A; /* Set the default color for icons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.social-links i:hover {
+    color: #011078; /* Set the color on hover */
+}
+
+.wrapper-footer {
+    /*border: 2px solid orange; !* This is for testing purposes only and should be removed before uploading final site *!*/
+    border-radius: 5px;
+    background-color: #011078;
+    color: #BEC2B4;
+    height: 24px;
+    width: 100%;
+
+    text-align: center;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.wrapper-footer p{
+    font-size: 12px;
+}
+
+/* Styling to hide/show an element when clicking a link. In this case the
+envelope icon to reveal an email address */
+
+.hidden-element p{
+    display: none;
+}
+
+.hidden-element:target {
+    display: block;
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.visible-element {
+    display: block; /* Change 'block' to 'inline' if it's an inline element */
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.hidden-element {
+    display: none;
+}
+
+/* ------------------------------------------------------------------------- */
+/* Add this CSS to show the text only on really small                        */
+/*                                       landscape-oriented mobile devices   */
+/* The below styling will really only be used to warn the user that the site */
+/* is best viewed in portrait mode or on a larger screen.                    */
+/* ------------------------------------------------------------------------- */
+/* Add this CSS to hide the text on other devices */
+.landscape-text {
+    display: none;
+}
+
+@media (max-height: 400px) and (min-width: 400px) {
+    .landscape-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 64vh; /* Adjust the height as needed */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-wrapper{
+        display: none;
+    }
+
+    .page-wrapper{
+        display: none;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .page-wrapper{
+        max-width: 750px;
+    }
+    .site-header{
+        display: none;
+    }
+}
