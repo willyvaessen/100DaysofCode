@@ -91,3 +91,9 @@ I use an iPad mini 6 for most of my media consumption which has a resolution of 
 I'm not sure yet how that translates to websites, but so far it looked good on my iPad.
 - The Firefox developer tools use an 810x1080 resolution for iPadOS emulation.
 - Chrome developer tools use 768 x 1024 for iPad mini and 720x1180 for iPad Air emulation
+
+
+## 10 August 2023
+Yesterday was a little less successful as I hoped. I din't really get a lot of time to code and when 
+I did have some time late night, I was so dumb to delete the one html file that had some progress. 
+Today I'm starting over to make up for what went wrong yesterday.
