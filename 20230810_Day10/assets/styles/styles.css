@@ -31,9 +31,18 @@ h6 {
     height: 15px;
 }
 
+.spacer-20px {
+    height: 20px;
+}
+
 .spacer-30px {
     height: 30px;
 }
+
+.spacer-40px {
+    height: 49px;
+}
+
 .spacer-60px {
     height: 60px;
 }
@@ -44,26 +53,38 @@ h6 {
     --wrapper-background-color: #F2F3EB; /* Sets the background color for the various wrapper elements */
 }
 
-.page-wrapper{
-    border: 2px solid orange;
+.site-wrapper {
+    /*border: 2px solid orange;*/
     max-width: 1200px;
     margin: 50px auto;
 }
-.site-header{
-    border: 2px solid red;
+
+.site-header {
+    /*border: 2px solid red;*/
+    height: 78px;
+}
+
+/* Main Wrapper Styles */
+
+.main-wrapper {
+    /*border: 2px solid deepskyblue;*/
+    background-color: var(--wrapper-background-color);
+    width: 100%;
+    min-height: 400px;
+    border-radius: 0 0 5px 5px;
 }
 
 /* Profile Wrapper Styles */
 
 .profile-wrapper {
-    border: 2px solid green;
-    width: calc(100% - 30px);
+    /*border: 2px solid green;*/
+    /*width: calc(100% - 30px);*/
     max-width: 375px;
     display: flex;
     flex-direction: column;
     /*align-items: center;*/
     margin: 0 auto;
-}
+} /* <-- Profile Wrapper Style -- */
 
 /* This section styles the profile picture */
 
@@ -73,6 +94,8 @@ h6 {
     position: relative;
     text-align: center;
 }
+
+
 
 .image-container-top,
 .image-container-bottom {
@@ -122,10 +145,16 @@ h6 {
     text-transform: uppercase; /* Convert the text to uppercase */
 }
 
+.header-title h2{
+    font-size: 24px;
+}
+
 /* Title Styles */
 .title {
     font-size: 32px; /* Set the font size of the title */
 }
+
+
 
 /* Headline Styles */
 .headline {
@@ -171,6 +200,7 @@ h6 {
 .profile-content p {
     padding-bottom: 5px;
 }
+
 .social-links {
     background-color: var(--wrapper-background-color);
     border-radius: 0 0 5px 5px;
@@ -207,20 +237,19 @@ h6 {
     color: #BEC2B4;
     height: 24px;
     width: 100%;
-
     text-align: center;
     padding: 4px;
     margin-top: 10px;
 }
 
-.wrapper-footer p{
+.wrapper-footer p {
     font-size: 12px;
 }
 
 /* Styling to hide/show an element when clicking a link. In this case the
 envelope icon to reveal an email address */
 
-.hidden-element p{
+.hidden-element p {
     display: none;
 }
 
@@ -240,6 +269,62 @@ envelope icon to reveal an email address */
     display: none;
 }
 
+/*  */
+
+.site-nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+}
+
+.nav-bar-top-header {
+    position: relative;
+    text-align: center;
+}
+
+.nav-bar-top-container-top,
+.nav-bar-top-container-bottom {
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    color: transparent;
+}
+
+/* Style for the top container */
+.nav-bar-top-container-top {
+    background-color: transparent;
+    padding: 20px;
+    /*height: 60px;*/
+}
+
+/* Style for the bottom container */
+.nav-bar-top-container-bottom {
+    background-color: var(--wrapper-background-color);
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    /*height: 60px;*/
+}
+
+.site-nav-content{
+    background-color: var(--wrapper-background-color);
+    height: 100%;
+
+}
+
+/* Site Footer Styling */
+
+.site-footer {
+    /*border: 2px solid deeppink;*/
+    background-color: #011078;
+    color: #BEC2B4;
+    height: 78px;
+    width: 100%;
+    text-align: center;
+    padding: 9px;
+    margin-top: 34px;
+    border-radius: 5px;
+}
+
+
 /* ------------------------------------------------------------------------- */
 /* Add this CSS to show the text only on really small                        */
 /*                                       landscape-oriented mobile devices   */
@@ -251,6 +336,110 @@ envelope icon to reveal an email address */
     display: none;
 }
 
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens smaller than 450px, like mobile   */
+/*    phones                                                                 */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
+@media (max-width: 450px) {
+
+    .site-wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-wrapper {
+        display: none;
+    }
+
+    .sidebar{
+        margin: 0 auto;
+    }
+
+    .site-header {
+        display: none;
+    }
+    .profile-wrapper {
+        margin: 0 auto;
+        max-width: calc(100% - 20px);
+    }
+
+
+    .site-nav-wrapper{
+        display: none;
+    }
+
+    .site-footer {
+        display: none;
+    }
+}   /* <-- End small                        -- */
+
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens between 451px and 850px, like     */
+/*    tablets and small laptops                                              */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
+@media (min-width: 451px) and (max-width: 850px) {
+
+    .site-wrapper {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .main-wrapper {
+        /*max-width: calc(100% - 50px);*/
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .site-header {
+        display: none;
+    }
+
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profile-wrapper {
+        margin: 0;
+    }
+
+    .image-container-bottom {
+        border-radius: 5px 0 0 0;
+    }
+
+    .wrapper-footer{
+        display: none;
+    }
+
+    .social-links {
+        border-radius: 0 0 0 5px;
+    }
+
+    .site-nav-wrapper{
+        width: 50%;
+        max-width: 375px;
+    }
+
+    .nav-bar-top-container-bottom {
+    border-radius: 0 5px 0 0;
+    }
+
+    .site-footer {
+        /*display: none;*/
+        margin-top: 17px    ;
+    }
+} /* <-- End medium  -- */
+
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens between smaller than 451px        */
+/*    Like really small screens                                              */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
 @media (max-height: 400px) and (min-width: 400px) {
     .landscape-text {
         display: flex;
@@ -261,21 +450,12 @@ envelope icon to reveal an email address */
         text-align: center;
     }
 
-    .profile-wrapper{
+    .profile-wrapper {
         display: none;
     }
 
-    .page-wrapper{
+    .site-wrapper {
         display: none;
     }
-}
+} /* <-- Really small  */
 
-@media (max-width: 850px) {
-
-    .page-wrapper{
-        max-width: 750px;
-    }
-    .site-header{
-        display: none;
-    }
-}
