@@ -97,3 +97,8 @@ I'm not sure yet how that translates to websites, but so far it looked good on m
 Yesterday was a little less successful as I hoped. I din't really get a lot of time to code and when 
 I did have some time late night, I was so dumb to delete the one html file that had some progress. 
 Today I'm starting over to make up for what went wrong yesterday.
+
+## 11 August 2023
+Today I didn't have a lot of time to work on the site layout. During late night hours, I came up with 
+the idea of filling my content area with the contents of a markown file and I stumbled upon the Showdown
+markdown to HTML converter. I played around with it a little an I like it, although I have some tweaking to do.

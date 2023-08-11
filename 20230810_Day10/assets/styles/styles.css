@@ -411,6 +411,10 @@ envelope icon to reveal an email address */
         border-radius: 5px 0 0 0;
     }
 
+    .profile-spotlight{
+        display: none;
+    }
+
     .wrapper-footer{
         display: none;
     }
