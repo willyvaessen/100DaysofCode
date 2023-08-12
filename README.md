@@ -102,3 +102,8 @@ Today I'm starting over to make up for what went wrong yesterday.
 Today I didn't have a lot of time to work on the site layout. During late night hours, I came up with 
 the idea of filling my content area with the contents of a markown file and I stumbled upon the Showdown
 markdown to HTML converter. I played around with it a little an I like it, although I have some tweaking to do.
+
+## 12 August 2023
+Really not much coding today, rather browsing the Wayback Machine looking at old copies of what used to be my websites.
+Nothing pretty, actually, but it was out there.
+I'm going to try and find a way to incorporate that history as part of my soon-to-be new design.
