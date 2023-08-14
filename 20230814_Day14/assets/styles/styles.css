@@ -71,7 +71,8 @@ h6 {
     background-color: var(--wrapper-background-color);
     width: 100%;
     min-height: 400px;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 /* Profile Wrapper Styles */
@@ -194,7 +195,7 @@ h6 {
     background-color: var(--wrapper-background-color);
     /*text-align: center;*/
     padding: 10px 34px;
-    min-height: 175px;
+    /*min-height: 175px;*/
 }
 
 .profile-content p {
@@ -319,7 +320,7 @@ envelope icon to reveal an email address */
     height: 78px;
     width: 100%;
     text-align: center;
-    padding: 9px;
+    padding: 20px;
     margin-top: 34px;
     border-radius: 5px;
 }
@@ -365,6 +366,11 @@ envelope icon to reveal an email address */
         max-width: calc(100% - 20px);
     }
 
+    .profile-content {
+    min-height: 175px;
+}
+
+
 
     .site-nav-wrapper{
         display: none;
@@ -381,7 +387,8 @@ envelope icon to reveal an email address */
 /*    tablets and small laptops                                              */
 /*                                                                           */
 /* ------------------------------------------------------------------------- */
-@media (min-width: 451px) and (max-width: 850px) {
+@media (min-width: 451px) { /* Removed the max-width part for the time being, in order to be able to use the current style for uploading. */
+/*@media (min-width: 451px) and (max-width: 850px) {*/
 
     .site-wrapper {
         max-width: 750px;
@@ -401,15 +408,15 @@ envelope icon to reveal an email address */
     .sidebar{
         display: flex;
         flex-direction: row;
+        max-width: 100%;
     }
 
     .profile-wrapper {
-        margin: 0;
+        margin: 0 auto 10px;
+        max-width: 100%;
     }
 
-    .image-container-bottom {
-        border-radius: 5px 0 0 0;
-    }
+
 
     .profile-spotlight{
         display: none;
@@ -419,9 +426,6 @@ envelope icon to reveal an email address */
         display: none;
     }
 
-    .social-links {
-        border-radius: 0 0 0 5px;
-    }
 
     .site-nav-wrapper{
         width: 50%;

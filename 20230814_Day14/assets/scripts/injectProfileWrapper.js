@@ -1,31 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Layout Template</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
+// Wait for the DOM to be ready
+    document.addEventListener("DOMContentLoaded", function() {
+        // Get the element where we want to inject HTML content
+        const targetElement = document.getElementById("injected-content");
 
+        // Create a new div element
+        const newDiv = document.createElement("div");
 
-    <link rel="stylesheet" href="assets/styles/style-reset.css">
-    <link rel="stylesheet" href="assets/styles/styles.css">
-</head>
-<body>
-<!-- This portion of the site will only be visible once the user turns their mobile device in landscape mode. -->
-<section class="landscape-text">
-    <h6>This section contains information on really small screens and the advice to rotate to landscape. It's only
-        actually used on small mobile phone screens.</h6>
-    <img src="assets/images/rotate_192.png" alt="Rotate Device" height="192">
-    <p>Please rotate your device to portrait mode for a better experience.</p>
-</section>
-
-<!-- First, there is a site-wrapper that will contain all content eventually -->
-<div class="site-wrapper">
-    <header class="site-header">
-    </header>
-    <nav class="sidebar">
-        <!-- This part of the site will be visible on mobile devices first. -->
-        <aside class="profile-wrapper">
+        // Set the HTML content of the div
+        newDiv.innerHTML = `<aside class="profile-wrapper">
             <div class="spacer-30px"></div>
             <section class="profile-picture">
                 <h6>This section is used to display my profile picture.</h6>
@@ -38,7 +20,7 @@
                     <h1 class="title">Willy Vaessen</h1>
                 </div>
                 <div class="headline">
-                    <p>System Administrator | Web Developer | IT Nerd</p>
+                    <p>System Administrator | Web Developer Raspberry Pi enthousiast | IT Nerd</p>
                 </div>
                 <div class="location">
                     <p>Landgraaf, The Netherlands</p>
@@ -178,42 +160,8 @@
                 <p>&copy; 2006 - <span id="currentYear"></span> Willy Vaessen. All rights reserved.</p>
                 <!-- The domain willyvaessen.nl was registered by me on 2006-07-13 -->
             </section>
-        </aside>
-        <aside class="site-nav-wrapper">
-            <div class="spacer-40px"></div>
-            <section class="nav-bar-top-header">
-                <h6>This section is used to make the nav area fit nicely next to the profile wrapper on medium
-                    screens.</h6>
-                <div class="nav-bar-top-container-top">TOP</div>
-                <div class="nav-bar-top-container-bottom">BOTTOM</div>
-            </section>
-            <section class="wrapper-header">
-                <div class="header-title">
-                    <h2 class="title">Site Navigation</h2>
-                </div>
-            </section>
-            <section class="site-nav-content">
-                <h6>This section contains the navigation content for the website on medium screens.</h6>
-                Nav-Content
-            </section>
-        </aside>
-    </nav>
-    <main class="main-wrapper">
-        MAIN CONTENT AREA
-    </main>
-    <footer class="site-footer">
-        <h6>This section contains the footer for the larger website area.</h6>
-        <p>&copy; 2006 - <span id="currentYearSiteFooter"></span> Willy Vaessen. All rights reserved.</p>
-        <!-- The domain willyvaessen.nl was registered by me on 2006-07-13 -->
-    </footer>
+        </aside>`;
 
-</div>
-<!-- Scripts Section -->
-<script src="assets/scripts/dateTimeFunctions.js"></script>
-<script src="assets/scripts/toggleMailLink.js"></script>
-<script>
-    getCurrentYear();
-    getCurrentYearForSiteFooter();
-</script>
-</body>
-</html>
+        // Append the new div to the target element
+        targetElement.appendChild(newDiv);
+    });

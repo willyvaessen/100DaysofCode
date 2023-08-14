@@ -111,4 +111,9 @@ I'm going to try and find a way to incorporate that history as part of my soon-t
 
 ## 13 August 2023
 A quiet day this was. Time for a break, so just a little bit of coding, in order to get something started for my 
-overview of old website versions I had made in the past. 
+overview of old website versions I had made in the past.
+
+## 14 August 2023
+After not having done a lot yesterday, today it's time to continue working on the larger screen layouts.
+I saw some little things that I need to work out, and I'm thinking of getting rid of the current nav-area position/layout.
+I have the feeling that it's not working out as intended.
