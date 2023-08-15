@@ -1,3 +1,4 @@
+//toggleMailLink.js
 const toggleLink = document.getElementById('toggleMailLink');
 const hiddenMail = document.getElementById('HiddenMail');
 

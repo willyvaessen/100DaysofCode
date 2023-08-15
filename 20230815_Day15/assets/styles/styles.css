@@ -169,7 +169,8 @@ h6 {
 /* Headline Styles */
 .headline {
     text-align: center; /* Center the headline text */
-    margin: 5px 17px; /* Add margin (top, right, bottom, left) around the headline */
+    margin: 5px auto 17px; /* Add margin (top, right, bottom, left) around the headline */
+    max-width: 300px;
 }
 
 .location {
@@ -279,46 +280,6 @@ envelope icon to reveal an email address */
     display: none;
 }
 
-/*  */
-
-.site-nav-wrapper{
-    display: flex;
-    flex-direction: column;
-    max-width: 375px;
-}
-
-.nav-bar-top-header {
-    position: relative;
-    text-align: center;
-}
-
-.nav-bar-top-container-top,
-.nav-bar-top-container-bottom {
-    position: relative;
-    text-align: center; /* Center the content horizontally */
-    color: transparent;
-}
-
-/* Style for the top container */
-.nav-bar-top-container-top {
-    background-color: transparent;
-    padding: 20px;
-    /*height: 60px;*/
-}
-
-/* Style for the bottom container */
-.nav-bar-top-container-bottom {
-    background-color: var(--wrapper-background-color);
-    padding: 20px;
-    border-radius: 5px 5px 0 0;
-    /*height: 60px;*/
-}
-
-.site-nav-content{
-    background-color: var(--wrapper-background-color);
-    height: 100%;
-
-}
 
 /* Site Footer Styling */
 
@@ -380,11 +341,6 @@ envelope icon to reveal an email address */
 }
 
 
-
-    .site-nav-wrapper{
-        display: none;
-    }
-
     .site-footer {
         display: none;
     }
@@ -438,14 +394,6 @@ envelope icon to reveal an email address */
     }
 
 
-    .site-nav-wrapper{
-        width: 50%;
-        max-width: 375px;
-    }
-
-    .nav-bar-top-container-bottom {
-    border-radius: 0 5px 0 0;
-    }
 
     .site-footer {
         /*display: none;*/
