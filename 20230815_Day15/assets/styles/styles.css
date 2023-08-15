@@ -10,10 +10,19 @@ html, body {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'CantoraTTF';
+    src: url('../../assets/fonts/cantora/CantoraOne-Regular.ttf') format('truetype'); /* TTF font */
+    /* You can include additional font formats for better browser support */
+     src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
+          url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
+          url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
+}
+
 body {
     /*border: 4px solid blue;*/
     background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
-    font-family: Arial, sans-serif;
+    font-family: CantoraTTF, sans-serif;
     color: #011078;
 }
 
@@ -343,7 +352,7 @@ envelope icon to reveal an email address */
 /*    phones                                                                 */
 /*                                                                           */
 /* ------------------------------------------------------------------------- */
-@media (max-width: 450px) {
+@media (max-width: 451px) {
 
     .site-wrapper {
         max-width: 100%;
@@ -380,6 +389,8 @@ envelope icon to reveal an email address */
         display: none;
     }
 }   /* <-- End small                        -- */
+
+
 
 /* ------------------------------------------------------------------------- */
 /*                                                                           */
@@ -441,6 +452,14 @@ envelope icon to reveal an email address */
         margin-top: 17px    ;
     }
 } /* <-- End medium  -- */
+
+@media (min-width: 451px) and (max-width: 850px) {
+        .site-wrapper {
+        max-width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+
+}
 
 /* ------------------------------------------------------------------------- */
 /*                                                                           */

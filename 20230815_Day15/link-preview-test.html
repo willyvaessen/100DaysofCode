@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Link Preview Test Site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  .link-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .link-preview {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: none;
+  }
+</style>
+</head>
+<body>
+  <div class="link-container">
+    <a href="https://willyvaessen.nl" onmouseover="showPreview(this)">Hover me</a>
+    <div id="preview"></div>
+
+  </div>
+
+  <script>
+   async function showPreview(link) {
+  const previewDiv = document.getElementById('preview');
+
+  try {
+    const response = await fetch(link.href);
+    // Display the fetched HTML content in the preview div
+    previewDiv.innerHTML = await response.text();
+  } catch (error) {
+    console.error('Error fetching preview:', error);
+    previewDiv.innerHTML = 'Error fetching preview';
+  }
+}
+
+  </script>
+</body>
+</html>
