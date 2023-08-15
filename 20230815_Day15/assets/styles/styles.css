@@ -14,9 +14,9 @@ html, body {
     font-family: 'CantoraTTF';
     src: url('../../assets/fonts/cantora/CantoraOne-Regular.ttf') format('truetype'); /* TTF font */
     /* You can include additional font formats for better browser support */
-     src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
-          url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
-          url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
+    src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
+url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
+url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
 }
 
 body {
@@ -94,7 +94,9 @@ h6 {
     flex-direction: column;
     /*align-items: center;*/
     margin: 0 auto;
-} /* <-- Profile Wrapper Style -- */
+}
+
+/* <-- Profile Wrapper Style -- */
 
 /* This section styles the profile picture */
 
@@ -104,7 +106,6 @@ h6 {
     position: relative;
     text-align: center;
 }
-
 
 
 .image-container-top,
@@ -155,7 +156,7 @@ h6 {
     text-transform: uppercase; /* Convert the text to uppercase */
 }
 
-.header-title h2{
+.header-title h2 {
     font-size: 24px;
 }
 
@@ -165,13 +166,24 @@ h6 {
 }
 
 
-
 /* Headline Styles */
 .headline {
     text-align: center; /* Center the headline text */
     margin: 5px auto 17px; /* Add margin (top, right, bottom, left) around the headline */
     max-width: 300px;
 }
+
+.headline p {
+    font-size: 16px;
+}
+
+.headline-more-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #011078;
+}
+
 
 .location {
     text-align: center; /* Center the headline text */
@@ -280,6 +292,29 @@ envelope icon to reveal an email address */
     display: none;
 }
 
+/* Styling for the hidden headline More part */
+
+
+.hidden-element-headline-more p {
+    display: none;
+}
+
+.hidden-element-headline-more:target {
+    display: block;
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.visible-element-headline-more {
+    display: block; /* Change 'block' to 'inline' if it's an inline element */
+    background-color: var(--wrapper-background-color);
+    padding: 10px 34px;
+    text-align: center; /* Center the text horizontally */
+}
+
+.hidden-element-headline-more {
+    display: none;
+}
 
 /* Site Footer Styling */
 
@@ -324,28 +359,30 @@ envelope icon to reveal an email address */
         display: none;
     }
 
-    .sidebar{
+    .sidebar {
         margin: 0 auto;
     }
 
     .site-header {
         display: none;
     }
+
     .profile-wrapper {
         margin: 0 auto;
         max-width: calc(100% - 20px);
     }
 
     .profile-content {
-    min-height: 175px;
-}
+        min-height: 175px;
+    }
 
 
     .site-footer {
         display: none;
     }
-}   /* <-- End small                        -- */
+}
 
+/* <-- End small                        -- */
 
 
 /* ------------------------------------------------------------------------- */
@@ -354,9 +391,9 @@ envelope icon to reveal an email address */
 /*    tablets and small laptops                                              */
 /*                                                                           */
 /* ------------------------------------------------------------------------- */
-@media (min-width: 451px) { /* Removed the max-width part for the time being, in order to be able to use the current style for uploading. */
-/*@media (min-width: 451px) and (max-width: 850px) {*/
-
+@media (min-width: 451px) {
+    /* Removed the max-width part for the time being, in order to be able to use the current style for uploading. */
+    /*@media (min-width: 451px) and (max-width: 850px) {*/
     .site-wrapper {
         max-width: 750px;
         margin: 0 auto;
@@ -372,7 +409,7 @@ envelope icon to reveal an email address */
         display: none;
     }
 
-    .sidebar{
+    .sidebar {
         display: flex;
         flex-direction: row;
         max-width: 100%;
@@ -384,25 +421,25 @@ envelope icon to reveal an email address */
     }
 
 
-
-    .profile-spotlight{
+    .profile-spotlight {
         display: none;
     }
 
-    .wrapper-footer{
+    .wrapper-footer {
         display: none;
     }
-
 
 
     .site-footer {
         /*display: none;*/
-        margin-top: 17px    ;
+        margin-top: 17px;
     }
-} /* <-- End medium  -- */
+}
+
+/* <-- End medium  -- */
 
 @media (min-width: 451px) and (max-width: 850px) {
-        .site-wrapper {
+    .site-wrapper {
         max-width: calc(100% - 100px);
         margin: 0 auto;
     }
@@ -432,5 +469,7 @@ envelope icon to reveal an email address */
     .site-wrapper {
         display: none;
     }
-} /* <-- Really small  */
+}
+
+/* <-- Really small  */
 
