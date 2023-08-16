@@ -130,3 +130,9 @@ typography, so I'll stick with that.
 I didn't like the way it ended up, so I chose to allow the profile wrapper to 
 become wider on larger screens.
 I will need to do some cleaning up in my stylesheet though.
+
+## 16 August 2023
+
+Today there wasn't much time for coding. I brought a visit to the Efteling theme park today.
+Made a tiny start with marked.js to convert markdown to html, in order to enable easy maintenance on the website content.
+It looks promising, but there's a lot to learn about that.
