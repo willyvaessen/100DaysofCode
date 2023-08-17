@@ -111,7 +111,6 @@ Really not much coding today, rather browsing the Wayback Machine looking at old
 Nothing pretty, actually, but it was out there.
 I'm going to try and find a way to incorporate that history as part of my soon-to-be new design.
 
-
 ## 13 August 2023
 A quiet day this was. Time for a break, so just a little bit of coding, in order to get something started for my 
 overview of old website versions I had made in the past.
@@ -136,3 +135,11 @@ I will need to do some cleaning up in my stylesheet though.
 Today there wasn't much time for coding. I brought a visit to the Efteling theme park today.
 Made a tiny start with marked.js to convert markdown to html, in order to enable easy maintenance on the website content.
 It looks promising, but there's a lot to learn about that.
+
+## 17 August 2023
+
+Today I worked on the Responsive Web Design course on FreeCodeCamp.org and took the time, effort and liberty of 
+publishing my result on my [personal website](https://willyvaessen.nl/freeCodeCamp/).
+I built the first project (**[Cat Photo App](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/)** 
+a while ago, now I finished the **[Cafe Menu](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/)**. Next step will be the 
+**[Colored Markers](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/)**) project.
