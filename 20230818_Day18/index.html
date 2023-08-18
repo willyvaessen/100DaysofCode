@@ -1,15 +1,11 @@
-<!DOCTYPE html> <!-- This is the code for my website as of 14 August 2023 -->
+<!DOCTYPE html> <!-- This is the code for my website as of 18 August 2023 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/icons/favicon.ico">
     <link rel="apple-touch-icon" href="assets/images/logo/WV.png">
-
     <title>//web/willyvaessen</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"></script>
-
-
     <link rel="stylesheet" href="assets/styles/style-reset.css">
     <link rel="stylesheet" href="assets/styles/styles.css">
 </head>
@@ -39,12 +35,21 @@
         <section class="wrapper-header">
             <div class="header-title"> <!-- New div for the header title -->
                 <h1 class="title">Willy Vaessen</h1>
+                    <button id="btn-toggle" class="flag-toggle" data-lang="nl">
+                        <img class="flag-nl" src="assets/icons/netherlands.png" alt="Dutch Flag">
+                        <img class="flag-en hidden" src="assets/icons/flag_usuk.png" alt="US/UK Flag">
+                    </button>
             </div>
+
             <div class="headline">
                 <!--                    <p>System Administrator | Web Developer Raspberry Pi enthousiast | IT Nerd</p>-->
-                <p>
+                <p class="lang-nl">
+                    <span>Systeembeheerder | Softwareontwikkelaar Raspberry Pi liefhebber | IT Nerd  </span>
+                    <a href="#hiddenHeadlineMore" id="toggleHeadlineMore-nl" class="headline-more-link">...*</a>
+                </p>
+                <p class="lang-en">
                     <span>System Administrator | Web Developer Raspberry Pi enthusiast | IT Nerd  </span>
-                    <a href="#hiddenHeadlineMore" id="toggleHeadlineMore" class="headline-more-link">...*</a>
+                    <a href="#hiddenHeadlineMore" id="toggleHeadlineMore-en" class="headline-more-link">...*</a>
                 </p>
             </div>
             <div class="location">
@@ -52,8 +57,12 @@
             </div>
         </section>
         <section id="hiddenHeadlineMore" class="hidden-element-headline-more">
-        <h6>This section (hidden by default) contains more about me that fits the visible headline.</h6>
-            <p>Of course, there's a lot more I like than what is written in my headline. More about that will be available on the About Me page.</p>
+            <h6>This section (hidden by default) contains more about me that fits the visible headline.</h6>
+            <p class="lang-nl">Uiteraard vind ik meer dingen leuk dan er in mijn kopregel staan. Meer hierover zal
+                beschikbaar zijn op de pagina Over Mij.</p>
+            <p class="lang-en">Of course, there's a lot more I like than what is written in my headline. More about that
+                will be
+                available on the About Me page.</p>
         </section>
         <section class="profile-spotlight"> <!-- This section will contain a button later on. -->
             <h6>This section can be used to highlight important things, but will now be used to show a button.</h6>
@@ -61,10 +70,10 @@
         </section>
         <section class="profile-content">
             <h6>This section contains some introductory text about the author of the website.</h6>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur blanditiis debitis deserunt
-                doloremque eos et eveniet itaque, laudantium magnam magni non, obcaecati odio perferendis, quam quo
-                repudiandae totam vitae.</p>
-            <!--                <p>Op deze plek komt straks een inleidend tekstje te staan over mij, maar zover ben ik nog niet.</p>-->
+            <p class="lang-nl">Creatieve softwareontwikkelaar (in wording) met een passie voor sociale interactie, een
+                vleugje humor en een liefde voor Raspberry Pi, Lego en geocaching.</p>
+            <p class="lang-en">Creative software developer (to be) with a passion for social interaction, a touch of
+                humor, and a love for Raspberry Pi, Lego, and geocaching.</p>
 
         </section>
         <section id="HiddenMail" class="hidden-element">
@@ -195,12 +204,39 @@
 
 
     <main class="main-wrapper">
-        MAIN CONTENT AREA
+        <article class="lang-nl" id="intro-nl">
+            <p>Welkom op mijn digitale speeltuin! Ik ben een gepassioneerde softwareontwikkelaar met een hart voor
+                sociale
+                interactie en empathie. Mijn code schrijf ik met precisie, maar ik geloof ook sterk in de kracht van een
+                glimlach en een goed geplaatste grap.</p>
+            <p>Of ik nu achter mijn computer zit en werk aan boeiende softwareprojecten, de mogelijkheden van
+                Raspberry Pi ontdek, of mijn innerlijke kind bevrijd met kleurrijke Lego-bouwwerken, ik zet me altijd in
+                om
+                innovatieve oplossingen te creëren en anderen te inspireren.</p>
+            <p>Met een achtergrond in gebruikersondersteuning en een talent voor effectieve communicatie, streef ik
+                ernaar
+                om bruggen te bouwen tussen technologie en mensen. Buiten de digitale wereld geniet ik van rustgevende
+                wandelingen en avontuurlijke geocache-ontdekkingen.</p>
+            <p class="emphasized">Deze website is mijn venster naar de wereld, waar ik mijn reis deel en mijn passies
+                omarm. Voel je vrij
+                om
+                rond te kijken, te verkennen en te ontdekken. Laten we samen een connectie maken, zowel online als
+                offline!</p>
+        </article>
+        <article class="lang-en" id="intro-en">
+            <p>Welcome to my digital playground! I'm a passionate software developer with a heart for social interaction
+                and empathy. I write my code with precision, but I also strongly believe in the power of a smile and a
+                well-placed joke.</p>
+            <p>Whether I'm behind my computer, working on captivating web development projects, exploring the
+                possibilities of Raspberry Pi, or unleashing my inner child with colorful Lego creations, I'm always
+                dedicated to crafting innovative solutions and inspiring others.</p>
+            <p>With a background in user support and a knack for effective communication, I strive to build bridges
+                between technology and people. Beyond the digital realm, I find joy in peaceful walks and adventurous
+                geocaching discoveries.</p>
+            <p class="emphasized">This website is my window to the world, where I share my journey and embrace my
+                passions. Feel free to look around, explore, and discover. Let's connect, both online and offline!</p>
 
-
-        <p> l l l l </p>
-        <p> a b c d e f g h i j k l m n o p q r s t u v w x y z </p>
-        <p> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z </p>
+        </article>
     </main>
     <footer class="site-footer">
         <h6>This section contains the footer for the larger website area.</h6>
@@ -210,9 +246,10 @@
 
 </div>
 <!-- Scripts Section -->
-<script src="assets/scripts/dateTimeFunctions.js?v=1"></script>
-<script src="assets/scripts/toggleHeadlineMore.js?v=1"></script>
-<script src="assets/scripts/toggleMailLink.js?v=1"></script>
+<script src="assets/scripts/languageToggler.js?v=202308171700"></script>
+<script src="assets/scripts/dateTimeFunctions.js?v=202308171651"></script>
+<script src="assets/scripts/toggleHeadlineMore.js?v=202308171651"></script>
+<script src="assets/scripts/toggleMailLink.js?v=202308171651"></script>
 <script>
     getCurrentYear();
     getcurrentYearSiteFooter();

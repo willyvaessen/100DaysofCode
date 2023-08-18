@@ -19,6 +19,26 @@ url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2
 url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
 }
 
+/* Language Selection Styling START */
+/* Define styles for hiding/showing content based on selected language */
+        .lang-en {
+            display: none;
+        }
+
+        /* Define styles for the flag */
+        .flag {
+            width: 12px;
+            height: 8px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+.hidden {
+    display: none;
+}
+
+
+/* Language Selection Styling END */
 body {
     /*border: 4px solid blue;*/
     background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
@@ -26,16 +46,25 @@ body {
     color: #011078;
 }
 
+.emphasized {
+    font-weight: bold;
+    /* You can add more styles here for emphasis */
+  }
 
-/* Spacers */
+
 p, h4 {
     font-size: 16px;
-}
+    }
 
 h6 {
     display: none;
 }
 
+.main-wrapper p {
+    margin-bottom: 15px;
+}
+
+/* Spacers */
 .spacer-15px {
     height: 15px;
 }
@@ -147,13 +176,18 @@ h6 {
     background-color: var(--wrapper-background-color);
     padding: 15px;
     /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .header-title { /* Styles for the header title */
+    align-self: center;
     text-align: center; /* Center the header title */
     margin-top: 10px; /* Add margin between the image and the title */
     margin-bottom: 5px; /* Add margin between the image and the title */
     text-transform: uppercase; /* Convert the text to uppercase */
+    display: flex;
+    flex-direction: row;
 }
 
 .header-title h2 {
@@ -165,6 +199,36 @@ h6 {
     font-size: 32px; /* Set the font size of the title */
 }
 
+/*.title {*/
+/*    position: relative;*/
+/*}*/
+/* Flag icons */
+.flag-nl, .flag-en {
+    /*font-size: 1rem;*/
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+}
+.flag-nl, .flag-en {
+    width: 24px; /* Adjust this value to change the width */
+    height: 24px; /* Adjust this value to change the height */
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+/* Initially hide the English flag */
+.flag-en {
+    display: none;
+}
+
+/* Toggle button style */
+.flag-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
 
 /* Headline Styles */
 .headline {
@@ -373,7 +437,7 @@ envelope icon to reveal an email address */
     }
 
     .profile-content {
-        min-height: 175px;
+        min-height: 100px;
     }
 
 
