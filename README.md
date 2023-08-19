@@ -182,3 +182,9 @@ Next up (probably tomorrow) will be the [Registration Form](https://www.freecode
 
 Besides all that, I have worked with ChatGPT a little, getting some text for my personal website. Since I will be using that text, I'm going to update the site today as well, but only in terms of a little content.
 One thing leading to another, I implemented a language selector on my website. It's now possible ot toggle between Dutch (default) and English language by clicking/tapping the flag icon next to my name.
+
+
+## 19 August 2023
+
+Not a lot of spare time today, as we are going to visit Diergarde Blijdorp.
+Made a start with the next lesson on FreeCodeCamp, building a Registration Form. 32% in now.
