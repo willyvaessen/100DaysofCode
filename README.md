@@ -16,7 +16,8 @@ working yet.
 ## 2 August 2023
 
 Today I've been working on a small, simple template for a mobile only website,
-assisted by ChatGPT in order to create something of a template to work with for future mobile sites.
+assisted by ChatGPT in order to create something of a template to work with for 
+future mobile sites.
 
 
 ## 3 August 2023
@@ -31,8 +32,9 @@ the mobile version of my website, being part of my responsive website.
 
 Today I'm working on my (mobile) about me page. Although it would be a lot 
 easier to use the About.me website for that, I want to create my own. What 
-kind of web designer would I be if I didn't build it myself, right? I've been looking at an example 
-page from someone I know and used that as inspiration to build my own.
+kind of web designer would I be if I didn't build it myself, right? I've been 
+looking at an example page from someone I know and used that as inspiration to 
+build my own.
 It is nowhere near finished, so I'll continue with that on day 5.
 
 
@@ -58,7 +60,8 @@ concerned.
 ## 6 August 2023
 
 Today I'll continue working on my (mobile) website that I built yesterday. 
-Overall, I'm quite happy with how it turned out, but there is some tweaking left to do.
+Overall, I'm quite happy with how it turned out, but there is some tweaking 
+left to do.
 The First thing I'll look at is getting rid of unnecessary scroll bars, especially 
 on large screens.
 
@@ -82,11 +85,12 @@ vacation, so back to work again.
 ## 8 August 2023
 
 Today I'll be working with ChatGPT to create some sort of template that can hold 
-small pieces of website, like widgets. Each widget should contain the GUI part of some 
-JavaScript code that I think of to practice JavaScript.
+small pieces of website, like widgets. 
+Each widget should contain the GUI part of some JavaScript code that I think 
+of to practice JavaScript.
 
-The basic layout of this template is now finished, although a lot of work is still 
-needed to get it perfect(ly right for me).
+The basic layout of this template is now finished, although a lot of work is 
+still needed to get it perfect(ly right for me).
 
 
 ## 9 August 2023
@@ -102,54 +106,69 @@ I'm not sure yet how this will work
 out, but I believe it is the best way to go.
 
 To define the best layout, I'm making the following assumptions:
-Most monitors are HD (1920x1080 pixels) which is a pretty good point to start from for larger screens.
+Most monitors are HD (1920x1080 pixels) which is a pretty good point to start 
+from for larger screens.
 I use an iPhone 13 mini, which has a 375x667 pixel resolution. 
 I want my (mobile) site to look
 good on my phone as well, so I'll use that as a reference.
-I use iPad mini 6 for most of my media consumption which has a resolution of 2266x1488 resolution. 
-I'm not sure yet how that translates to websites, but so far it looked good on my iPad.
+I use iPad mini 6 for most of my media consumption which has a resolution of 
+2266x1488 resolution. 
+I'm not sure yet how that translates to websites, but so far it looked good on 
+my iPad.
 - The Firefox developer tools use a 810x1080 resolution for iPadOS emulation.
-- Chrome developer tools use 768 x 1024 for iPad mini and 720x1180 for iPad Air emulation
+- Chrome developer tools use 768 x 1024 for iPad mini and 720x1180 for iPad Air 
+emulation
 
 
 ## 10 August 2023
 
 Yesterday was a little less successful as I hoped.
 I didn't really get a lot of time to code, and when 
-I did have some time late night, I was so foolish to delete the one html file that had some progress. 
+I did have some time late night, I was so foolish to delete the one html 
+file that had some progress. 
 Today I'm starting over to make up for what went wrong yesterday.
 
 
 ## 11 August 2023
 
-Today I didn't have a lot of time to work on the site layout. During late night hours, I came up with 
-the idea of filling my content area with the contents of a markdown file and I stumbled upon the Showdown
-markdown to HTML converter. I played around with it a little, and I like it, although I have some tweaking to do.
+Today I didn't have a lot of time to work on the site layout. 
+During late night hours, I came up with the idea of filling my content area 
+with the contents of a markdown file and I stumbled upon the Showdown
+markdown to HTML converter. 
+I played around with it a little, and I like it, although I have some tweaking 
+to do.
 
 
 ## 12 August 2023
 
-Really not much coding today, rather browsing the Wayback Machine looking at old copies of what used to be my websites.
+Really not much coding today, rather browsing the Wayback Machine looking at 
+old copies of what used to be my websites.
 Nothing pretty, actually, but it was out there.
-I'm going to try and find a way to incorporate that history as part of my soon-to-be new design.
+I'm going to try and find a way to incorporate that history as part of my 
+soon-to-be new design.
 
 
 ## 13 August 2023
 
-A quiet day this was. Time for a break, so just a little bit of coding, in order to get something started for my 
+A quiet day this was. 
+Time for a break, so just a little bit of coding, in 
+order to get something started for my 
 overview of old website versions I had made in the past.
 
 
 ## 14 August 2023
 
-After not having done a lot yesterday, today it's time to continue working on the larger screen layouts.
-I saw some little things that I need to work out, and I'm thinking of getting rid of the current nav-area position/layout.
+After not having done a lot yesterday, today it's time to continue working on 
+the larger screen layouts.
+I saw some little things that I need to work out, and I'm thinking of getting 
+rid of the current nav-area position/layout.
 I have the feeling that it's not working out as intended.
 
 
 ## 15 August 2023
 
-* Added favicon to my website design. I reused a logo I once designed with my initials: WV
+* Added favicon to my website design. 
+I reused a logo I once designed with my initials: WV
 * Added Cantora font to the design. 
 This is the font I used in 2020 to create my WV logo, and I still like the 
 typography, so I'll stick with that.
@@ -161,14 +180,17 @@ I will need to do some cleaning up in my stylesheet though.
 
 ## 16 August 2023
 
-Today there wasn't much time for coding. I brought a visit to the Efteling theme park today.
-Made a tiny start with marked.js to convert markdown to html, in order to enable easy maintenance on the website content.
+Today there wasn't much time for coding. 
+I brought a visit to the Efteling theme park today.
+Made a tiny start with marked.js to convert markdown to html, in order to 
+enable easy maintenance on the website content.
 It looks promising, but there's a lot to learn about that.
 
 
 ## 17 August 2023
 
-Today I worked on the Responsive Web Design course on FreeCodeCamp.org and took the time, effort and liberty of 
+Today I worked on the Responsive Web Design course on FreeCodeCamp.org and 
+took the time, effort and liberty of 
 publishing my result on my [personal website](https://willyvaessen.nl/freeCodeCamp/).
 I built the first project (**[Cat Photo App](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-by-building-a-cat-photo-app/)** 
 a while ago, now I finished the **[Café Menu](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-basic-css-by-building-a-cafe-menu/)**. Next step will be the 
@@ -177,14 +199,28 @@ a while ago, now I finished the **[Café Menu](https://www.freecodecamp.org/lear
 
 ## 18 August 2023
 
-Today I finished the next bit at Free Code Camp: Colored Markers, teaching more about colors in CSS.
+Today I finished the next bit at Free Code Camp: Colored Markers, teaching 
+more about colors in CSS.
 Next up (probably tomorrow) will be the [Registration Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-html-forms-by-building-a-registration-form/) challenge.
 
-Besides all that, I have worked with ChatGPT a little, getting some text for my personal website. Since I will be using that text, I'm going to update the site today as well, but only in terms of a little content.
-One thing leading to another, I implemented a language selector on my website. It's now possible ot toggle between Dutch (default) and English language by clicking/tapping the flag icon next to my name.
+Besides all that, I have worked with ChatGPT a little, getting some text for 
+my personal website. 
+Since I will be using that text, I'm going to update the 
+site today as well, but only in terms of a little content.
+One thing leading to another, I implemented a language selector on my website. 
+It's now possible to toggle between Dutch (default) and English language by 
+clicking/tapping the flag icon next to my name.
 
 
 ## 19 August 2023
 
 Not a lot of spare time today, as we are going to visit Diergarde Blijdorp.
-Made a start with the next lesson on FreeCodeCamp, building a Registration Form. 32% in now.
+I made a start with the next lesson on FreeCodeCamp, building a Registration Form. 
+32% in now.
+
+
+## 20 August 2023
+
+Today was the last day in Rotterdam, so not much time to code until we got home.
+In the early hours of today I made a start with the Registration form on 
+FreeCodeCamp, and I finished that when we got back home.
