@@ -115,7 +115,7 @@ I use iPad mini 6 for most of my media consumption which has a resolution of
 2266x1488 resolution. 
 I'm not sure yet how that translates to websites, but so far it looked good on 
 my iPad.
-- The Firefox developer tools use a 810x1080 resolution for iPadOS emulation.
+- The Firefox developer tools use a resolution of 810x1080 for iPadOS emulation.
 - Chrome developer tools use 768 x 1024 for iPad mini and 720x1180 for iPad Air 
 emulation
 
@@ -224,3 +224,8 @@ I made a start with the next lesson on FreeCodeCamp, building a Registration For
 Today was the last day in Rotterdam, so not much time to code until we got home.
 In the early hours of today I made a start with the Registration form on 
 FreeCodeCamp, and I finished that when we got back home.
+I made an archive of my current (online version) website to work from there. 
+The language toggler does seem to work as intended now, so I'll keep it the way 
+it is.
+Tomorrow I want to build a sort of credits-page, to explain how my website is 
+built, and what resources I have used.
