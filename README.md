@@ -229,3 +229,12 @@ The language toggler does seem to work as intended now, so I'll keep it the way
 it is.
 Tomorrow I want to build a sort of credits-page, to explain how my website is 
 built, and what resources I have used.
+
+## 21 August 2023
+
+First day of the week in terms of work. 
+Third week in my 100 Days of Code challenge.
+Today I want to work on the next assignment on FreeCodeCamp.org and try to 
+build a site credits page for my website. 
+A page where I can mention the resources and link to them in one separate 
+area of my website.

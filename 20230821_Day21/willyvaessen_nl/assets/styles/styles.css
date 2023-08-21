@@ -1,0 +1,501 @@
+/* This stylesheet for my website was 7 August 2023 */
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'CantoraTTF';
+    src: url('../../assets/fonts/cantora/CantoraOne-Regular.ttf') format('truetype'); /* TTF font */
+    /* You can include additional font formats for better browser support */
+    src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
+url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
+url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
+}
+
+/* Language Selection Styling START */
+/* Define styles for hiding/showing content based on selected language */
+        .lang-en {
+            display: none;
+        }
+
+        /* Define styles for the flag */
+        .flag {
+            width: 12px;
+            height: 8px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+
+
+/* Language Selection Styling END */
+body {
+    /*border: 4px solid blue;*/
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+    font-family: CantoraTTF, sans-serif;
+    color: #011078;
+}
+
+.emphasized {
+    font-weight: bold;
+    /* You can add more styles here for emphasis */
+  }
+
+
+p, h4 {
+    font-size: 16px;
+    }
+
+h6 {
+    display: none;
+}
+
+.main-wrapper p {
+    margin-bottom: 15px;
+}
+
+/* Spacers */
+.spacer-15px {
+    height: 15px;
+}
+
+.spacer-20px {
+    height: 20px;
+}
+
+.spacer-30px {
+    height: 30px;
+}
+
+.spacer-40px {
+    height: 49px;
+}
+
+.spacer-60px {
+    height: 60px;
+}
+
+/* Some variables to use */
+
+:root {
+    --wrapper-background-color: #F2F3EB; /* Sets the background color for the various wrapper elements */
+}
+
+.site-wrapper {
+    /*border: 2px solid orange;*/
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.site-header {
+    /*border: 2px solid red;*/
+    height: 78px;
+}
+
+/* Main Wrapper Styles */
+
+.main-wrapper {
+    /*border: 2px solid deepskyblue;*/
+    background-color: var(--wrapper-background-color);
+    width: 100%;
+    min-height: 400px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+/* Profile Wrapper Styles */
+
+.profile-wrapper {
+    /*border: 2px solid green;*/
+    /*width: calc(100% - 30px);*/
+    max-width: 375px;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 0 auto;
+}
+
+/* <-- Profile Wrapper Style -- */
+
+/* This section styles the profile picture */
+
+/* Position the top and bottom containers relative to the parent */
+
+.profile-picture {
+    position: relative;
+    text-align: center;
+}
+
+
+.image-container-top,
+.image-container-bottom {
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    color: transparent;
+}
+
+/* Style for the top container */
+.image-container-top {
+    background-color: transparent;
+    padding: 20px;
+    /*height: 60px;*/
+}
+
+/* Style for the bottom container */
+.image-container-bottom {
+    background-color: var(--wrapper-background-color);
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    /*height: 60px;*/
+}
+
+/* Position the overlay image on top */
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px; /* Adjust the width of the image */
+    height: 120px; /* Adjust the height of the image */
+    border-radius: 50%; /* To make it a circle if the image is round */
+    z-index: 1; /* To ensure the image is above the containers */
+}
+
+
+.wrapper-header {
+    background-color: var(--wrapper-background-color);
+    padding: 15px;
+    /*border: 2px solid red;*/
+}
+
+.header-title { /* Styles for the header title */
+    text-align: center; /* Center the header title */
+    margin-top: 10px; /* Add margin between the image and the title */
+    margin-bottom: 5px; /* Add margin between the image and the title */
+    text-transform: uppercase; /* Convert the text to uppercase */
+}
+
+.header-title h2 {
+    font-size: 24px;
+}
+
+/* Title Styles */
+.title {
+    font-size: 32px; /* Set the font size of the title */
+}
+
+
+/* Headline Styles */
+.headline {
+    text-align: center; /* Center the headline text */
+    margin: 5px auto 17px; /* Add margin (top, right, bottom, left) around the headline */
+    max-width: 300px;
+}
+
+.headline p {
+    font-size: 16px;
+}
+
+.headline-more-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #011078;
+}
+
+
+.location {
+    text-align: center; /* Center the headline text */
+    /*margin: 5px; !* Add margin around the headline *!*/
+}
+
+/* Profile Spotlight area */
+
+.profile-spotlight {
+    background-color: var(--wrapper-background-color);
+    text-align: center;
+    padding: 0 15px;
+}
+
+.profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6D769A; /* Set the background color of the button */
+    color: #F2F3EB; /* Set the text color of the button */
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto 5px;
+    min-width: 285px;
+    max-width: 400px;
+}
+
+
+.profile-content {
+    /*border: 2px solid purple;*/
+    background-color: var(--wrapper-background-color);
+    /*text-align: center;*/
+    padding: 10px 34px;
+    /*min-height: 175px;*/
+}
+
+.profile-content p {
+    padding-bottom: 5px;
+}
+
+.social-links {
+    background-color: var(--wrapper-background-color);
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    padding: 10px 34px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    fill: #6D769A; /* Set the color of the icon */
+}
+
+.social-links i {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 10px; /* Adjust the spacing between icons as needed */
+    color: #6D769A; /* Set the default color for icons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.social-links i:hover {
+    color: #011078; /* Set the color on hover */
+}
+
+.wrapper-footer {
+    /*border: 2px solid orange; !* This is for testing purposes only and should be removed before uploading final site *!*/
+    border-radius: 5px;
+    background-color: #011078;
+    color: #BEC2B4;
+    height: 24px;
+    width: 100%;
+    text-align: center;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.wrapper-footer p {
+    font-size: 12px;
+}
+
+/* Styling to hide/show an element when clicking a link. In this case the
+envelope icon to reveal an email address */
+
+.hidden-element p {
+    display: none;
+}
+
+.hidden-element:target {
+    display: block;
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.visible-element {
+    display: block; /* Change 'block' to 'inline' if it's an inline element */
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.hidden-element {
+    display: none;
+}
+
+/* Styling for the hidden headline More part */
+
+
+.hidden-element-headline-more p {
+    display: none;
+}
+
+.hidden-element-headline-more:target {
+    display: block;
+    background-color: var(--wrapper-background-color);
+    text-align: center; /* Center the text horizontally */
+}
+
+.visible-element-headline-more {
+    display: block; /* Change 'block' to 'inline' if it's an inline element */
+    background-color: var(--wrapper-background-color);
+    padding: 10px 34px;
+    text-align: center; /* Center the text horizontally */
+}
+
+.hidden-element-headline-more {
+    display: none;
+}
+
+/* Site Footer Styling */
+
+.site-footer {
+    /*border: 2px solid deeppink;*/
+    background-color: #011078;
+    color: #BEC2B4;
+    height: 78px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: 34px;
+    border-radius: 5px;
+}
+
+
+/* ------------------------------------------------------------------------- */
+/* Add this CSS to show the text only on really small                        */
+/*                                       landscape-oriented mobile devices   */
+/* The below styling will really only be used to warn the user that the site */
+/* is best viewed in portrait mode or on a larger screen.                    */
+/* ------------------------------------------------------------------------- */
+/* Add this CSS to hide the text on other devices */
+.landscape-text {
+    display: none;
+}
+
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens smaller than 450px, like mobile   */
+/*    phones                                                                 */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
+@media (max-width: 451px) {
+
+    .site-wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-wrapper {
+        display: none;
+    }
+
+    .sidebar {
+        margin: 0 auto;
+    }
+
+    .site-header {
+        display: none;
+    }
+
+    .profile-wrapper {
+        margin: 0 auto;
+        max-width: calc(100% - 20px);
+    }
+
+    .profile-content {
+        min-height: 100px;
+    }
+
+
+    .site-footer {
+        display: none;
+    }
+}
+
+/* <-- End small                        -- */
+
+
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens between 451px and 850px, like     */
+/*    tablets and small laptops                                              */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
+@media (min-width: 451px) {
+    /* Removed the max-width part for the time being, in order to be able to use the current style for uploading. */
+    /*@media (min-width: 451px) and (max-width: 850px) {*/
+    .site-wrapper {
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    .main-wrapper {
+        /*max-width: calc(100% - 50px);*/
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .site-header {
+        display: none;
+    }
+
+    .sidebar {
+        display: flex;
+        flex-direction: row;
+        max-width: 100%;
+    }
+
+    .profile-wrapper {
+        margin: 0 auto 10px;
+        max-width: 100%;
+    }
+
+
+    .profile-spotlight {
+        display: none;
+    }
+
+    .wrapper-footer {
+        display: none;
+    }
+
+
+    .site-footer {
+        /*display: none;*/
+        margin-top: 17px;
+    }
+}
+
+/* <-- End medium  -- */
+
+@media (min-width: 451px) and (max-width: 850px) {
+    .site-wrapper {
+        max-width: calc(100% - 100px);
+        margin: 0 auto;
+    }
+
+}
+
+/* ------------------------------------------------------------------------- */
+/*                                                                           */
+/*  The below styling is targeting screens between smaller than 451px        */
+/*    Like really small screens                                              */
+/*                                                                           */
+/* ------------------------------------------------------------------------- */
+@media (max-height: 400px) and (min-width: 400px) {
+    .landscape-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 64vh; /* Adjust the height as needed */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-wrapper {
+        display: none;
+    }
+
+    .site-wrapper {
+        display: none;
+    }
+}
+
+/* <-- Really small  */
+
