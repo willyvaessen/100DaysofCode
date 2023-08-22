@@ -238,3 +238,18 @@ Today I want to work on the next assignment on FreeCodeCamp.org and try to
 build a site credits page for my website. 
 A page where I can mention the resources and link to them in one separate 
 area of my website.
+
+
+## 22 August 2023
+
+Although I'm not sure if I'm going to make it, in terms of time, I want to try 
+and complete one lessen on FreeCodeCamp daily as well as work on one JavaScript
+challenge on the site as well. 
+Kind of "by accident" I came across a list of 
+those challenges, and I think it would help me to learn more about them.
+I did some reorganizing of my code/files, hoping that this will help me work more
+organized.
+Made a start on my portfolio page and placed all small projects that I have
+made previously in the portfolio folder.
+
+That is pretty much it for today. Now to spend some quality time with my girlfriend.
