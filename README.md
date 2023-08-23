@@ -253,3 +253,15 @@ Made a start on my portfolio page and placed all small projects that I have
 made previously in the portfolio folder.
 
 That is pretty much it for today. Now to spend some quality time with my girlfriend.
+
+
+## 23 August 2023
+Today was quite a busy day, work-wise. 
+I didn't have much time during the day to write any code, although I did 
+manage to get Webstation back up and running on my Synology NAS, including
+some certificates. 
+I seem to have found the way to go now. 
+That means I could start looking at self-hosting all my website stuff again.
+
+During the evening, I worked on the next lesson on FreeCodeCamp about Typography.
+I'll be building a nutrition table.
