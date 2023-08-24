@@ -273,3 +273,20 @@ It was quite a late night, because I was unable to code during the day.
 Today I will continue on FreeCodeCamp, with the next lesson first.
 If time permits, I'll look at one or more JavaScript challenges, but I will 
 have to look into Sharepoint as well today, for work.
+
+I prepared my new domains (it-dudes.network, casa-vako.network and willy.codes) 
+for email use. 
+Now I need to think of a good strategy to organize my mail accounts better.
+
+### 21:00
+
+I remember why I stopped the JavaScript lessons on freeCodeCamp.
+The second lesson is teaching me to use 'var' for declaring variables, while 
+insted we were taught in the FSD bootcamp not to use that anymore. 
+Instead we should user 'let' and 'const'.
+However, after working on some more of these lessons, I saw that the difference
+between 'var' and 'let' is explained.
+I have now finished 34 out of 113 assignments.
+
+Added a folder for willy.codes website, and adapted my personal website 
+template for use there. At least for the time being.
