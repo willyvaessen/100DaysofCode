@@ -265,3 +265,11 @@ That means I could start looking at self-hosting all my website stuff again.
 
 During the evening, I worked on the next lesson on FreeCodeCamp about Typography.
 I'll be building a nutrition table.
+
+
+## 24 August 2023
+Today I hope to finish a little earlier than I did yesterday. 
+It was quite a late night, because I was unable to code during the day.
+Today I will continue on FreeCodeCamp, with the next lesson first.
+If time permits, I'll look at one or more JavaScript challenges, but I will 
+have to look into Sharepoint as well today, for work.
