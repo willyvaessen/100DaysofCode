@@ -290,3 +290,8 @@ I have now finished 34 out of 113 assignments.
 
 Added a folder for willy.codes website, and adapted my personal website 
 template for use there. At least for the time being.
+
+
+## 25 August 2023
+I haven't gotten to working on the freeCodeCamp lessons today, but I did work
+on a Node.js course on Udemy, which is quite enlightening to me.
