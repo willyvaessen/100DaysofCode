@@ -295,3 +295,22 @@ template for use there. At least for the time being.
 ## 25 August 2023
 I haven't gotten to working on the freeCodeCamp lessons today, but I did work
 on a Node.js course on Udemy, which is quite enlightening to me.
+
+## 26 August 2023
+Yesterday I spent quite some time on Udemy, following the node.js course by 
+[Ryan Dhungel](https://www.udemy.com/user/e4938520-fe50-4d1b-b78d-4188406b14a9/).
+Although it seems that the node.js version (10.x) used in the course is from quite 
+a while back (2019 as I've seen in one video, I've been able to follow the steps 
+so far, enjoying what I've learnt.
+
+I'll continue today, but I also want to try and find the time for a lesson on
+freeCodeCamp, which I totally skipped today.
+
+Another idea that popped into my mind today, was to build some overview 
+of all the registered domains I have. 
+The amount is growing, and it's hard to keep track of them, especially 
+when they are registered in different places.
+
+Following that, I'm actually looking for a good way to keep track of my ideas.
+I get some ideas sometimes, but tend to forget about them, because of not writing 
+them down anywhere.
