@@ -1,0 +1,14 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "A demo application in node.js connecting to a MariaDB database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willy Vaessen",
+  "license": "ISC",
+  "dependencies": {
+    "mariadb": "^3.2.0"
+  }
+}

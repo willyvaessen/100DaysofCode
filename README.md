@@ -306,7 +306,7 @@ so far, enjoying what I've learnt.
 I'll continue today, but I also want to try and find the time for a lesson on
 freeCodeCamp, which I totally skipped today.
 
-Another idea that popped into my mind today, was to build some overview 
+Another idea that popped into my mind today was to build some overview 
 of all the registered domains I have. 
 The amount is growing, and it's hard to keep track of them, especially 
 when they are registered in different places.
@@ -314,3 +314,17 @@ when they are registered in different places.
 Following that, I'm actually looking for a good way to keep track of my ideas.
 I get some ideas sometimes, but tend to forget about them, because of not writing 
 them down anywhere.
+
+
+## 27 August 2023
+
+The past few days, I've been working on some Node.js tutorials/lessons which 
+helped me with setting up a simple web server. 
+Now, it's time to take it a step further and get it connected to a database.
+I'm choosing MariaDB for that purpose, as that is running on my Synology NAS.
+Using the guides on [MariusHosting](https://mariushosting.com/) is installed 
+MariaDB into a Docker container.
+Now I will try the [guide on Dev.to](https://dev.to/probablyrealrob/getting-started-with-mariadb-using-docker-and-node-js-3djg)
+that should help me get my Node.js app connected to the database. 
+That is the plan for today.
+
