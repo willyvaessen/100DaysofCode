@@ -328,3 +328,6 @@ Now I will try the [guide on Dev.to](https://dev.to/probablyrealrob/getting-star
 that should help me get my Node.js app connected to the database. 
 That is the plan for today.
 
+I seem to have some trouble with using the "dotenv" package.
+As soon as I try to use variables from my .env file, my app crashes and I can't 
+seem to figure out why.
