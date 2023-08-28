@@ -331,3 +331,11 @@ That is the plan for today.
 I seem to have some trouble with using the "dotenv" package.
 As soon as I try to use variables from my .env file, my app crashes and I can't 
 seem to figure out why.
+
+
+## 28 August 2023
+
+A busy day today, with a long but interesting meeting.
+It seems that we're going to have a challenging time ahead at work.
+A busy day also means I haven't had the time to code yet, unfortunately.
+I'll see what I can do tonight, though.
