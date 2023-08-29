@@ -339,3 +339,14 @@ A busy day today, with a long but interesting meeting.
 It seems that we're going to have a challenging time ahead at work.
 A busy day also means I haven't had the time to code yet, unfortunately.
 I'll see what I can do tonight, though.
+
+
+## 29 August 2023
+
+Another busy day, but filled with some fun activities this time. I've been 
+figuring out how to get some data from our Sharepoint site, using the REST API
+that is available.
+
+Furthermore, I'm working on the [JavaScript.info](https://javascript.info/) 
+tutorial, as a refresher to my JavaScript knowledge. I will post my updates to
+the corresponding [repository](https://github.com/willyvaessen/willy.javascript.info).
