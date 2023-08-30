@@ -350,3 +350,9 @@ that is available.
 Furthermore, I'm working on the [JavaScript.info](https://javascript.info/) 
 tutorial, as a refresher to my JavaScript knowledge. I will post my updates to
 the corresponding [repository](https://github.com/willyvaessen/willy.javascript.info).
+
+
+## 30 August 2023
+August is coming to an end. 30 Days going forward in coding, learning and building.
+Still working on the JavaScript.info tutorial, but also busy with finding out how 
+to work with the Sharepoint REST API for work.
