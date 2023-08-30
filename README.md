@@ -356,3 +356,7 @@ the corresponding [repository](https://github.com/willyvaessen/willy.javascript.
 August is coming to an end. 30 Days going forward in coding, learning and building.
 Still working on the JavaScript.info tutorial, but also busy with finding out how 
 to work with the Sharepoint REST API for work.
+
+Also, I made some progress on the freeCodeCamp curriculum by working on the next 
+lesson in the Responsive Web Design curriculum.
+I'm building a Balance Sheet to learn about CSS Pseudo Selectors.
