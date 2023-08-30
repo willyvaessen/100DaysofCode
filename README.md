@@ -359,4 +359,6 @@ to work with the Sharepoint REST API for work.
 
 Also, I made some progress on the freeCodeCamp curriculum by working on the next 
 lesson in the Responsive Web Design curriculum.
-I'm building a Balance Sheet to learn about CSS Pseudo Selectors.
+I'm built a Balance Sheet to learn about CSS Pseudo Selectors.
+Next, I built a piano with CSS. What's nice is that it comes in three sizes, 
+depending on the screen size.
