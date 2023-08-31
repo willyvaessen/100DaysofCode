@@ -362,3 +362,13 @@ lesson in the Responsive Web Design curriculum.
 I'm built a Balance Sheet to learn about CSS Pseudo Selectors.
 Next, I built a piano with CSS. What's nice is that it comes in three sizes, 
 depending on the screen size.
+
+
+## 31 August 2023
+
+Day 31. 
+A whole month of coding a bit every day.
+Some days more than others, but at least a few lines of code every single day.
+Almost 1/3 of the way to 100 Days of Code, learning and making friends online.
+Today I want to continue on freeCodeCamp with one or two lessons, and maybe even finish the
+certification projects, but first there's work to do regarding Sharepoint.
