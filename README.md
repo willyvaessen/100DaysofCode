@@ -372,3 +372,5 @@ Some days more than others, but at least a few lines of code every single day.
 Almost 1/3 of the way to 100 Days of Code, learning and making friends online.
 Today I want to continue on freeCodeCamp with one or two lessons, and maybe even finish the
 certification projects, but first there's work to do regarding Sharepoint.
+
+End of the day: I finished the Cat Painting on freeCodeCamp can called it a day.
