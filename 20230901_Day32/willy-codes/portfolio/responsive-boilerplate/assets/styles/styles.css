@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+body {
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+}
+
+.site-wrapper {
+    position: relative;
+    width: 94.66666667vw;
+    max-width: 1200px;
+    height: 98vh;
+    margin: 1vh auto 1vh;
+    content: "";
+    /*border: 2px solid greenyellow;*/
+    border-radius: 5px;
+}
+
+.site-header {
+    height: 78px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    content: "";
+    /*border: 2px solid red;*/
+    /*background-color: indianred;*/
+    border-radius: inherit;
+    margin-bottom: 5px;
+}
+
+.logo {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-block: 0;
+    font-size: 1.5em;
+}
+
+nav > ul > li {
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+  vertical-align: center;
+    /*max-font-size: 20px;*/
+    font-size: 5.5vw;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #011078;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    background-color: #011078;
+    color: #BEC2B4;
+}
+
+.site-content {
+    /*height: calc(100% - 156px);*/
+    /*border: 2px solid orangered;*/
+    border-radius: inherit;
+}
+
+.profile-wrapper {
+    min-height: 571px;
+    /*border: 2px solid blueviolet;*/
+    background-color: mediumpurple;
+    margin-bottom: 14px;
+    border-radius: inherit;
+}
+
+.projects {
+    min-height: 650px;
+    /*border: 2px solid darkorange;*/
+    background-color: orange;
+    margin-bottom: 19px;
+    border-radius: inherit;
+}
+
+.articles {
+    min-height: 650px;
+    /*border: 2px solid darkgreen;*/
+    background-color: green;
+    margin-bottom: 19px;
+    border-radius: inherit;
+}
+
+.contact-form {
+    min-height: 571px;
+    /*border: 2px solid deeppink;*/
+    background-color: pink;
+    margin-bottom: 10px;
+    border-radius: inherit;
+}
+
+.link-up a {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
+
+.site-footer {
+    height: 78px;
+    content: "";
+    /*border: 2px solid deepskyblue;*/
+    background-color: #011078;
+    border-radius: inherit;
+}
+/*h1{*/
+
+/*}*/
+
+
+/*|--------------------------------------------------------------------|*/
+/*| The Media query below is used to set a min and max font-size in    |*/
+/*|     the navigation area. This font grows together with the width   |*/
+/*|     of the screen/website                                          |*/
+/*|--------------------------------------------------------------------|*/
+
+@media screen and (max-width: 375px) {
+  nav > ul > li {
+     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  nav > ul > li {
+     font-size: 3.4rem;
+  }
+}
+
+/*|--------------------------------------------------------------------|*/
+/*|                                                                    |*/
+/*|--------------------------------------------------------------------|*/
+
+/*}--------------------------------------------------------------------|*/
+/*|                                                                    |*/
+/*|--------------------------------------------------------------------|*/

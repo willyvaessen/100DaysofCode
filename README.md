@@ -383,3 +383,7 @@ It's day 32 in my personal 100 Days of Code challenge.
 I started working on responsive boilerplate, in order to try and make my designs 
 more consistent on various screen formats.
 This has led me to reading more about the Viewport concept.
+Following that, I started working on a responsive website that adapts to screen 
+size without having to rely on media queries all the time.
+Although that's not entirely possible, I've come this far with only two queries, 
+merely for the sake of having a minimum and maximum font size.
