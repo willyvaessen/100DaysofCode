@@ -370,7 +370,16 @@ Day 31.
 A whole month of coding a bit every day.
 Some days more than others, but at least a few lines of code every single day.
 Almost 1/3 of the way to 100 Days of Code, learning and making friends online.
-Today I want to continue on freeCodeCamp with one or two lessons, and maybe even finish the
-certification projects, but first there's work to do regarding Sharepoint.
+Today I want to continue on freeCodeCamp with one or two lessons, and maybe even 
+finish the certification projects, but first there's work to do regarding Sharepoint.
 
-End of the day: I finished the Cat Painting on freeCodeCamp can called it a day.
+End of the day: I finished the Cat Painting on freeCodeCamp and called it a day.
+
+
+## 1 September 2023
+
+A new month, a lot to do.
+It's day 32 in my personal 100 Days of Code challenge.
+I started working on responsive boilerplate, in order to try and make my designs 
+more consistent on various screen formats.
+This has led me to reading more about the Viewport concept.
