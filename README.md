@@ -397,4 +397,5 @@ earlier, but their sales support stated I had to wait until AFTER 1 September
 to renew. 
 Today I did this, with the 40% discount.
 
-Worked a little on the new responsive layout today.
+Worked on the new responsive layout today, which ended up being a lot more work than expected.
+I'm happy with the result so far, but there's some more tweaking to do.
