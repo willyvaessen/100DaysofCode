@@ -387,3 +387,14 @@ Following that, I started working on a responsive website that adapts to screen
 size without having to rely on media queries all the time.
 Although that's not entirely possible, I've come this far with only two queries, 
 merely for the sake of having a minimum and maximum font size.
+
+
+## 2 September 2023
+
+Day 33. 
+Time to renew my JetBrains license. I had been looking into this 
+earlier, but their sales support stated I had to wait until AFTER 1 September 
+to renew. 
+Today I did this, with the 40% discount.
+
+Worked a little on the new responsive layout today.

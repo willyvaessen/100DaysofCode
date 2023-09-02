@@ -2,9 +2,24 @@
     box-sizing: border-box;
 }
 
-html{
+
+:root {
+    --margin-below-container: 13.3vw;
+    --container-height: calc(85vh - 10vw);
+}
+
+html {
     font-family: sans-serif;
     font-size: 10px;
+}
+
+@font-face {
+    font-family: 'CantoraTTF';
+    src: url('../../assets/fonts/cantora/CantoraOne-Regular.ttf') format('truetype'); /* TTF font */
+    /* You can include additional font formats for better browser support */
+    src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
+url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
+url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
 }
 
 body {
@@ -18,21 +33,14 @@ body {
     height: 98vh;
     margin: 1vh auto 1vh;
     content: "";
-    /*border: 2px solid greenyellow;*/
     border-radius: 5px;
 }
 
-.site-header {
+#site-header {
+    display: none;
     height: 78px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    content: "";
-    /*border: 2px solid red;*/
-    /*background-color: indianred;*/
-    border-radius: inherit;
-    margin-bottom: 5px;
 }
+
 
 .logo {
     max-height: 64px;
@@ -47,14 +55,14 @@ nav ul {
     align-items: center;
     margin-block: 0;
     font-size: 1.5em;
+
 }
 
 nav > ul > li {
-  margin: 0 0.2rem;
-  padding: 0.2rem;
-  display: block;
-  vertical-align: center;
-    /*max-font-size: 20px;*/
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    vertical-align: center;
     font-size: 5.5vw;
 
 }
@@ -75,59 +83,113 @@ nav li a:hover {
 }
 
 .site-content {
+    margin-top: 20px;
     /*height: calc(100% - 156px);*/
     /*border: 2px solid orangered;*/
     border-radius: inherit;
 }
 
 .profile-wrapper {
-    min-height: 571px;
-    /*border: 2px solid blueviolet;*/
-    background-color: mediumpurple;
-    margin-bottom: 14px;
+    min-height: 530px;
+    height: var(--container-height);
+    /*background-color: mediumpurple;*/
+    margin-bottom: var(--margin-below-container);
+    /*margin-bottom: 50px;*/
     border-radius: inherit;
 }
 
+.profile-picture {
+    position: relative;
+    text-align: center;
+    /*border-top: 60px solid transparent;*/
+    /*border-bottom: 60px solid #F2F3EB;*/
+    padding: 0;
+
+}
+
+.image-container-top,
+.image-container-bottom {
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    color: transparent;
+}
+
+/* Style for the top container */
+.image-container-top {
+    background-color: transparent;
+    padding: 20px;
+    height: 78px;
+}
+
+/* Style for the bottom container */
+.image-container-bottom {
+    background-color: #F2F3EB;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    height: 78px;
+}
+
+/* Position the overlay image on top */
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px; /* Adjust the width of the image */
+    height: 120px; /* Adjust the height of the image */
+    border-radius: 50%; /* To make it a circle if the image is round */
+    z-index: 1; /* To ensure the image is above the containers */
+}
+
+
 .projects {
-    min-height: 650px;
+    min-height: 620px;
     /*border: 2px solid darkorange;*/
     background-color: orange;
-    margin-bottom: 19px;
+    margin-bottom: 50px;
     border-radius: inherit;
 }
 
 .articles {
-    min-height: 650px;
+    min-height: 620px;
     /*border: 2px solid darkgreen;*/
     background-color: green;
-    margin-bottom: 19px;
+    margin-bottom: 50px;
     border-radius: inherit;
 }
 
 .contact-form {
     min-height: 571px;
-    /*border: 2px solid deeppink;*/
     background-color: pink;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     border-radius: inherit;
 }
 
-.link-up a {
-    position: absolute;
-    bottom: 1px;
-    right: 1px;
+.link-up-container {
+    position: fixed;
+    height: 10px;
+    width: 10px;
+    bottom: 5px;
+    right: 5px;
 }
 
 .site-footer {
-    height: 78px;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+    min-height: 34px;
+    height: 10vw;
+    max-height: 78px;
     content: "";
-    /*border: 2px solid deepskyblue;*/
+    border-top: 5px solid transparent;
     background-color: #011078;
+    color: #BEC2B4;
+    text-align: center;
+    padding: 5px;
     border-radius: inherit;
+    width: 100%;
+    max-width: 1200px;
 }
-/*h1{*/
-
-/*}*/
 
 
 /*|--------------------------------------------------------------------|*/
@@ -137,20 +199,44 @@ nav li a:hover {
 /*|--------------------------------------------------------------------|*/
 
 @media screen and (max-width: 375px) {
-  nav > ul > li {
-     font-size: 2rem;
-  }
+    nav > ul > li {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (min-width: 600px) {
-  nav > ul > li {
-     font-size: 3.4rem;
-  }
+    nav > ul > li {
+        font-size: 3.4rem;
+    }
+
+    #site-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        content: "";
+        /*border: 2px solid red;*/
+        /*background-color: indianred;*/
+        border-radius: inherit;
+        margin-bottom: 5px;
+    }
 }
 
 /*|--------------------------------------------------------------------|*/
 /*|                                                                    |*/
 /*|--------------------------------------------------------------------|*/
+
+@media screen and (min-width: 820px) {
+    :root {
+        --margin-below-container: 50px;
+        --container-height: 80vh;
+    }
+
+    nav > ul > li {
+        font-size: 3.4rem;
+    }
+
+
+}
 
 /*}--------------------------------------------------------------------|*/
 /*|                                                                    |*/
