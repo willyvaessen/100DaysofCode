@@ -399,3 +399,12 @@ Today I did this, with the 40% discount.
 
 Worked on the new responsive layout today, which ended up being a lot more work than expected.
 I'm happy with the result so far, but there's some more tweaking to do.
+
+
+## 3 September 2023
+
+Day 34. 
+There won't be too much time to code today, so I decided to work on one
+of the freeCodeCamp certification projects today: a Tribute Page.
+Not only does that help me work towards the certification, it can also help
+me get my "About me" page set up.

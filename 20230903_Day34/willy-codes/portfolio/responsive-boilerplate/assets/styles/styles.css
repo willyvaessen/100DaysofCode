@@ -1,0 +1,459 @@
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+    --margin-below-container: 13.3vw;
+    --container-height: calc(90vh - 10vw);
+    --color-phthalo-blue: #011078;
+    --color-glaucous: #6D769A;
+    --color-cadet-gray: #A3A9AB;
+    --color-ash-gray: #BEC2B4;
+    --color-bone: #CCCFB8;
+    --color-pearl: #D3D5BA;
+    --color-alabaster: #E6E7D8;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+/*}--------------------------------------------------------------------|*/
+/*| Typography styling                                                 |*/
+/*|--------------------------------------------------------------------|*/
+
+@font-face {
+    font-family: 'CantoraTTF';
+    src: url('../../assets/fonts/cantora/CantoraOne-Regular.ttf') format('truetype'); /* TTF font */
+    /* You can include additional font formats for better browser support */
+    src: url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff') format('woff');
+url('../../assets/fonts/cantora/cantoraone-regular-webfont.woff2') format('woff2');
+url('../../assets/fonts/cantora/CantoraOne-Regular.eot') format('embedded-opentype');
+}
+
+.emphasized {
+    font-weight: bold;
+    /* You can add more styles here for emphasis */
+}
+
+
+p, h4 {
+    font-size: 16px;
+}
+
+h6 {
+    display: none;
+}
+
+body {
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+    font-family: CantoraTTF, sans-serif;
+    color: var(--color-phthalo-blue);
+}
+
+.site-wrapper {
+    position: relative;
+    width: 94.66666667vw;
+    max-width: 1200px;
+    height: 98vh;
+    margin: 1vh auto 1vh;
+    content: "";
+    border-radius: 5px;
+}
+
+#site-header {
+    display: none;
+    height: 78px;
+}
+
+
+.logo {
+    max-height: 64px;
+    max-width: 64px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-block: 0;
+    font-size: 1.5em;
+
+}
+
+nav > ul > li {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    vertical-align: center;
+    font-size: 5.5vw;
+
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: var(--color-phthalo-blue);
+}
+
+nav li a:hover {
+    text-decoration: none;
+    background-color: var(--color-phthalo-blue);
+    color: var(--color-alabaster);
+}
+
+.site-content {
+    margin-top: 20px;
+    /*height: calc(100% - 156px);*/
+    /*border: 2px solid orangered;*/
+    border-radius: inherit;
+}
+
+.profile-wrapper {
+    /*min-height: 530px;*/
+    height: var(--container-height);
+    /*background-color: mediumpurple;*/
+    margin-bottom: var(--margin-below-container);
+    /*margin-bottom: 50px;*/
+    border-radius: inherit;
+}
+
+/*}--------------------------------------------------------------------|*/
+/*| This section styles the profile picture                            |*/
+/*|--------------------------------------------------------------------|*/
+
+.profile-picture {
+    position: relative;
+    text-align: center;
+    /*border-top: 60px solid transparent;*/
+    /*border-bottom: 60px solid #F2F3EB;*/
+    padding: 0;
+
+}
+
+.image-container-top,
+.image-container-bottom {
+    position: relative;
+    text-align: center; /* Center the content horizontally */
+    color: transparent;
+}
+
+/* Style for the top container */
+.image-container-top {
+    background-color: transparent;
+    /*padding: 20px;*/
+    height: 60px;
+}
+
+/* Style for the bottom container */
+.image-container-bottom {
+    background-color: var(--color-alabaster);
+    /*padding: 20px;*/
+    border-radius: 5px 5px 0 0;
+    height: 60px;
+}
+
+/* Position the overlay image on top */
+.overlay-image {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 32vw; /* Adjust the width of the image */
+    height: 32vw; /* Adjust the height of the image */
+    /*width: 120px; !* Adjust the width of the image *!*/
+    /*height: 120px; !* Adjust the height of the image *!*/
+    border-radius: 50%; /* To make it a circle if the image is round */
+    z-index: 1; /* To ensure the image is above the containers */
+}
+
+/*}--------------------------------------------------------------------|*/
+/*| This section styles the rest of the profile wrapper                |*/
+/*|--------------------------------------------------------------------|*/
+
+.profile-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--color-alabaster);
+    justify-content: space-evenly;
+    border-radius: 0 0 5px 5px;
+}
+
+#profile-content-left {
+    content: "";
+    /*border: 2px solid salmon;*/
+    /*background-color: darksalmon;*/
+    width: 355px;
+    max-width: 375px;
+    /*height: 50px;*/
+}
+
+.header-title { /* Styles for the header title */
+    text-align: center; /* Center the header title */
+    margin-top: 10px; /* Add margin between the image and the title */
+    margin-bottom: 5px; /* Add margin between the image and the title */
+    text-transform: uppercase; /* Convert the text to uppercase */
+}
+
+.flag-icon {
+    height: 2.4rem;
+}
+
+.header-title h1 {
+    font-size: 3.6rem;
+}
+
+.header-title h2 {
+    font-size: 2.4rem;
+}
+
+/* Title Styles */
+.title {
+    font-size: 3.2rem; /* Set the font size of the title */
+}
+
+/* Headline Styles */
+.headline {
+    text-align: center; /* Center the headline text */
+    margin: 5px auto 17px; /* Add margin (top, right, bottom, left) around the headline */
+    max-width: 300px;
+}
+
+.headline p {
+    font-size: 16px;
+}
+
+.location {
+    text-align: center; /* Center the headline text */
+    /*margin: 5px; !* Add margin around the headline *!*/
+}
+
+#profile-content-middle {
+    content: "";
+    background-color: var(--color-alabaster);
+    /*border: 2px solid green;*/
+    /*background-color: darkgreen;*/
+    width: 355px;
+    max-width: 375px;
+    padding: 10px 34px;
+    /*height: 50px;*/
+}
+
+
+/* --------------------------------------------------------------------------*/
+
+
+#profile-content-right {
+    content: "";
+    /*border: 2px solid rebeccapurple;*/
+    /*background-color: mediumpurple;*/
+    /*width: 355px;*/
+    /*max-width: 375px;*/
+    width: 100%;
+    height: 50px;
+}
+
+.social-links {
+    background-color: var(--color-alabaster);
+    /*border-radius: 0 0 5px 5px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin-top: 20px;
+    padding: 10px 34px;
+    border-bottom: 20px solid var(--color-alabaster);
+}
+
+#profile-content-bottom {
+    height: 20px;
+    content: "";
+    border-bottom: 10px solid var(--color-alabaster);
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    fill: var(--color-glaucous); /* Set the color of the icon */
+}
+
+.social-links i {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 10px; /* Adjust the spacing between icons as needed */
+    color: var(--color-glaucous); /* Set the default color for icons */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+}
+
+.social-links i:hover {
+    color: var(--color-phthalo-blue); /* Set the color on hover */
+}
+
+/*|--------------------------------------------------------------------------|*/
+/*| Introduction section                                                     |*/
+/*|--------------------------------------------------------------------------|*/
+
+.introduction article {
+    background-color: var(--color-alabaster);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.introduction h2 {
+    font-size: 2.4rem;
+}
+
+.introduction p {
+    margin-bottom: 15px;
+}
+
+/*|--------------------------------------------------------------------------|*/
+/*| Projects/portfolio section                                               |*/
+/*|--------------------------------------------------------------------------|*/
+
+.projects {
+    display: none;
+    min-height: 620px;
+    /*border: 2px solid darkorange;*/
+    background-color: orange;
+    margin-bottom: 50px;
+    border-radius: inherit;
+}
+
+/*|--------------------------------------------------------------------------|*/
+/*| Articles/blog section                                                    |*/
+/*|--------------------------------------------------------------------------|*/
+
+.articles {
+    display: none;
+    min-height: 620px;
+    /*border: 2px solid darkgreen;*/
+    background-color: green;
+    margin-bottom: 50px;
+    border-radius: inherit;
+}
+
+
+/*|--------------------------------------------------------------------------|*/
+/*| Contact Form section                                                     |*/
+/*|--------------------------------------------------------------------------|*/
+
+.contact-form {
+    display: none;
+    min-height: 571px;
+    background-color: pink;
+    margin-bottom: 50px;
+    border-radius: inherit;
+}
+
+.link-up-container {
+    position: fixed;
+    height: 10px;
+    width: 10px;
+    bottom: 5px;
+    right: 5px;
+}
+
+.site-footer {
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+    min-height: 34px;
+    height: 10vw;
+    max-height: 78px;
+    content: "";
+    border-top: 5px solid transparent;
+    background-color: var(--color-phthalo-blue);
+    color: var(--color-ash-gray);
+    text-align: center;
+    padding: 5px;
+    border-radius: inherit;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+/*|--------------------------------------------------------------------|*/
+/*| The Media query below is used to set a min and max font-size in    |*/
+/*|     the navigation area. This font grows together with the width   |*/
+/*|     of the screen/website                                          |*/
+/*|--------------------------------------------------------------------|*/
+
+@media screen and (max-width: 375px) {
+    nav > ul > li {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    :root {
+        --container-height: fit-content;
+    }
+
+    nav > ul > li {
+        font-size: 2.4rem;
+    }
+
+    #site-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        content: "";
+        /*border: 2px solid red;*/
+        /*background-color: indianred;*/
+        border-radius: inherit;
+        margin-bottom: 5px;
+    }
+
+    .overlay-image {
+        width: 16vw; /* Adjust the width of the image */
+        height: 16vw; /* Adjust the height of the image */
+    }
+}
+
+/*|--------------------------------------------------------------------|*/
+/*|                                                                    |*/
+/*|--------------------------------------------------------------------|*/
+
+@media screen and (min-width: 820px) {
+    :root {
+        --margin-below-container: 30px;
+        --container-height: fit-content;
+
+    }
+
+    .overlay-image {
+        width: 160px; /* Adjust the width of the image */
+        height: 160px; /* Adjust the height of the image */
+    }
+
+    nav > ul > li {
+        font-size: 3.4rem;
+    }
+
+
+}
+
+/*}--------------------------------------------------------------------|*/
+/*| NL/EN Language settings/styles                                     |*/
+/*|--------------------------------------------------------------------|*/
+
+.lang-en {
+    display: none;
+}
+
+/*}--------------------------------------------------------------------|*/
+/*|                                                                    |*/
+/*|--------------------------------------------------------------------|*/
