@@ -414,3 +414,4 @@ me get my "About me" page set up.
 
 I'll be building a city skyline on freeCodeCamp today, to learn more about
 CSS variables.
+At the end of the assignment, there was a little twist that I didn't expect, but I like it a lot.
