@@ -408,3 +408,9 @@ There won't be too much time to code today, so I decided to work on one
 of the freeCodeCamp certification projects today: a Tribute Page.
 Not only does that help me work towards the certification, it can also help
 me get my "About me" page set up.
+
+
+## 4 September 2023
+
+I'll be building a city skyline on freeCodeCamp today, to learn more about
+CSS variables.

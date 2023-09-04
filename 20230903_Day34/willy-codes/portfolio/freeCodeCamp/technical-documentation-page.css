@@ -18,7 +18,13 @@ header {
 
 #main-doc {
     position: relative;
+    padding-left: 30px;
 }
+
+.main-section p {
+    padding-left: 20px;
+}
+
 #navbar {
     position: sticky;
     left: 0;
@@ -55,6 +61,8 @@ a {
     #navbar {
         border-right: none;
         width: 100%;
+        position: initial;
+        border-bottom: 2px solid #6D769A;
     }
 
     .nav-link {
