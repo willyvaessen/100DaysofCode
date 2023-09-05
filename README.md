@@ -415,3 +415,10 @@ me get my "About me" page set up.
 I'll be building a city skyline on freeCodeCamp today, to learn more about
 CSS variables.
 At the end of the assignment, there was a little twist that I didn't expect, but I like it a lot.
+
+
+## 5 September 2023
+
+It was late last night, the City Skyline in CSS was a lot of work, but fun at the same time.
+Today I'll be working on a magazine layout.
+

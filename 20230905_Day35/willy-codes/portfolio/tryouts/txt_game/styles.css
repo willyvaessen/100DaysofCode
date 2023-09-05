@@ -1,0 +1,179 @@
+/* Reset some default styles for consistency */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* Global styles */
+body {
+    font-family: "Courier New", sans-serif;
+    line-height: 1.6;
+    color: #333333;
+    background-color: #BEC2B4;
+}
+
+/* Header styles */
+header {
+    background-color: #011078;
+    color: #D3D5BA;
+    padding: 4px;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px;
+}
+
+/* Main content styles */
+.main-container {
+    max-width: 600px; /* Set a maximum width for the main content container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for a nice layout */
+}
+
+/* Text field styles */
+input[type="text"] {
+    flex: 1; /* Let the text field grow to fill the available space */
+    padding: 10px;
+    border: none; /* Remove the border */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color: #BEC2B4;
+    color: #333333;
+    vertical-align: middle; /* Align the text field vertically in the container */
+    box-sizing: border-box; /* Include padding in the width calculation */
+    outline: none; /* Remove the focus outline */
+}
+
+/* Enter button styles */
+#enterButton {
+    display: inline-block;
+    height: 44px; /* Adjust the height as per your preference */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #011078;
+    color: #D3D5BA;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#enterButton:hover {
+    background-color: #6D769A;
+}
+
+/* Container to center the page on larger screens */
+.page-container {
+    max-width: 400px; /* Set a maximum width for the container, adjust as needed WAS: 1200*/
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for a nice layout */
+}
+
+
+/* Position the textbox container at the bottom left */
+.textbox-container {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the container horizontally */
+    max-width: 400px; /* Adjust the maximum width as per your preference WAS: 600*/
+    padding: 0 10px; /* Add horizontal padding for a nice layout */
+    display: flex; /* Use flexbox to align the input and button horizontally */
+    justify-content: space-between; /* Align items with equal space between them */
+    align-items: center; /* Center the items vertically */
+    width: calc(100% - 40px); /* Make the container occupy the full width minus the padding */
+}
+
+
+/* Adjust the vertical alignment of the label */
+.textbox-container label {
+    line-height: 44px; /* Match the height of the Enter button */
+    margin-right: 10px; /* Add some spacing between the label and the input */
+    vertical-align: middle; /* Align the label with the middle of the Enter button */
+}
+
+/* Mobile-only styles */
+@media screen and (max-width: 767px) {
+    .textbox-container {
+        flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+        align-items: center; /* Align items to the center on mobile */
+        bottom: 60px; /* Adjust bottom position for better visibility */
+    }
+
+    input[type="text"] {
+        width: 100%; /* Make the text field occupy the full width on mobile */
+        margin-right: 10px; /* Add some spacing between the text field and button */
+    }
+
+    /* Adjust spacing between input and button */
+    .textbox-container label {
+        margin-bottom: 5px;
+    }
+    #enterButton {
+        margin-top: 10px;
+    }
+}
+
+/* Limit the page height to half of the screen */
+body {
+    max-height: 50vh;
+    overflow-y: auto; /* Add vertical scroll if the content exceeds the half-screen height */
+}
+
+/* Adjust the main container height to fit the available space */
+.main-container {
+    height: 50vh;
+    overflow-y: auto;
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-height: 600px) {
+    .textbox-container {
+        bottom: 120px; /* Adjust the bottom position to avoid overlapping with the on-screen keyboard */
+    }
+}
+
+/*!* Responsive styles *!*/
+/*@media screen and (min-width: 768px) {*/
+/*    !* Tablet styles *!*/
+/*    header {*/
+/*        padding: 30px;*/
+/*    }*/
+/*    .main-content {*/
+/*        max-width: 800px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
+
+/*@media screen and (min-width: 1024px) {*/
+/*    !* Desktop styles *!*/
+/*    header {*/
+/*        padding: 40px;*/
+/*    }*/
+/*    .main-content {*/
+/*        max-width: 1200px;*/
+/*        margin: 0 auto;*/
+/*    }*/
+/*}*/
+
+/* Other styles */
+/* Add any additional styles specific to your design here */
+
