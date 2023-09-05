@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --margin-below-container: 13.3vw;
+    --container-height: calc(90vh - 10vw);
+    --color-phthalo-blue: #011078;
+    --color-glaucous: #6D769A;
+    --color-cadet-gray: #A3A9AB;
+    --color-ash-gray: #BEC2B4;
+    --color-bone: #CCCFB8;
+    --color-pearl: #D3D5BA;
+    --color-alabaster: #E6E7D8;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 62.5%;
+    color: var(--color-phthalo-blue);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+}
+
+#navbar {
+    background-color: var(--color-phthalo-blue);
+    /*border: 1px solid blue;*/
+    color: var(--color-alabaster);
+    width: 100vw;
+    height: 78px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    /*margin-bottom: 20px;*/
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#navbar li {
+    list-style: none;
+    margin-left: 34px;
+}
+
+#navbar li:last-of-type {
+    margin-right: 34px;
+}
+
+.nav-link {
+    color: var(--color-alabaster);
+    font-size: 2.4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main-content {
+    margin-top: 20px;
+}
+
+#welcome-section {
+    margin-top: 20px;
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+    padding-bottom: 80vh;
+}
+
+#welcome-section h1 {
+    font-family: 'Cantora One', sans-serif;
+    font-size: 7.5rem;
+}
+
+#welcome-section p {
+    font-size: 3rem;
+}
+
+#projects {
+    text-align: center;
+    /*align-content: center;*/
+    /*align-items: center;*/
+    margin: 0 auto;
+    /*height: 100vh;*/
+    padding-top: 34px;
+}
+
+.project-overview {
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    max-width: 1150px;
+
+}
+
+#projects h2, #contact h2 {
+    font-family: "Cantora One", sans-serif;
+    font-size: 4.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 34px;
+    margin-top: 50px;
+}
+
+.project-tile {
+    border: 2px solid var(--color-phthalo-blue);
+    width: 375px;
+    height: 375px;
+    gap: 10px;
+}
+
+
+#contact {
+    text-align: center;
+    /*align-content: center;*/
+    /*align-items: center;*/
+    margin: 0 auto;
+    /*height: 100vh;*/
+    padding-top: 34px;
+}
+
+#contact h2 {
+text-decoration: none;
+    margin-top: 80px;
+    font-size: 5.6rem;
+}
+
+#contact h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8rem;
+    margin-top: -20px;
+}
+
+@media screen and (max-width: 450px) {
+    #welcome-section h1 {
+    font-size: 4.5rem;
+}
+}

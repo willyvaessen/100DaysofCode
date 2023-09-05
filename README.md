@@ -422,3 +422,4 @@ At the end of the assignment, there was a little twist that I didn't expect, but
 It was late last night, the City Skyline in CSS was a lot of work, but fun at the same time.
 Today I'll be working on a magazine layout.
 
+Finished the Responsive Web Design course and achieved the certificate at freeCodeCamp.
