@@ -423,3 +423,16 @@ It was late last night, the City Skyline in CSS was a lot of work, but fun at th
 Today I'll be working on a magazine layout.
 
 Finished the Responsive Web Design course and achieved the certificate at freeCodeCamp.
+
+## 6 September 2023
+
+A rather busy day at work and a birthday party today, so really not much time 
+to code. 
+I did do some Sololearn training today, though.
+Not sure how serious it is, but I received their invitation to follow an 
+Angular training in order for Google to hire me ;-)
+
+Besides that, in between I made some preparations to move over to Debian Linux 
+on my main machine. 
+I've tried to organize my bookmarks in the various browsers before importing 
+them to Firefox.
