@@ -436,3 +436,16 @@ Besides that, in between I made some preparations to move over to Debian Linux
 on my main machine. 
 I've tried to organize my bookmarks in the various browsers before importing 
 them to Firefox.
+
+
+## 7 September 2023
+
+What a weird day it was. In the middle of a meeting for work, power went down 
+so I had to rush to the office.
+There was not time to code there and back home, quite soon I had to accompany
+my uncle to the hospital. 
+He fell with his his bike and had to be taken to the hospital by ambulance.
+So.....
+Energy is drained, but nevertheless I'll try do do at least some coding.
+I finished a few lessons of the Angular course on Sololearn already.
+Now I'm looking at the Basic JavaScript course on freeCodeCamp.
