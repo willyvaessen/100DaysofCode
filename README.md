@@ -449,3 +449,11 @@ So.....
 Energy is drained, but nevertheless I'll try do do at least some coding.
 I finished a few lessons of the Angular course on Sololearn already.
 Now I'm looking at the Basic JavaScript course on freeCodeCamp.
+
+
+## 8 September 2023
+
+What a day this was.
+Busy, busy, busy. 
+Work, accompanying my uncle and out weekly family gathering.
+Going to try a little bit of coding, but I think we'll be crashing the couch early.
