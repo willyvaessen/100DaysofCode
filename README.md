@@ -457,3 +457,6 @@ What a day this was.
 Busy, busy, busy. 
 Work, accompanying my uncle and out weekly family gathering.
 Going to try a little bit of coding, but I think we'll be crashing the couch early.
+Built today:
+* Temperature converter (Celsius <--> Fahrenheit)
+* 
