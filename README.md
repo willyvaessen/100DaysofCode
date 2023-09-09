@@ -459,4 +459,12 @@ Work, accompanying my uncle and out weekly family gathering.
 Going to try a little bit of coding, but I think we'll be crashing the couch early.
 Built today:
 * Temperature converter (Celsius <--> Fahrenheit)
-* 
+
+
+## 9 September 2023
+
+fToday we've been moving around some furniture in the house. 
+We changed our living room and office by switching them, so I haven't really 
+had time to use my computer today until after 9PM.
+There won't be a lot of coding, so I'll keep it to a little freeCodeCamp
+JavaScript basics as a refresher.
