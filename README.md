@@ -468,3 +468,4 @@ We changed our living room and office by switching them, so I haven't really
 had time to use my computer today until after 9PM.
 There won't be a lot of coding, so I'll keep it to a little freeCodeCamp
 JavaScript basics as a refresher.
+I did some lessons on comparisons.
