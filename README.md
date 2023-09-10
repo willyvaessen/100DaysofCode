@@ -469,3 +469,13 @@ had time to use my computer today until after 9PM.
 There won't be a lot of coding, so I'll keep it to a little freeCodeCamp
 JavaScript basics as a refresher.
 I did some lessons on comparisons.
+
+
+## 10 September 2023
+
+Day 40 today.
+JavaScript If Else statements planned for today.
+Starting with the lessons on freeCodeCamp and optionally a small project to
+practice with what I've seen the last few days.
+That is, if time permits because there's still some cleaning up and
+reorganizing to do im my office.
