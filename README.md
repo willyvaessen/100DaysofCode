@@ -488,3 +488,4 @@ Finished the "Going Deeper with HTML" part in the Sololearn Angular course.
 
 Day 41.I've been working on Switch statements today in the JavaScript basics
 curriculum on freeCodeCamp.
+Worked on returning from functions and built a Card Counting program on freeCodeCamp.
