@@ -479,3 +479,12 @@ Starting with the lessons on freeCodeCamp and optionally a small project to
 practice with what I've seen the last few days.
 That is, if time permits because there's still some cleaning up and
 reorganizing to do im my office.
+
+Worked on Is Else statements in freeCodeCamp's JavaScript Basics course.
+Finished the "Going Deeper with HTML" part in the Sololearn Angular course.
+
+
+## 11 September 2023
+
+Day 41.I've been working on Switch statements today in the JavaScript basics
+curriculum on freeCodeCamp.
