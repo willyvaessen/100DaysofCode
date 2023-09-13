@@ -497,3 +497,10 @@ Another busy day at work.
 Today is also the day that the new iPhone is presented. 
 With the little bit of time available, I worked through some freeCodeCamp 
 lessons about objects.
+
+
+
+## 13 September 2023
+
+Today I'm working on some more lessons about objects.
+Finished some lessons on Sololearn, in the Angular course.
