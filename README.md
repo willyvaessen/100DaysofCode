@@ -504,3 +504,16 @@ lessons about objects.
 
 Today I'm working on some more lessons about objects.
 Finished some lessons on Sololearn, in the Angular course.
+Some more lessons on loops
+
+
+## 14 September 2023
+
+Went to the office today, little time to code during the day.
+Today I've been looking at the next Sololearn lesson in the Angular course.
+Next I went on with the next lessons on freeCodeCamp:
+* Profile Lookup
+* Randomization
+* Learned about Radix
+
+Finished the Basic JavaScript course on freeCodeCamp.
