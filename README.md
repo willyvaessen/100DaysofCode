@@ -517,3 +517,11 @@ Next I went on with the next lessons on freeCodeCamp:
 * Learned about Radix
 
 Finished the Basic JavaScript course on freeCodeCamp.
+
+
+## 15 September 2023
+
+Finshed Module 3 from the ["Web Developer with Angular"](https://www.sololearn.com/learn/courses/angular-developer)
+course on Sololearn.
+I made a start on [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/) 
+course on freeCodeCamp.
