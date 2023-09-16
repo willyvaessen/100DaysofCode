@@ -525,3 +525,11 @@ Finshed Module 3 from the ["Web Developer with Angular"](https://www.sololearn.c
 course on Sololearn.
 I made a start on [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/) 
 course on freeCodeCamp.
+
+
+
+## 16 September 2023
+
+Gradually approaching the halfway mark on my journey to 100 Days of Code.
+With just a little bit of spare time today, I'll be finishing some Sololearn and
+freeCodeCamp lessons in the morning.
