@@ -533,3 +533,10 @@ course on freeCodeCamp.
 Gradually approaching the halfway mark on my journey to 100 Days of Code.
 With just a little bit of spare time today, I'll be finishing some Sololearn and
 freeCodeCamp lessons in the morning.
+
+
+## 17 September 2023
+
+Yesterday, as expected, I didn't get too much time to code.
+The same goes for today, as I've been doing some clean up at home.
+Formula 1 today, and cinema later in the evening, so coding will be minimal.
