@@ -521,7 +521,7 @@ Finished the Basic JavaScript course on freeCodeCamp.
 
 ## 15 September 2023
 
-Finshed Module 3 from the ["Web Developer with Angular"](https://www.sololearn.com/learn/courses/angular-developer)
+Finished Module 3 from the ["Web Developer with Angular"](https://www.sololearn.com/learn/courses/angular-developer)
 course on Sololearn.
 I made a start on [ES6](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/es6/) 
 course on freeCodeCamp.
@@ -540,3 +540,13 @@ freeCodeCamp lessons in the morning.
 Yesterday, as expected, I didn't get too much time to code.
 The same goes for today, as I've been doing some clean up at home.
 Formula 1 today, and cinema later in the evening, so coding will be minimal.
+
+
+
+## 18 September 2023
+
+Today wasn't a great day. I had quite some trouble with my pc, not wanting to boot.
+Because of that, I had a delayed start for work and didn't get to programming
+until the evening.
+I did some Sololearn lessons, and now I'm continuing with ES6 on freeCodeCamp.
+
