@@ -550,3 +550,8 @@ Because of that, I had a delayed start for work and didn't get to programming
 until the evening.
 I did some Sololearn lessons, and now I'm continuing with ES6 on freeCodeCamp.
 
+
+## 19 September 2023
+
+Almost halfway there, today is day 49.
+I'll continue with Sololearn Angular course as well as ES6 on freeCodeCamp.
