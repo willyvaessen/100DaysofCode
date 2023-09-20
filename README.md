@@ -555,3 +555,9 @@ I did some Sololearn lessons, and now I'm continuing with ES6 on freeCodeCamp.
 
 Almost halfway there, today is day 49.
 I'll continue with Sololearn Angular course as well as ES6 on freeCodeCamp.
+
+
+## 20 September 2023
+
+Day 50. Halfway there.
+* Worked with exporting (and importing) functions.
