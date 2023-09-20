@@ -561,3 +561,5 @@ I'll continue with Sololearn Angular course as well as ES6 on freeCodeCamp.
 
 Day 50. Halfway there.
 * Worked with exporting (and importing) functions.
+* I learned about JavaScript Promise
+* 
