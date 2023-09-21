@@ -562,4 +562,13 @@ I'll continue with Sololearn Angular course as well as ES6 on freeCodeCamp.
 Day 50. Halfway there.
 * Worked with exporting (and importing) functions.
 * I learned about JavaScript Promise
-* 
+* Finished the ES6 course.
+
+
+## 21 September 2023
+
+Day 51.
+I went to the office today, in The Hague, so I've been out of the house all day.
+Now for some quick lesson on Sololearn and one or two assignments in the 
+Regular Expressions part of freeCodeCamp, which I made a start with yesterday.
+
