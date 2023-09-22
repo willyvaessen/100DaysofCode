@@ -578,3 +578,5 @@ Regular Expressions part of freeCodeCamp, which I made a start with yesterday.
 Day 52. Almost weekend. Busy weekend ahead.
 I'm trying to build a Python project today, that is supposed to help me switch 
 drive mappings to different servers.
+
+Finished a Sololearn lesson and continued on the Regular Expressions on freeCodeCamp.
