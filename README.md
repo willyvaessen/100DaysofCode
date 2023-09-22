@@ -572,3 +572,9 @@ I went to the office today, in The Hague, so I've been out of the house all day.
 Now for some quick lesson on Sololearn and one or two assignments in the 
 Regular Expressions part of freeCodeCamp, which I made a start with yesterday.
 
+
+## 22 September 2023
+
+Day 52. Almost weekend. Busy weekend ahead.
+I'm trying to build a Python project today, that is supposed to help me switch 
+drive mappings to different servers.
