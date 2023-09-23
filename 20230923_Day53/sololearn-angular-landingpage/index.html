@@ -9,7 +9,7 @@
     <h1>New Awesome Product</h1>
 </header>
 <main>
-    <img src="https://blob.sololearn.com/courses/np.png">
+    <img src="https://blob.sololearn.com/courses/np.png" alt="New product image.">
     <p>Introducing our <b><i><u>latest product</u></i></b>, designed to make your life easier and moer efficient.</P>
     <ul>
         <li>Feature 1</li>
@@ -36,11 +36,16 @@
         <br>
         <label for="name">Name: <input type="text" id="name"></label><br><br>
         <label for="email">Email: <input type="email" id="email"></label><br><br>
-        <input type="submit" value="Submit" style="background-color: #2a2a40; color: #00beef; border: none; border-radius: 5px">
+        <input type="submit" value="Submit" style="background-color: #2a2a40; color: #00beef; border: none; border-radius: 5px" onclick="orderConfirm()" />
     </form>
 </main>
 <footer style="background-color: #ffca3a;">
     <p>This is the footer. Made with pleasure ;-)</p>
 </footer>
+<script>
+    function orderConfirm() {
+        alert("Order confirmed!");
+    }
+</script>
 </body>
 </html>
