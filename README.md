@@ -580,3 +580,12 @@ I'm trying to build a Python project today, that is supposed to help me switch
 drive mappings to different servers.
 
 Finished a Sololearn lesson and continued on the Regular Expressions on freeCodeCamp.
+
+
+## 23 September 2023
+
+I worked on sololearn mostly today, in the Angular course.
+With a brief introduction to JavaScript and some more html elements, I'm slowly 
+working towards the end of this lesson.
+
+I added the landing page, that is part of the course, to this repository today.
