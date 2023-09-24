@@ -589,3 +589,11 @@ With a brief introduction to JavaScript and some more html elements, I'm slowly
 working towards the end of this lesson.
 
 I added the landing page, that is part of the course, to this repository today.
+
+
+
+## 24 September 2024
+
+Not much time to code today. We'll be out to Utrecht for the Pretty Woman musical.
+A little sololearn (CSS Class & ID Selectors) will have to do for today.
+
