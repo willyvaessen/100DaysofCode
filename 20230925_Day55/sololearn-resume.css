@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+#position {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.summary {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h2 {
+    color: #2F5A78;
+    font-size: 20px;
+}
+
+header, #copyright {
+    text-align: center;
+}
+
+
+
+section, footer {
+    padding: 2px 10px 2px 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+
+
+

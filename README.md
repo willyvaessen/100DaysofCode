@@ -592,8 +592,15 @@ I added the landing page, that is part of the course, to this repository today.
 
 
 
-## 24 September 2024
+## 24 September 2023
 
 Not much time to code today. We'll be out to Utrecht for the Pretty Woman musical.
 A little sololearn (CSS Class & ID Selectors) will have to do for today.
 
+
+## 25 September 2023
+
+Today I'm continuing mostly on sololearn. Finished the "Getting Started wit CSS" 
+lessons and made a start on box models.
+
+On freeCodeCamp I continued with the Regular Expressions course.
