@@ -604,3 +604,8 @@ Today I'm continuing mostly on sololearn. Finished the "Getting Started wit CSS"
 lessons and made a start on box models.
 
 On freeCodeCamp I continued with the Regular Expressions course.
+
+
+## 26 September 2023
+
+Another day on which I'll mostly concentrate on Sololearn.
