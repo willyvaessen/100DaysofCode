@@ -609,3 +609,9 @@ On freeCodeCamp I continued with the Regular Expressions course.
 ## 26 September 2023
 
 Another day on which I'll mostly concentrate on Sololearn.
+
+
+## 27 September 2023
+
+Thinking of the past 2 weeks, I'm starting to get the feeling of being in 
+"tutorial hell" even though I promised myself to stay out of it.
