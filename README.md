@@ -615,3 +615,13 @@ Another day on which I'll mostly concentrate on Sololearn.
 
 Thinking of the past 2 weeks, I'm starting to get the feeling of being in 
 "tutorial hell" even though I promised myself to stay out of it.
+Finished "Styling Elements" and "Transitions & Transforms" on Sololearn today. 
+With that, the CSS part is complete. Up next is "Getting Started with JS"
+
+
+
+## 28 September 2023
+
+Day 58.
+To the office in The Hague today. I continued on Sololearn in the train.
+Finished "Getting started with JS", which was fairly easy, because I've seen it before.
