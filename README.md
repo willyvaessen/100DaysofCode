@@ -625,3 +625,11 @@ With that, the CSS part is complete. Up next is "Getting Started with JS"
 Day 58.
 To the office in The Hague today. I continued on Sololearn in the train.
 Finished "Getting started with JS", which was fairly easy, because I've seen it before.
+
+
+## 29 September 2023
+
+Day 59
+Another Sololearn day it was.
+"Operators and Strings", "Decision-Making" and "Loops" today.
+Next up (probably tomorrow) is "Functions".
