@@ -633,3 +633,8 @@ Day 59
 Another Sololearn day it was.
 "Operators and Strings", "Decision-Making" and "Loops" today.
 Next up (probably tomorrow) is "Functions".
+
+
+## 30 September 2023
+
+Day 60. I started  on the actual Angular part of the course on Sololearn.
