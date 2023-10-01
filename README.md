@@ -638,3 +638,12 @@ Next up (probably tomorrow) is "Functions".
 ## 30 September 2023
 
 Day 60. I started  on the actual Angular part of the course on Sololearn.
+
+
+## 1 October 2023
+
+Little time to code today, and Angular seems to be more complicated than I 
+expected, so little progress.
+Tried to finish the lesson for today, but it takes quite the effort.
+Especially because there seems to be a difference in the way the Sololearn Code
+playground works, compared to my offline IDE. A lot to find out and learn.
