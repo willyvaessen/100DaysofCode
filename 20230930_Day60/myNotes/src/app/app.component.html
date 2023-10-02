@@ -1,2 +1,14 @@
 <app-header />
 <app-notes-list />
+<form (submit)="showName()">
+<input type="text" [formControl]="name" name="name" />
+<p>{{ name.value }}</p>
+  <input type="submit" value="Submit">
+</form>
+<h2>Login form</h2>
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+  <p><input type="text" formControlName="username" /> {{ loginForm.value.username }}</p>
+  <p><input type="text" formControlName="password" /> {{ loginForm.value.password }}</p>
+  <p><input type="submit" value="Submit" [disabled]="!loginForm.valid"></p>
+  <p><input type="button" value="Reset" (click)="loginForm.reset()"></p>
+</form>

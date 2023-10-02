@@ -647,3 +647,8 @@ expected, so little progress.
 Tried to finish the lesson for today, but it takes quite the effort.
 Especially because there seems to be a difference in the way the Sololearn Code
 playground works, compared to my offline IDE. A lot to find out and learn.
+
+
+## 2 October 2023
+
+Today I have worked on the Sololearn Angular course.
