@@ -652,3 +652,15 @@ playground works, compared to my offline IDE. A lot to find out and learn.
 ## 2 October 2023
 
 Today I have worked on the Sololearn Angular course.
+
+
+## 3 October 2023
+
+After finishing the Angular course on Sololearn yesterday, I continued with the 
+web courses.
+Turns out that 3 of these courses share the exact same HTML course, which I 
+finished simultaneously today.
+After that I continued on the CSS part of one of those courses, combined with 
+the CSS Introduction.
+While all of that is mostly repeating what I've seen before, I will just
+consider it "Easy certificates" and good practice.
