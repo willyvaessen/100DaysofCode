@@ -664,3 +664,9 @@ After that I continued on the CSS part of one of those courses, combined with
 the CSS Introduction.
 While all of that is mostly repeating what I've seen before, I will just
 consider it "Easy certificates" and good practice.
+
+
+## 4 October 2023
+
+I will be working on Sololearn today, but it's also about time that I start 
+building something that is not tutorial related.
