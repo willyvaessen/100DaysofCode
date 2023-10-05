@@ -670,3 +670,10 @@ consider it "Easy certificates" and good practice.
 
 I will be working on Sololearn today, but it's also about time that I start 
 building something that is not tutorial related.
+
+
+## 5 October 2023
+
+A day in the office today. Did one Sololearn lesson while I was there. 
+Other than that, I'm completely empty, without inspiration so I'll just take 
+a break for the rest of the day.
