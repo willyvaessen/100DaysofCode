@@ -682,3 +682,6 @@ a break for the rest of the day.
 ## 6 October 2023
 
 Day 66 of my #100DaysofCode journey. I completed a 31-day streak on Sololearn.
+Scratched the surface of what is possible with SQL.
+With a tutorial by John Smilga I created a counter application. 
+Really simple, increase, decrease and reset changes the value of a number.
