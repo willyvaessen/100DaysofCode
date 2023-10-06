@@ -13,7 +13,7 @@ html, body {
 body {
     /*border: 4px solid blue;*/
     background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
-    font-family: CantoraTTF, sans-serif;
+    font-family: Verdana, sans-serif;
     color: #011078;
 }
 
@@ -43,4 +43,7 @@ button  {
     background-color: transparent;
     border: 2px solid #6D769A;
     color: #6D769A;
+    font-size: 1rem;
+    padding: 8px;
+    text-transform: uppercase;
 }
