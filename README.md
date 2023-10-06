@@ -677,3 +677,8 @@ building something that is not tutorial related.
 A day in the office today. Did one Sololearn lesson while I was there. 
 Other than that, I'm completely empty, without inspiration so I'll just take 
 a break for the rest of the day.
+
+
+## 6 October 2023
+
+Day 66 of my #100DaysofCode journey. I completed a 31-day streak on Sololearn.
