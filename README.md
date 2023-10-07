@@ -685,3 +685,11 @@ Day 66 of my #100DaysofCode journey. I completed a 31-day streak on Sololearn.
 Scratched the surface of what is possible with SQL.
 With a tutorial by John Smilga I created a counter application. 
 Really simple, increase, decrease and reset changes the value of a number.
+
+
+## 7 October 2023
+
+I made a small mistake in naming the directories for this project, which 
+I corrected today.
+It turns out that today is already day 68 in the challenge, but for some weird
+reason I missed that.
