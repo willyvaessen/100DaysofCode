@@ -2,8 +2,10 @@ let attempts = 0;
 
 const attemptsCounter = document.querySelector("#attemptsCounter")
 const boxes = document.querySelectorAll(".grid-box");
+const boxesArray = [];
 const redColor = "rgb(120, 0, 0)";
 const blueColor = "rgb(0, 0, 120)";
+let gameOver = false;
 
 function toggleBoxColor(box) {
     let boxBGColor = window.getComputedStyle(box).backgroundColor;
@@ -13,6 +15,7 @@ function toggleBoxColor(box) {
         box.style.backgroundColor = blueColor;
     }
 }
+
 function multiToggle(...Boxes) {
     let boxID;
     for (let i = 0; i < Boxes.length; i++) {
@@ -21,9 +24,33 @@ function multiToggle(...Boxes) {
         toggleBoxColor(boxToChange);
     }
 }
+
+function checkGrid(boxesArray) {
+    let boxID;
+    let blueCount = 0;
+    let redCount = 0;
+    for (let i = 0; i < boxesArray.length; i++) {
+        boxID = "#" + boxesArray[i];
+
+        let boxToCheck = document.querySelector(boxID);
+        let boxBGColor = window.getComputedStyle(boxToCheck).backgroundColor;
+        if (boxBGColor === blueColor) {
+            blueCount++;
+        } else if (boxBGColor === redColor) {
+            redCount++
+        }
+    }
+    if ((blueCount === 0) && (redCount === 16)) {
+        gameOver = true;
+    }
+}
+
 //  Loop through the boxes that we have. Currently, 16 (because fixed)
 boxes.forEach(function (box) {
+    boxesArray.push(box.id);
+
     box.addEventListener("click", function (e) {
+
         const styles = e.currentTarget.classList;
 
         if (styles.contains("A1")) {
@@ -41,7 +68,7 @@ boxes.forEach(function (box) {
         } else if (styles.contains("A4")) {
             multiToggle("C1", "D1", "B4", "B1", "C4");
         } else if (styles.contains("B1")) {
-            multiToggle("B1","D2", "D4", "B4", "A3");
+            multiToggle("B1", "D2", "D4", "B4", "A3");
         } else if (styles.contains("B2")) {
             multiToggle("B2", "A4", "C3", "A2", "D1");
         } else if (styles.contains("C2")) {
@@ -55,7 +82,7 @@ boxes.forEach(function (box) {
         } else if (styles.contains("D2")) {
             multiToggle("D2", "A4", "B1", "C3");
         } else if (styles.contains("D3")) {
-            multiToggle("D3","A1", "B3", "C2", "A4");
+            multiToggle("D3", "A1", "B3", "C2", "A4");
         } else if (styles.contains("D4")) {
             multiToggle("D4", "A1", "A4", "B3", "C2", "D2");
         }
@@ -64,6 +91,7 @@ boxes.forEach(function (box) {
         // toggleBoxColor(box);
         attempts++;
         attemptsCounter.textContent = attempts;
+        checkGrid(boxesArray);
     });
 
 })
