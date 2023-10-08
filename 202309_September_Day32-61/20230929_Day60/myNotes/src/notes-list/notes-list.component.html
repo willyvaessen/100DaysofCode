@@ -1,0 +1,30 @@
+<div class="container">
+  <nav>
+    <button routerLink="./new">Add New</button>
+  </nav>
+  <ul class="notes">
+    <li *ngFor="let note of notes">
+      <button [routerLink]="['/note', note.id]">
+      <span class="note-title">{{ note.title }}</span>
+      <span class="note-text">{{note.text}}</span>
+
+      </button>
+    </li>
+  </ul>
+</div>
+
+
+<!--
+
+To get the data of the opened note, we need to access the id from the URL parameters, then query the note with that id from the NOTES array and show the data in our template.
+
+To access the id parameter, we need to use the ActivatedRoute.
+
+
+activeRoute = inject(ActivatedRoute);
+id = Number(this.activeRoute.snapshot.paramMap.get('id'));
+
+Next, we need to query the note with that id.
+
+note = NOTES.find((i) => i.id === this.id);
+-->
