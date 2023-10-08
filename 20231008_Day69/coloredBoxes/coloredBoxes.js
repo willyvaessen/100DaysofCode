@@ -1,5 +1,6 @@
-const box = document.querySelectorAll(".grid-box");
+let attempts = 0;
 
+const attemptsCounter = document.querySelector("#attemptsCounter")
 const boxes = document.querySelectorAll(".grid-box");
 function toggleBoxColor(box) {
     let boxBGColor = window.getComputedStyle(box).backgroundColor;
@@ -15,5 +16,7 @@ boxes.forEach(function (box) {
     box.addEventListener("click", function (e) {
         console.log(box);
         toggleBoxColor(box);
+        attempts++;
+        attemptsCounter.textContent = attempts;
     })
 })
