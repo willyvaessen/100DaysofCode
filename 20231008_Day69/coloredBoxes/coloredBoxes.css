@@ -67,3 +67,15 @@ button  {
     padding: 8px;
     text-transform: uppercase;
 }
+
+.end-game-animation {
+  animation-name: toGreen;
+  animation-duration: 3s;
+}
+
+@keyframes toGreen {
+    from {background-color: rgb(120,0,0);}
+    to {background-color: rgb(0,120,0);}
+
+}
+

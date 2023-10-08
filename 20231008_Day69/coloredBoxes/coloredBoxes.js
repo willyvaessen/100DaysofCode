@@ -45,6 +45,12 @@ function checkGrid(boxesArray) {
     }
 }
 
+function gameEnd() {
+    boxes.forEach(function (box){
+        box.classList.add("end-game-animation");
+    });
+}
+
 //  Loop through the boxes that we have. Currently, 16 (because fixed)
 boxes.forEach(function (box) {
     boxesArray.push(box.id);
@@ -92,6 +98,11 @@ boxes.forEach(function (box) {
         attempts++;
         attemptsCounter.textContent = attempts;
         checkGrid(boxesArray);
+        console.log(gameOver);
+        if (gameOver === true) {
+    gameEnd();
+}
     });
 
 })
+
