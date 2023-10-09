@@ -693,3 +693,21 @@ I made a small mistake in naming the directories for this project, which
 I corrected today.
 It turns out that today is already day 68 in the challenge, but for some weird
 reason I missed that.
+
+
+## 8 October 2023
+
+Day 69
+No tutorials today, but building an actual app: Colored Boxes, which ended up 
+being a nice little game.
+
+
+## 9 October 2023
+
+Day 70
+After yesterday's project, which was a lot of fun to build, I worked on 
+Tic Tac Toe today.
+
+While I made one earlier, completely guided by a tutorial in React, I'm 
+building this one in pure JavaScript. 
+No frameworks.

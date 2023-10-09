@@ -1,7 +1,7 @@
 let attempts = 0;
 
 const attemptsCounter = document.querySelector("#attemptsCounter")
-const boxes = document.querySelectorAll(".grid-box");
+const boxes = document.querySelectorAll(".playGridBox");
 function toggleBoxColor(box) {
     let boxBGColor = window.getComputedStyle(box).backgroundColor;
     if (boxBGColor === "rgb(0, 0, 120)") {
