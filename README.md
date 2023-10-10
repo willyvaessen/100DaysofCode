@@ -711,3 +711,16 @@ Tic Tac Toe today.
 While I made one earlier, completely guided by a tutorial in React, I'm 
 building this one in pure JavaScript. 
 No frameworks.
+
+
+## 10 October 2023
+
+Day 71 wasn't really a productive day.
+I've been cleaning up a little in my Go1 account from work, removing some 
+courses that I won't be finishing anymore, either because they're old or bad 
+quality.
+
+Finished some courses in the platform, that I had already finished on Microsoft 
+Learn and gained some certificates.
+
+Not much work on the Tic Tac Toe game today, unfortunately.
