@@ -724,3 +724,12 @@ Finished some courses in the platform, that I had already finished on Microsoft
 Learn and gained some certificates.
 
 Not much work on the Tic Tac Toe game today, unfortunately.
+
+
+## 11 October 2023
+
+Continuing on the Tic Tac Toe game today, which proves to be more difficult 
+than I anticipated.
+Also working on an overview for a Python for Beginners course that I'm 
+following for work.
+Finished Python for Beginners on Go1/Stone River eLearning.
