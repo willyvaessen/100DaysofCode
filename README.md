@@ -733,3 +733,12 @@ than I anticipated.
 Also working on an overview for a Python for Beginners course that I'm 
 following for work.
 Finished Python for Beginners on Go1/Stone River eLearning.
+
+
+## 12 October 2023
+
+I've been looking into some Azure development lessons for work today.
+As for the Tic Taco Toe game: my checking code does not work as expected/desired.
+It does what it's programmed to do, but is checking too much. 
+I'm not sure yet how to resolve that and there's something else I want to loot 
+into as well: getting my Raspberry Pi zero with attached camera to share the image.
