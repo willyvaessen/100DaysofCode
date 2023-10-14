@@ -742,3 +742,19 @@ As for the Tic Taco Toe game: my checking code does not work as expected/desired
 It does what it's programmed to do, but is checking too much. 
 I'm not sure yet how to resolve that and there's something else I want to loot 
 into as well: getting my Raspberry Pi zero with attached camera to share the image.
+
+
+## 13 October 2023
+
+Today was a busy day for work. 
+I had a good call with my line manager and got the news that I will receive
+a salary raise :-)
+I started working on a little app/website to practice multiplication.
+I'm having some trouble with DOM manipulation today and I'm tired so I will 
+continue tomorrow.
+
+
+## 14 October 2023
+
+I continued on the multiplication practice project. DOM manipulation now works.
+Time to get working on the code to check the answer against the assignment.
