@@ -1,7 +1,8 @@
 let leftTerm = document.getElementById("leftTerm");
 let rightTerm = document.getElementById("rightTerm");
-
-
+const resultContainer = document.getElementById("resultOutput");
+const userInputAnswer = document.getElementById("answer");
+const checkForm = document.getElementById("checkUserAnswer");
 
 function randomTerm() {
     return Math.floor((Math.random() * 10)+1);
@@ -10,37 +11,31 @@ function randomTerm() {
 function createAssignment() {
     let left = randomTerm();
     let right = randomTerm();
-    // console.log("Left term is " + left.toString());
-    // console.log("right term is " + right.toString());
     leftTerm.textContent = left.toString();
     rightTerm.textContent = right.toString();
-    // console.log("The answer is "+solution);
     return left * right;
-    // console.log(leftTerm)
-    // leftTerm.textContent = randomTerm().toString();
-// rightTerm.textContent = randomTerm().toString();
 }
 
-let assignment = createAssignment();
-console.log(assignment);
 
-let userInputAnswer = document.getElementById("answer");
-let checkForm = document.getElementById("checkUserAnswer");
+
+
 checkForm.addEventListener("submit", (e) => {
     e.preventDefault();
     //  Handle submit
-    checkAnswer()
+    // checkAnswer()
+
+    resultContainer.textContent = checkAnswer();
 });
 function checkAnswer() {
-    console.log("You entered "+ userInputAnswer.value.toString());
-    console.log("Answer should be " + assignment);
-    if (userInputAnswer === assignment) {
+    let result;
+    if (userInputAnswer.value === assignment.toString()) {
         console.log("Dat is goed.")
+        result = "Goed";
     } else {
         console.log("Dat is helaas fout.")
+        result = "Fout";
     }
+    return result;
 }
-// console.log(createAssignment())
 
-// console.log("Left side is "+leftTerm.toString());
-// console.log("Right side is "+leftTerm.toString());
+let assignment = createAssignment();
