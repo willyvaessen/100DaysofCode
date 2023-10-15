@@ -18,14 +18,8 @@ body {
 }
 
 h1 {
-    font-size: 2.5rem;
-}
-
-#counter-value {
-    font-size: 5rem;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    color: #011078;
+    font-size: 2.1rem;
+    /*margin-bottom: 20px;*/
 }
 
 .widget {
@@ -40,28 +34,39 @@ h1 {
     margin: 10px auto;
 }
 
+.widget h1 {
+    height: 50px;
+}
+
 #assignment {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /*border: 1px solid red;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
     align-content: center;
     text-align: center;
-    padding: 0 22px 0 22px;
+    padding: 0 21px 0 21px;
+    height: 100px;
+    /*background-color: #000078;*/
+    /*opacity: 34%;*/
+    /*color: #F2F3EB;*/
 }
 
 
 .term {
     margin: 0;
-    width: 104px;
-    height: 104px;
-    border: 1px solid #F2F3EB;
-    /*border: none;*/
-    background-color: #000078;
-    color: #F2F3EB;
-    opacity: 34%;
-    font-size: 78px;
+    min-width: 84px;
+    height: 84px;
+    /*border: 1px solid #F2F3EB;*/
+    border: none;
+    /*background-color: #000078;*/
+    color: #000078;
+    /*color: #F2F3EB;*/
+    /*opacity: 34%;*/
+    font-size: 60px;
     text-align: center;
     vertical-align: center;
+
 }
 
 .operator {
@@ -72,7 +77,32 @@ h1 {
     color: #000078;
     font-size: 39px;
     text-align: center;
+    vertical-align: center;
 
+}
+
+#scoreCard {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: initial;
+    align-content: center;
+    text-align: center;
+    /*margin: 0 auto;*/
+}
+
+#scoreCard p {
+    /*border: 1px solid red;*/
+    width: 50%;
+    text-align: left;
+    padding: 5px;
+}
+
+#scoreCard span {
+    text-align: right;
+    font-size: 1.5rem;
+    padding: 5px;
 }
 
 /*button  {*/

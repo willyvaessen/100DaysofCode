@@ -19,7 +19,7 @@ function createAssignment() {
     let right = randomTerm();
     leftTerm.textContent = left.toString();
     rightTerm.textContent = right.toString();
-    userInputAnswer.focus();
+    // userInputAnswer.focus();
     return left * right;
 }
 
@@ -73,7 +73,6 @@ function handleNextButton() {
 
 //  This function runs the actual puzzle.
 function runPuzzle() {
-    document.querySelector("#nextButton").disabled = true;
     // createAssignment();
     handleForm();
     handleNextButton();
