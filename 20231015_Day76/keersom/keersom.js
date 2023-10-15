@@ -44,38 +44,15 @@ function checkAnswer() {
 }
 
 //  The following code handles the form submit button.
-function handleForm() {
-    checkForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        //  Handle submit
-        // checkAnswer()
-        resultContainer.textContent = checkAnswer();
-        if (resultContainer.textContent === "Goed") {
-            resultContainer.style.color = "green";
-            resultContainer.style.fontSize = "78px";
-        } else {
-            resultContainer.style.color = "red";
-            resultContainer.style.fontSize = "78px";
-        }
-    });
-}
+
 
 //  The following handles the nextButton
-function handleNextButton() {
-    continueButton.addEventListener("submit", (e) => {
-        e.preventDefault();
-        console.log("You clicked the Next Button");
-        userInputAnswer.focus();
-        // runPuzzle();
-    })
 
-}
 
 //  This function runs the actual puzzle.
 function runPuzzle() {
     // createAssignment();
-    handleForm();
-    handleNextButton();
+
 }
 
 // do {
