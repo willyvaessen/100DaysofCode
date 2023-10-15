@@ -35,7 +35,8 @@ h1 {
     border-radius: 10px;
     background-color: #F2F3EB;
     width: 360px;
-    height: 540px;
+    /*height: 540px;*/
+    height: fit-content;
     margin: 10px auto;
 }
 
@@ -74,14 +75,14 @@ h1 {
 
 }
 
-button  {
-    background-color: transparent;
-    border: 2px solid #6D769A;
-    color: #6D769A;
-    font-size: 1rem;
-    padding: 8px;
-    text-transform: uppercase;
-}
+/*button  {*/
+/*    background-color: transparent;*/
+/*    border: 2px solid #6D769A;*/
+/*    color: #6D769A;*/
+/*    font-size: 1rem;*/
+/*    padding: 8px;*/
+/*    text-transform: uppercase;*/
+/*}*/
 
 .end-game-animation {
   animation-name: toGreen;

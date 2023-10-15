@@ -758,3 +758,15 @@ continue tomorrow.
 
 I continued on the multiplication practice project. DOM manipulation now works.
 Time to get working on the code to check the answer against the assignment.
+
+
+## 15 October 2023
+
+After testing my practice app on mobile, it became clear, that working with 
+text input fields works fine on my desktop, but a lot less nice on the phone.
+The keyboard popping up on the mobile device makes it work less intuitive, so 
+I decided to take a look at a virtual keyboard instead.
+I worked along the video ["How To Build a Virtual Keyboard with HTML, CSS and JavaScript" by ALB Dev](https://www.youtube.com/watch?v=K7I0SJ86NvE), 
+building a complete keyboard and adapted that to a numeric keyboard.
+NOW, I want to work out that keyboard "to perfection" so I'm playing around
+with the design, to make it fit nicely on the screen.

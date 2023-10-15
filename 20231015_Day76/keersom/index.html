@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tafeltjes oefenen</title>
+    <link rel="stylesheet" href="keersom.css">
+    <link rel="stylesheet" href="virtualNumKeyboard.css">
+</head>
+<body>
+<main>
+    <article class="widget">
+        <h1>Tafeltjes oefenen</h1>
+        <section id="puzzleArea">
+            <div id="assignment">
+                <div id="leftTerm" class="term leftSide"></div>
+                <div id="Xop" class="operator">X</div>
+                <div id="rightTerm" class="term rightSide"></div>
+            </div>
+            <p>Score: <span id="score">0</span></p>
+
+            <form action="" id="checkUserAnswer">
+                <label for="answer">Antwoord:
+                    <input type="text" id="answer"/>
+                </label>
+                <input type="submit" id="checkButton" value="Controleren"/>
+            </form>
+            <div>
+                <h2 id="resultOutput">Voer je antwoord in</h2>
+                <form action="">
+                    <input type="submit" id="nextButton" value="Volgende"/>
+                </form>
+
+            </div>
+        </section>
+
+
+        <section id="keyboardArea" class="keyboardArea">
+           <div class="actionKeys" id="functionKeyboardLeft">
+            <button class="btn">L1</button>
+            <button class="btn">L2</button>
+        </div>
+        <div id="numKeyboard">
+            <div class="row">
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+            </div>
+            <div class="row">
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+            </div>
+            <div class="row">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+            </div>
+            <div class="row">
+                <button class="btn">0</button>
+            </div>
+        </div>
+        <div class="actionKeys" id="functionKeyboardRight">
+            <button class="btn">R1</button>
+            <button class="btn">R2</button>
+        </div>
+        </section>
+
+    </article>
+</main>
+<footer></footer>
+<script src="keersom.js"></script>
+<script src="virtualNumKeyboard.js"></script>
+</body>
+</html>
