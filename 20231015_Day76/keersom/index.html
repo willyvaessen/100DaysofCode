@@ -23,7 +23,7 @@
             </div>
 
         </section>
-        <!--    This section displays the score and the progress.        -->
+        <!--    This section displays the score and the progress.           -->
         <section id="scoreCard">
             <p>Score: <span id="score">0</span></p>
             <p>Round:
@@ -31,16 +31,18 @@
                 <span id="maxRounds">10</span>
             </p>
         </section>
-        <!--    This section displays the input from the keypad.        -->
+        <!--    This section displays the input from the keypad.            -->
         <section id="displayArea">
-            <h2>Voer je antwoord in</h2>
+            <h2 id="doNext">Voer je antwoord in</h2>
             <p><span id="inputDisplay" class="inputDisplay"></span></p>
         </section>
-        <!--    Below code builds the numeric keypad to be used in the app. -->
+        <!--    Below code builds the keyboard to be used in the app.       -->
         <section id="keyboardArea" class="keyboardArea">
+            <!--    This part contains the left side of the action keys.
+            It's "hidden" and mainly used as a placeholder -->
             <div class="actionKeys" id="functionKeyboardLeft">
-                <button class="btn">L1</button>
-                <button class="btn">L2</button>
+                <button class="leftActionButtonOne">L1</button>
+                <button class="leftActionButtonTwo">L2</button>
             </div>
             <div id="numKeyboard">
                 <div class="row">
@@ -62,6 +64,7 @@
                     <button class="btn">0</button>
                 </div>
             </div>
+            <!--    This part contains the left side of the action keys.    -->
             <div class="actionKeys" id="functionKeyboardRight">
                 <button class="deleteButton"><-</button>
                 <button class="clearButton">Clr</button>
@@ -71,7 +74,8 @@
     </article>
 </main>
 <footer></footer>
-<script src="keersom.js"  rev="0.1"></script>
-<script src="virtualNumKeyboard.js" rev="0.1"></script>
+
+<script src="virtualNumKeyboard.js" rev="0.3"></script>
+<script src="keersom.js"  rev="0.2"></script>
 </body>
 </html>

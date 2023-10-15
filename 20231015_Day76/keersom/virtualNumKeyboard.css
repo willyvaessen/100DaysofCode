@@ -66,7 +66,8 @@ button {
 #multiActionButton {
     height: 130px;
     opacity: 70%;
-
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 
 .delete,
@@ -79,6 +80,7 @@ button {
 .inputDisplay {
     width: 40%;
     margin: 0 auto;
+    font-size: 64px;
     /*display: flex;*/
     justify-content: center;
     /*margin-bottom: 2rem;*/

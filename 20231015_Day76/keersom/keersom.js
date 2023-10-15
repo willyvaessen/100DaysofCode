@@ -1,12 +1,16 @@
-let leftTerm = document.getElementById("leftTerm");
-let rightTerm = document.getElementById("rightTerm");
-const resultContainer = document.getElementById("resultOutput");
+//  declare variables, linked to content on the application site.
+const leftTerm = document.getElementById("leftTerm");
+const rightTerm = document.getElementById("rightTerm");
 const scoreContainer = document.getElementById("score");
-const userInputAnswer = document.getElementById("answer");
-let checkForm = document.getElementById("checkUserAnswer");
-let continueButton = document.getElementById("nextButton");
-let score = 0;
-let assignment = createAssignment();
+const userInputAnswer = document.getElementById("inputDisplay");
+const currentRoundContainer = document.getElementById('currentRound');
+const maxRoundContainer = document.getElementById('maxRounds');
+const gameHistory = {round: '', attempts: '', assignment: ''}
+let score =0;
+let currentRound = 0;
+const maxRounds = 5;
+let solution;
+let attempts;
 
 //  This function returns a random number from 1 to 10
 function randomTerm() {
@@ -19,45 +23,87 @@ function createAssignment() {
     let right = randomTerm();
     leftTerm.textContent = left.toString();
     rightTerm.textContent = right.toString();
-    // userInputAnswer.focus();
     return left * right;
 }
 
-// runPuzzle();
+function updateScoreBoard() {
+    scoreContainer.textContent = score.toString();
+    currentRoundContainer.textContent = currentRound.toString();
+    maxRoundContainer.textContent = maxRounds.toString();
+}
 
-//  The function below checks the user input against the outcome of the assignment.
-function checkAnswer() {
-    let result;
-    if (userInputAnswer.value === assignment.toString()) {
-        console.log("Dat is goed.")
-        result = "Goed";
-        score++;
-        scoreContainer.textContent = score.toString();
-        document.querySelector("#checkButton").disabled = true;
-        document.querySelector("#nextButton").disabled = false;
-        document.querySelector("#nextButton").focus();
+function resetScores() {
+    console.log("Resetting scores");
+    let score = 0;
+    let currentRound = 0;
+    const maxRounds = 5;
+    let solution = 0;
+    let attempts = 0;
+    updateScoreBoard();
+    clearInput();
+}
+
+function startNewGame() {   //  Starts a new game. Load when site is opened.
+    currentRound++
+    console.log("Starting round #" + currentRound);
+    updateScoreBoard();
+    solution = createAssignment();  //  Creates a puzzle and fills the html placeholders
+    clearInput();   //  Clears the input field.
+}
+
+//  Now that the game is running, it's time to let the user enter a solution, and tap the GO button.
+function handleUserInput() {
+    let answerToCheck = userInputAnswer.textContent;
+    attempts++;
+    if (answerToCheck === solution.toString()) {
+        console.log("Dat antwoord is goed.");
+        handleCorrectAnswer();
     } else {
-        console.log("Dat is helaas fout.")
-        result = "Fout";
+        console.log("Dat antwoord is niet goed.");
+        handleIncorrectAnswer();
     }
-    return result;
 }
 
-//  The following code handles the form submit button.
-
-
-//  The following handles the nextButton
-
-
-//  This function runs the actual puzzle.
-function runPuzzle() {
-    // createAssignment();
+function handleCorrectAnswer() {
+    console.log("Correct solution entered");
+    //  Add code to continue after a correct answer.
+    inputDisplay.textContent = "Goed";
+    inputDisplay.style.color = "green";
+    inputDisplay.style.fontSize = "64px"
+    multi_btn.textContent = "Next";
+    multi_btn.style.backgroundColor = "green";
+    score++;
+    console.log(score);
+    console.log(currentRound);
+    if (currentRound < maxRounds) {
+        startNewGame();
+    } else if (currentRound === maxRounds) {
+        endGame();
+    }
 
 }
 
-// do {
-//     runPuzzle();
-// } while (score < 10);
+function handleIncorrectAnswer() {
+    console.log("Incorrect solution entered")
+    //  Add code to continue after an incorrect answer.
+    inputDisplay.textContent = "Fout";
+    inputDisplay.style.color = "red";
+    inputDisplay.style.fontSize = "64px"
+    multi_btn.textContent = "Again";
+    multi_btn.style.backgroundColor = "red";
+    // clearInput()
+    console.log("Number of attempts: " + attempts);
+}
 
-// createAssignment();
-runPuzzle();
+function nextPuzzle() {
+    console.log("Starting next puzzle");
+    currentRound++
+}
+
+function endGame() {
+    console.log("That was the last round.")
+    resetScores();
+}
+
+// resetScores();
+startNewGame(); //  Starts a new game.
