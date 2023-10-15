@@ -32,8 +32,3 @@ multi_btn.addEventListener('click', () => {
     inputDisplay.textContent = "Actieknop indrukt"
 })
 
-// space_btn.addEventListener('click', () => {
-//     chars.push(' ')
-//     textarea.value = chars.join('');
-//     console.log(chars);
-// })
