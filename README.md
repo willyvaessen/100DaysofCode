@@ -770,3 +770,20 @@ I worked along the video ["How To Build a Virtual Keyboard with HTML, CSS and Ja
 building a complete keyboard and adapted that to a numeric keyboard.
 NOW, I want to work out that keyboard "to perfection" so I'm playing around
 with the design, to make it fit nicely on the screen.
+
+
+## 16 October 2023
+
+A new week and a new idea to work on.
+Or rather, an idea that I had for quite some time, but for which I have found
+a possibly interesting resource to help me build it.
+After building the virtual keyboard this past weekend, I came across three video's 
+by the same person, so I'm looking into that to see if it can help me build 
+the chat application that I have in mind.
+
+UPDATE: Worked on the chat app, but it turned out to be less useful than expected 
+in terms of actually chatting. 
+Despite that, the explanation was quite clear, and I did learn a little more 
+about DOM manipulation.
+
+Also, if time permits, I'll work on tweaking the practice app a little more.
