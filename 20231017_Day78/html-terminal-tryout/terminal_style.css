@@ -1,0 +1,47 @@
+/* This stylesheet for my website was 7 August 2023 */
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(315deg, #caceb1, #bec2b4, #b1b8b3, #9fa49e, #98968b) fixed;
+    font-family: Verdana, sans-serif;
+    color: #011078;
+}
+
+h1 {
+    font-size: 2.1rem;
+}
+
+.widget {
+    align-items: center;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #F2F3EB;
+    width: 360px;
+    min-height: 500px;
+    height: fit-content;
+    margin: 10px auto;
+}
+
+.terminal {
+    width: 340px;
+    padding: 5px 10px 5px 10px;
+    height: 200px;
+    background-color: black;
+    margin: 10px auto;
+    color: #6AAA64;
+    line-height: 0;
+}
+
+.terminal p {
+    font-stretch: ultra-condensed;
+}

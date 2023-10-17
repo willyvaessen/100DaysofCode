@@ -787,3 +787,22 @@ Despite that, the explanation was quite clear, and I did learn a little more
 about DOM manipulation.
 
 Also, if time permits, I'll work on tweaking the practice app a little more.
+
+
+## 17 October 2023
+
+Today I will be trying to get a MongoDB up and running on one of my 
+Raspberry Pi's.
+I've had so much trouble with getting MariaDB set up on my Synology, in terms 
+of connecting, and I see so many posts without an actual solution that I decided
+to have a closer look at Mongo, which seems to be a more popular option anyway.
+
+Also, I wanted to have a look at the "CSS font-stretch Property" for an idea I have.
+
+
+EOD: Well, getting Mongo installed is even more challenging than expected.
+At least: on my Raspberry Pi that is. 
+Even with some comprehensive tutorial I was unable to get it done.
+My last attempt will be to have it installed in a virtual machine or Docker.
+However, Docker would require me to dive into that again, for which I may not 
+have the time right now.

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ClockJS</title>
+</head>
+<body>
+<h1 id="clock"></h1>
+
+<script>
+  function updateTime(){
+    let now = new Date();
+    let h = now.getHours();
+    let m = now.getMinutes();
+    let s = now.getSeconds();
+    let time = h + ":" + m + ":" + s;
+    document.getElementById("clock").innerText = time;
+
+  }
+  setInterval(updateTime, 1000);
+  // updateTime();
+</script>
+</body>
+</html>
