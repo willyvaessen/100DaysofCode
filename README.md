@@ -806,3 +806,19 @@ Even with some comprehensive tutorial I was unable to get it done.
 My last attempt will be to have it installed in a virtual machine or Docker.
 However, Docker would require me to dive into that again, for which I may not 
 have the time right now.
+
+
+## 18 October 2023
+
+I'm going to try and figure out what works best to work with databases.
+On one hand I might have to let go of the desire to run it on my own systems,
+even though I have enough hardware.
+On the other hand, that could just be part of the challenge and fun to get it
+up and running, despite taking lots of time.
+
+
+## 19 October 2023
+
+Not really much done today. I went to the office, which was quite busy.
+Worked on Sololearn, Hyperskill and a little on the Odin project, but only a 
+little.
