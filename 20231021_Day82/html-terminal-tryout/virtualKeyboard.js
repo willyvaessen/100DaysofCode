@@ -15,22 +15,21 @@ let chars = [];
 
 buttons.forEach(btn => {
     btn.addEventListener('click', () => {
-        inputArea.textContent += btn.innerText;
-        chars = inputArea.textContent.split('');
-        console.log(chars);
+        updateInputField(btn)
     })
 })
 
 startBtn.addEventListener('click', () => {
     console.log("Start Button clicked")
-
-    populateGrid(10, 32);
+    clearInputField()
+    populateGrid(rows, cols );
     setActiveChar(setRandomCoord());
 })
 
 moveUpBtn.addEventListener('click', () => {
     console.log("Button UP pressed");
     moveUp();
+
 })
 
 moveDownBtn.addEventListener('click', () => {
@@ -49,11 +48,19 @@ moveRightBtn.addEventListener('click', () => {
 })
 
 xBtn.addEventListener('click', () => {
-    console.log("Generated Coordinate is " + setRandomCoord());
-
-
+    getCurrenPosition(currentChar);
 
 })
+
+function updateInputField(btn) {
+    inputArea.textContent += btn.innerText;
+    chars = inputArea.textContent.split('');
+    console.log(chars);
+}
+
+function clearInputField() {
+    inputArea.textContent = '';
+}
 
 //
 // delete_btn.addEventListener('click', () => {

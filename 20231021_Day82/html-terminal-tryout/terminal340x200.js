@@ -1,8 +1,10 @@
-// const rows = 10;
-// const cols = 32;
+const rows = 10;
+const cols = 32;
 const terminal = document.getElementById("terminal340x200");
 //  Let's start by tring to fill one line of the terminal.
 const coords = [];
+const moveHistory = [];
+const currentChar = document.getElementById('activePositionContainer');
 
 
 //  Start of populateGrid function
@@ -28,18 +30,59 @@ function populateGrid(rows, cols) {
 //  Functions for the movement buttons.
 function moveUp() {
     console.log("Moving UP");
+    let position = getCurrenPosition(currentChar);
+    console.log("Current Position is " + position);
+    if (position[1] === 0) {
+        console.log("Moving UP not possible. Try another move.")
+    } else {
+        console.log("Moving UP one position.");
+        position[1]--;
+        moveHistory.push(position)
+        updatePosition(position);
+    }
+
 }
 
 function moveDown() {
     console.log("Moving DOWN");
+    let position = getCurrenPosition(currentChar);
+    console.log("Current Position is " + position);
+        if (position[1] === rows-1) {
+        console.log("Moving DOWN not possible. Try another move.")
+    } else {
+        console.log("Moving DOWN one position.");
+        position[1]++;
+        moveHistory.push(position)
+            updatePosition(position);
+    }
 }
 
 function moveLeft() {
     console.log("Moving LEFT");
+    let position = getCurrenPosition(currentChar);
+    console.log("Current Position is " + position);
+    if (position[0] === 0) {
+        console.log("Moving LEFT not possible. Try another move.")
+    } else {
+        console.log("Moving DOWN one position.");
+        position[0]--;
+        moveHistory.push(position)
+        updatePosition(position);
+    }
 }
 
 function moveRight() {
     console.log("Moving Right");
+    let position = getCurrenPosition(currentChar);
+    console.log("Current Position is " + position);
+        if (position[0] === cols -1) {
+        console.log("Moving RIGHT not possible. Try another move.")
+    } else {
+        console.log("Moving DOWN one position.");
+        position[0]++;
+        moveHistory.push(position);
+        updatePosition(position);
+    }
 }
 
 // console.log(terminalContent);
@@ -48,9 +91,21 @@ function moveRight() {
 //  I'll start building it with id="r5c11", which will later be randomized.
 function setActiveChar(id) {
     const charToActive = document.getElementById(id);
+
     // console.log(charToActive.id);
     charToActive.textContent = 'X';
     charToActive.style.color = 'yellow';
+    currentChar.textContent = id;
+}
+
+function getCurrenPosition(string) {
+    const coord = []
+    let stringToWorkWith = string.textContent;
+    let vCoord = stringToWorkWith.slice(1, (stringToWorkWith.indexOf('c')));
+    let hCoord = stringToWorkWith.slice((stringToWorkWith.indexOf('c') + 1), stringToWorkWith.length);
+    coord.push(parseInt(hCoord), parseInt(vCoord))
+    console.log("Horizontal Coord: " + hCoord + ", Vertical Coord: " + vCoord);
+    return coord;
 }
 
 function setRandomCoord() {
@@ -60,7 +115,18 @@ function setRandomCoord() {
     // console.log("Generating a random number in the range of " + min + " and " + max);
 
     let generatedID = Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min)) + Math.ceil(min));
-    // console.log("Generated ID is " + generatedID);
+    console.log("Generated ID is " + generatedID);
     // console.log("Generated Coordinate is " + generatedCoord);
+    console.log(coords[generatedID]);
     return coords[generatedID];
+}
+
+function updatePosition(position){
+    //  Update position receives the new position from the move buttons.
+    console.log("New Position is " + position);
+    let newPositionID = `r${position[1]}c${position[0]}`
+    let newCoordID = coords.indexOf(newPositionID);
+    console.log("New position ID is "+newCoordID);
+    console.log(newPositionID);
+    setActiveChar(coords[newCoordID]);
 }
