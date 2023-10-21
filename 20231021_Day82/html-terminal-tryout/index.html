@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Terminal Thingy</title>
     <link rel="stylesheet" href="terminal_style.css">
-    <link rel="stylesheet" href="virtualKeyboard.css">
+    <!--    <link rel="stylesheet" href="virtualKeyboard.css">-->
 </head>
 <body>
 <article class="widget">
@@ -16,21 +16,16 @@
         <h2>Viewport info</h2>
         <p>Width: <span id="vpWidth"></span> / Height: <span id="vpHeight"></span></p>
     </section>
-<!--    <section id="controlsArea">-->
-<!--        <button>1</button>-->
-<!--        <button>UP</button>-->
-<!--        <button>4</button>-->
-<!--    </section>-->
-
+    <!--    Below is the control area.    -->
     <section id="keyboardArea" class="keyboard">
         <div class="row">
-            <button class="btn hidden">1</button><button id="btn_up" class="btn"> ˄ </button><button class="btn hidden">4</button>
+            <button class="btn action-btn hidden">TL</button><button id="btn_up" class="btn move-btn"> ˄</button><button class="btn action-btn hidden">TR</button>
         </div>
         <div class="row">
-            <button id="btn_left" class="btn"> ˂ </button><button class="btn hidden">s</button><button id="btn_right" class="btn"> ˃ </button>
+            <button id="btn_left" class="btn move-btn"> ˂</button><button id="btn_X" class="btn action-btn hidden">X</button><button id="btn_right" class="btn move-btn"> ˃</button>
         </div>
         <div class="row">
-            <button class="btn hidden">z</button><button id="btn_down" class="btn"> ˅ </button><button class="btn hidden">x</button>
+            <button class="btn action-btn hidden">BL</button><button id="btn_down" class="btn move-btn"> ˅</button><button class="btn action-btn hidden">BR</button>
         </div>
         <button id="start_btn" class="btn start">Start</button>
     </section>
@@ -46,7 +41,6 @@
 <!--707: ˃-->
 <!--708: ˄-->
 <!--709: ˅-->
-
 
 
 <!--        <p id="line00">012345678901234567890123456789</p>-->

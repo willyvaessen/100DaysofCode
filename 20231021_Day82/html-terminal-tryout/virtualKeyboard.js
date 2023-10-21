@@ -6,6 +6,7 @@ const moveLeftBtn = document.getElementById('btn_left');
 const moveRightBtn = document.getElementById('btn_right');
 const moveDownBtn = document.getElementById('btn_down');
 const startBtn = document.getElementById('start_btn');
+const xBtn = document.getElementById('btn_X');
 // const delete_btn = document.querySelector('.delete');
 // const shift_btn = document.querySelector('.shift');
 // const space_btn = document.querySelector('.space');
@@ -23,7 +24,35 @@ buttons.forEach(btn => {
 startBtn.addEventListener('click', () => {
     console.log("Start Button clicked")
 
-    populateGrid(10,32);
+    populateGrid(10, 32);
+    setActiveChar(setRandomCoord());
+})
+
+moveUpBtn.addEventListener('click', () => {
+    console.log("Button UP pressed");
+    moveUp();
+})
+
+moveDownBtn.addEventListener('click', () => {
+    console.log("Button DOWN pressed");
+    moveDown();
+})
+
+moveLeftBtn.addEventListener('click', () => {
+    console.log("Button LEFT pressed");
+    moveLeft();
+})
+
+moveRightBtn.addEventListener('click', () => {
+    console.log("Button RIGHT pressed");
+    moveRight();
+})
+
+xBtn.addEventListener('click', () => {
+    console.log("Generated Coordinate is " + setRandomCoord());
+
+
+
 })
 
 //
