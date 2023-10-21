@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Terminal Thingy</title>
+    <link rel="stylesheet" href="terminal_style.css">
+    <link rel="stylesheet" href="virtualKeyboard.css">
+</head>
+<body>
+<article class="widget">
+    <section id="terminal340x200" class="terminalContainer">Press start to begin.
+    </section>
+    <section id="inputField"><p>Command: <span class="inputArea"></span></p></section>
+    <section id="viewportInfo">
+        <h2>Viewport info</h2>
+        <p>Width: <span id="vpWidth"></span> / Height: <span id="vpHeight"></span></p>
+    </section>
+<!--    <section id="controlsArea">-->
+<!--        <button>1</button>-->
+<!--        <button>UP</button>-->
+<!--        <button>4</button>-->
+<!--    </section>-->
+
+    <section id="keyboardArea" class="keyboard">
+        <div class="row">
+            <button class="btn hidden">1</button><button id="btn_up" class="btn"> ˄ </button><button class="btn hidden">4</button>
+        </div>
+        <div class="row">
+            <button id="btn_left" class="btn"> ˂ </button><button class="btn hidden">s</button><button id="btn_right" class="btn"> ˃ </button>
+        </div>
+        <div class="row">
+            <button class="btn hidden">z</button><button id="btn_down" class="btn"> ˅ </button><button class="btn hidden">x</button>
+        </div>
+        <button id="start_btn" class="btn start">Start</button>
+    </section>
+</article>
+
+<script src="getViewport.js"></script>
+<script src="terminal340x200.js"></script>
+<script src="virtualKeyboard.js"></script>
+</body>
+</html>
+
+<!--706: ˂-->
+<!--707: ˃-->
+<!--708: ˄-->
+<!--709: ˅-->
+
+
+
+<!--        <p id="line00">012345678901234567890123456789</p>-->
+<!--        <p id="line01">012345678901234567890123456789</p>-->
+<!--        <p id="line02">012345678901234567890123456789</p>-->
+<!--        <p id="line03">012345678901234567890123456789</p>-->
+<!--        <p id="line04">012345678901234567890123456789</p>-->
+<!--        <p id="line05">012345678901234567890123456789</p>-->
+<!--        <p id="line06">012345678901234567890123456789</p>-->
+<!--        <p id="line07">012345678901234567890123456789</p>-->
+<!--        <p id="line08">012345678901234567890123456789</p>-->
+<!--        <p id="line09">012345678901234567890123456789</p>-->
