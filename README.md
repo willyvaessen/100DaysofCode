@@ -841,3 +841,12 @@ JavaScript generates the rows and colums.
 I'm continuing on my terminal try out thingy. 
 The grid is now populated by a function, which is triggered by clicking the
 Start button.
+
+
+## 22 October 2023
+
+I decided to have a closer look at regular expressions, since that was not
+entirely clear to me when working through that on freeCodeCamp.org
+
+On https://regexlearn.com I found lessons that seem to explain it quite well, 
+so I'll be working my way through those lessons.
