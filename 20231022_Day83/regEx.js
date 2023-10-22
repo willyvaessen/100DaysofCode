@@ -120,3 +120,34 @@ let practice03 = "beer deer feer";
 let regExpPractice03 = /[bdf]eer/g;
 
 
+//  Practice: Negated Character Sets
+//
+// Write down the expression that will match anything other than the
+// words beor and beur in the text. Do this using the negated character set.
+
+let practice04 = "bear beor beer beur";
+let regExpPractice04 = /be[^ou]r/g;
+
+
+//  Practice: Letter Range
+//
+// Write the expression that will select the letters from g to k in the text.
+// g and k letters should also be included in this range.
+
+let practice05 = "abcdefghijklmnopqrstuvwxyz";
+let regExpPractice05 = /[g-k]/g;
+
+
+//  Practice: Number Range
+//
+// Type an expression to select numbers from 2 to 7 in the text.
+// 2 and 7 should also be included in this range.
+
+let practice06 = "0123456789";
+let regExpPractice06 = /[2-7]/g;
+
+
+//  Repetitions
+//
+// Some special characters are used to specify how many times a character will be repeated in the text. These special characters are the plus +, the asterisk *, and the question mark ?.
+
