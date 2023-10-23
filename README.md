@@ -850,3 +850,10 @@ entirely clear to me when working through that on freeCodeCamp.org
 
 On https://regexlearn.com I found lessons that seem to explain it quite well, 
 so I'll be working my way through those lessons.
+
+
+## 23 October 2023
+
+I'm heading to the office today, so I'm not sure how much time I will have to
+code.
+I will be working on the RegEx lessons though.
