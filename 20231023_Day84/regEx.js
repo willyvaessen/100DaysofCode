@@ -219,3 +219,271 @@ let regExp14 = /be{1,3}r/g;
 
 //  Now it's time to do some practice to consolidate what we've learned.
 
+//  Practice: Asterisk *
+//
+// Use the asterisk * to write the expression that will select each word, suitable
+// for the absence of the letter e in the text and the presence of one or more.
+
+let practice07 = "dp dep deep";
+let regExpPractice07 = /de*p/g;
+
+
+//  Practice: Plus Sign +
+//
+// Write the expression using the plus sign + to select words in which the
+// letter e occurs one or more times in the text.
+
+let practice08 = "dp dep deep";
+let regExpPractice08 = /de+p/g;
+
+
+//  Practice: Question Mark ?
+//
+// Write the expression indicating that the letter n is optional in the text,
+// using the question mark ?.
+// Thus, both the words a and an can be selected.
+
+let practice09 = "a, an";
+let regExpPractice09 = /an?/g;
+
+
+//  Practice: Curly Braces - 1
+//
+// Write the expression using curly braces {} that will find texts containing
+// 4 numbers side by side. Remember that the range [0-9] will match a single digit.
+
+let practice10 = "Release 10/9/2021";
+let regExpPractice10 = /[0-9]{4}/g;
+
+
+//  Practice: Curly Braces - 2
+//
+// Write the expression using curly braces {} that will find texts containing
+// at least 2 numbers side by side.
+
+let practice11 = "Release 10/9/2021";
+let regExpPractice11 = /[0-9]{2,}/g;
+
+
+//  Practice: Curly Braces - 3
+//
+// Write the expression using curly braces {} that will find texts containing
+// at least 1 and at most 4 numbers side by side.
+
+let practice12 = "Release 10/9/2021";
+let regExpPractice12 = /[0-9]{1,4}/g;
+
+
+//  Parentheses ( ): Grouping
+//
+// We can group an expression and use these groups to reference or enforce some rules.
+// To group an expression, we enclose () in parentheses.
+// For now just group haa below.
+
+let text15 = "ha-ha,haa-haa";
+let regExp15 = /(haa)/g;
+
+
+//  Referencing a Group
+//
+// The words ha and haa are grouped below. The first group is used by
+// writing \1 to avoid rewriting.
+// Here 1 denotes the order of grouping. Type \2 at the end of the expression
+// to refer to the second group.
+
+let text16 = "ha-ha,haa-haa";
+let regExp16 = /(ha)-\1,(haa)-\2/g;
+
+
+//  Parentheses (?: ): Non-capturing Grouping
+//
+// You can group an expression and ensure that it is not captured by references.
+// For example, below are two groups. However, the first group reference we
+// denote with \1 actually indicates the second group, as the first is a
+// non-capturing group.
+
+let text17 = "ha-ha,haa-haa";
+let regExp17 = /(?:ha)-ha,(haa)-\1/g;
+
+
+//  Pipe Character |
+//
+// It allows to specify that an expression can be in different expressions.
+// Thus, all possible statements are written separated by the pipe sign |.
+// This differs from charset [abc], charsets operate at the character level.
+// Alternatives are at the expression level.
+// For example, the following expression would select both cat and rat.
+// Add another pipe sign | to the end of the expression and type dog so
+// that all words are selected.
+
+let text18 = "cat rat dog";
+let regExp18 = /(c|r)at|dog/g;
+
+
+//  Escape Character \
+//
+// There are special characters that we use when writing regex. { } [ ] / \ + * . $^ | ?
+// Before we can select these characters themselves, we need to use an escape character \.
+// For example, to select the dot . and asterisk * characters in the text, let's add
+// an escape character \ before it.
+
+let text19 = "(*) Asterisk.";
+let regExp19 = /(\*|\.)/g;
+
+
+//  Caret Sign ^:
+// Selecting by Line Start
+//
+// We were using [0-9] to find numbers.
+// To find only numbers at the beginning of a line, prefix this expression with the ^ sign.
+
+let text20 = "Basic Omellette Recipe\n" +
+    "\n" +
+    "1. 3 eggs, beaten\n" +
+    "2. 1 tsp sunflower oil\n" +
+    "3. 1 tsp butter";
+let regExp20 = /^[0-9]/g;
+
+
+//  Dollar Sign $:
+// Selecting by End of Line
+//
+// Let's use the $ sign after the html value to find the html texts only at the end of the line.
+
+let text21 = "https://domain.com/what-is-html.html\n" +
+    "https://otherdomain.com/html-elements\n" +
+    "https://website.com/html5-features.html";
+let regExp = /html$/g;
+
+
+//  Word Character \w: Letter, Number and Underscore
+//
+// The expression \w is used to find letters, numbers and underscore characters.
+// Let's use the expression \w to find word characters in the text.
+
+let text22 = "abcABC123 _.:!?";
+let regExp22 = /\w/g;
+
+
+//  Except Word Character \W
+//
+// The expression \W is used to find characters other than letters, numbers, and
+// underscores.
+
+let text23 = "abcABC123 _.:!?";
+let regExp23 = /\W/g;
+
+
+//  Number Character \d
+//
+// \d is used to find only number characters.
+
+
+let text24 = "abcABC123 .:!?";
+let regExp24 = /\d/g;
+
+
+//  Except Number Character \D
+//
+// \D is used to find non-numeric characters.
+
+let text25 = "abcABC123 .:!?";
+let regExp25 = /\D/g;
+
+
+//  Space Character \s
+//
+// \s is used to find only space characters.
+
+let text26 = "abcABC123 .:!?";
+let regExp26 = /\s/g;
+
+
+//  Except Space Character \S
+//
+// \S is used to find non-space characters.
+
+let text27 = "abcABC123 .:!?";
+let regExp27 = /\S/g;
+
+
+//  Lookarounds
+//
+// If we want the phrase we're writing to come before or after another phrase,
+// we need to "lookaround".
+// Take the next step to learn how to "lookaround".
+
+
+//  Positive Lookahead: (?=)
+//
+// For example, we want to select the hour value in the text.
+// Therefore, to select only the numerical values that have PM after them,
+// we need to write the positive look-ahead expression (?=) after our expression.
+// Include PM after the = sign inside the parentheses.
+
+let text28 = "Date: 4 Aug 3PM";
+let regExp28 = /\d+(?=PM)/g;
+
+
+//  Negative Lookahead: (?!)
+//
+// For example, we want to select numbers other than the hour value in the text.
+// Therefore, we need to write the negative look-ahead (?!) expression after our
+// expression to select only the numerical values that do not have PM after them.
+// Include PM after the ! sign inside the parentheses.
+
+let text29 = "Date: 4 Aug 3PM";
+let regExp29 = /\d+(?!PM)/g;
+
+
+//  Positive Lookbehind: (?<=)
+//
+// For example, we want to select the price value in the text.
+// Therefore, to select only the number values that are preceded by $,
+// we need to write the positive lookbehind expression (?<=) before our expression.
+// Add \$ after the = sign inside the parenthesis.
+
+let text30 = "Product Code: 1064 Price: $5";
+let regExp30 = /\d+(?<=$)/g;  //    /(?<=\$)\d+/g
+
+
+//  Negative Lookbehind: (?<!)
+//
+// For example, we want to select numbers in the text other than the price value.
+// Therefore, to select only numeric values that are not preceded by $,
+// we need to write the negative lookbehind (?<!) before our expression.
+// Add \$ after the ! inside the parenthesis.
+
+// let text31 = "Product Code: 1064 Price: $5";
+// let regExp31 = /\d+(?<!$)/g; // /(?<!\$)\d+/g
+//
+//
+// let text32 = "";
+// let regExp32 = //g;
+//
+//
+// let text33 = "";
+// let regExp33 = //g;
+//
+//
+// let text34 = "";
+// let regExp34 = //g;
+//
+//
+// let text35 = "";
+// let regExp35 = //g;
+//
+
+
+
+
+//  Practice
+
+//     let
+// practice13 = "";
+// let regExpPractice13 = //g;
+//
+//
+//     let
+// practice14 = "";
+// let regExpPractice14 = //g;
