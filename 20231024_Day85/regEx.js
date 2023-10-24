@@ -488,6 +488,8 @@ let text33 = "domain.com\n" +
     "site.com";
 let regExp33 = /\w+\.com$/gm;
 
+console.log("33: " + regExp33.test(text33));
+
 //  Case-insensitive Flag
 //
 // In order to remove the case-sensitivity of the expression we have written,

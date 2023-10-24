@@ -867,3 +867,6 @@ need practice with it, and find out how I can work with regular expressions.
 While I'm certain there are very good reasons for them to exist,  I have not 
 seen a real-world scenario yet where I benefit from it.
 I hope I will soon find out.
+
+Finished two more "JavaScript Algorithms and Data Structures Projects" on
+freeCodeCamp for the certification.
