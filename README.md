@@ -857,3 +857,13 @@ so I'll be working my way through those lessons.
 I'm heading to the office today, so I'm not sure how much time I will have to
 code.
 I will be working on the RegEx lessons though.
+
+
+## 24 October 2023
+
+Today I will be looking at the last six lessons on regexlearn.com.
+From the lessons it has become a little more clear how it all works, but I will
+need practice with it, and find out how I can work with regular expressions.
+While I'm certain there are very good reasons for them to exist,  I have not 
+seen a real-world scenario yet where I benefit from it.
+I hope I will soon find out.

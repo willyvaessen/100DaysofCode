@@ -456,34 +456,66 @@ let regExp30 = /\d+(?<=$)/g;  //    /(?<=\$)\d+/g
 
 // let text31 = "Product Code: 1064 Price: $5";
 // let regExp31 = /\d+(?<!$)/g; // /(?<!\$)\d+/g
-//
-//
-// let text32 = "";
-// let regExp32 = //g;
-//
-//
-// let text33 = "";
-// let regExp33 = //g;
-//
-//
-// let text34 = "";
-// let regExp34 = //g;
-//
-//
-// let text35 = "";
-// let regExp35 = //g;
-//
 
-
-
-
-//  Practice
-
-//     let
-// practice13 = "";
-// let regExpPractice13 = //g;
+//  Flags
 //
+// Flags change the output of the expression.
+// That's why flags are also called modifiers.
+// Flags determine whether the typed expression treats text as separate lines,
+// is case sensitive, or finds all matches. Continue to the next step to learn
+// the flags.
+
+//  Global Flag
 //
-//     let
-// practice14 = "";
-// let regExpPractice14 = //g;
+// The global flag causes the expression to select all matches.
+// If not used it will only select the first match. Now enable the global flag
+// to be able to select all matches.
+//  It is what comes after the last /
+
+let text32 = "domain.com, test.com, site.com";
+let regExp32 = /\w+\.com/g;
+
+//  Multiline Flag
+//
+// Regex sees all text as one line.
+// But we use the multiline flag to handle each line separately.
+// In this way, the expressions we write to identify patterns at the end of
+// lines work separately for each line.
+// Now enable the multiline flag to find all matches.
+
+let text33 = "domain.com\n" +
+    "test.com\n" +
+    "site.com";
+let regExp33 = /\w+\.com$/gm;
+
+//  Case-insensitive Flag
+//
+// In order to remove the case-sensitivity of the expression we have written,
+// we must activate the case-insensitive flag.
+
+// let text34 = "DOMAIN.COM
+// TEST.COM
+// SITE.COM";
+// let regExp34 = /\w+\.com$/gmi;
+
+//  Greedy Matching
+//
+// Regex does a greedy match by default.
+// This means that the matchmaking will be as long as possible.
+// Check out the example below.
+// It refers to any match that ends in r and can be any character preceded by it.
+// But it does not stop at the first letter r.
+
+let text35 = "ber beer beeer beeeer";
+let regExp35 = /.*r/g;
+
+//  Lazy Matching
+//
+// Lazy matchmaking, unlike greedy matching, stops at the first matching.
+// For example, in the example below, add a ? after * to find the first
+// match that ends with the letter r and is preceded by any character.
+// It means that this match will stop at the first letter r.
+
+let text36 = "ber beer beeer beeeer";
+let regExp36 = /.*?r/;
+
