@@ -870,3 +870,10 @@ I hope I will soon find out.
 
 Finished two more "JavaScript Algorithms and Data Structures Projects" on
 freeCodeCamp for the certification.
+
+
+## 25 October
+
+Not much has happened today.
+I installed Ubuntu Linux on my desktop machine and worked on a lesson on 
+Sololearn.
