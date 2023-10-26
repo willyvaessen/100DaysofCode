@@ -883,3 +883,4 @@ Sololearn.
 
 Today I've been working on installing Ubuntu in a Parallels VM and configuring
 it to work with PyCharm.
+Worked on some freeCodeCamp lessons today.
