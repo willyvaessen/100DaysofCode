@@ -877,3 +877,9 @@ freeCodeCamp for the certification.
 Not much has happened today.
 I installed Ubuntu Linux on my desktop machine and worked on a lesson on 
 Sololearn.
+
+
+## 26 October 2023
+
+Today I've been working on installing Ubuntu in a Parallels VM and configuring
+it to work with PyCharm.
