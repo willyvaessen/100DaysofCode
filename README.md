@@ -890,3 +890,12 @@ Worked on some freeCodeCamp lessons today.
 
 Last day of the work week is here.
 Today I want to finish the ROT13 decrypter from freeCodeCamp.
+
+
+## 28 October 2023
+
+Not feeling too great today. Some kind of flu in my body, so I'll take it easy 
+this weekend.
+I made a start with the Telephone Number validator on freeCodeCamp.
+It has become clear that this is a lesson in Regular Expressions and I managed 
+to get part of the tests validated, but not all.
