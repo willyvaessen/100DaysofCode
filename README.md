@@ -899,3 +899,5 @@ this weekend.
 I made a start with the Telephone Number validator on freeCodeCamp.
 It has become clear that this is a lesson in Regular Expressions and I managed 
 to get part of the tests validated, but not all.
+
+With the help of RegEx101.com I was able to solve the American Phone Number Validator.
