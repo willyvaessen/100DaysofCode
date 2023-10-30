@@ -901,3 +901,17 @@ It has become clear that this is a lesson in Regular Expressions and I managed
 to get part of the tests validated, but not all.
 
 With the help of RegEx101.com I was able to solve the American Phone Number Validator.
+
+
+## 29 October 2023
+
+Today I've been working on the Cash Register application on freeCodeCamp. 
+The last of the certification projects.
+It was a challenge, but I managed to do it eventually.
+
+
+## 30 October 2023
+
+The last 10 days of my 100 Days of Code challenge.
+It's been kind of a rough day as I'm not feeling too well as was the case the whole weekend.
+I continued on the C# course on freeCodeCamp in association with Microsoft.
