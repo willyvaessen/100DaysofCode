@@ -915,3 +915,10 @@ It was a challenge, but I managed to do it eventually.
 The last 10 days of my 100 Days of Code challenge.
 It's been kind of a rough day as I'm not feeling too well as was the case the whole weekend.
 I continued on the C# course on freeCodeCamp in association with Microsoft.
+
+
+## 31 October 2023
+
+Day 92.
+Continuing on the C# course.
+Finished Write Your First Code Using C#

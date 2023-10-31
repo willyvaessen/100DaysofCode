@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="slicensplice.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.9.0/bin/node" nameIsGenerated="true" path-to-js-file="slicensplice.js" working-dir="$PROJECT_DIR$/20231025_Day86">
+  <configuration default="false" name="slicensplice.js" type="NodeJSConfigurationType" path-to-node="$USER_HOME$/.nvm/versions/node/v20.9.0/bin/node" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/202310_October_Day62-92/20231025_Day86/slicensplice.js" working-dir="$PROJECT_DIR$/202310_October_Day62-92/20231025_Day86">
     <method v="2" />
   </configuration>
 </component>
