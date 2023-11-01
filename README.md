@@ -922,3 +922,8 @@ I continued on the C# course on freeCodeCamp in association with Microsoft.
 Day 92.
 Continuing on the C# course.
 Finished Write Your First Code Using C#
+
+
+## 1 November 2023
+
+Continued workin on the C# course today.
