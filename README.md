@@ -926,4 +926,10 @@ Finished Write Your First Code Using C#
 
 ## 1 November 2023
 
-Continued workin on the C# course today.
+Continued working on the C# course today.
+
+
+## 2 November 2023
+
+Worked on C# course on freeCodeCamp.
+Store and Iterate Through Sequences of Data Using Arrays and the foreach Statement in C#
