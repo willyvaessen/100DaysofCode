@@ -1,7 +1,7 @@
 using System;
 
 // initialize variables - graded assignments
-int currentAssignments = 5;
+int examAssignments = 5;
 
 
 /* The following declarations will be replaced by ...
@@ -68,13 +68,26 @@ foreach (string name in studentNames)
     // initialize/reset the calculated average of exam + extra credit scores
     decimal currentStudentGrade = 0;
 
+    int gradedAssignments = 0;
+
+
     foreach (int score in studentScores)
     {
-        // add the exam score to the sum
-        sumAssignmentScores += score;
+        gradedAssignments += 1;
+        if (gradedAssignments <= examAssignments)
+        {
+            // add the exam score to the sum
+            sumAssignmentScores += score;
+        }
+
+        else
+        {
+            sumAssignmentScores += score / 10;
+        }
+
     }
 
-    currentStudentGrade = (decimal)(sumAssignmentScores) / currentAssignments;
+    currentStudentGrade = (decimal)(sumAssignmentScores) / examAssignments;
 
     if (currentStudentGrade >= 97)
         currentStudentLetterGrade = "A+";
