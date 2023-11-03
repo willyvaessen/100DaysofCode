@@ -933,3 +933,9 @@ Continued working on the C# course today.
 
 Worked on C# course on freeCodeCamp.
 Store and Iterate Through Sequences of Data Using Arrays and the foreach Statement in C#
+
+
+## 3 November 2023
+
+Continuing on the C# course on freeCodeCamp today.
+Develop foreach and if-elseif-else structures to process array data in C#
