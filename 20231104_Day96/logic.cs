@@ -46,3 +46,11 @@ Console.WriteLine(!pangram.Contains("fox"));
 Console.WriteLine(!pangram.Contains("cow"));
 */
 
+/*      Exercise - Implement the conditional operator
+int saleAmount = 999;
+//  variable   <   condition   > ? <true>:<false>
+int discount = saleAmount > 1000 ? 100 : 50;
+Console.WriteLine($"Discount: {discount}");
+//  Inline:
+Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
+*/
