@@ -939,3 +939,9 @@ Store and Iterate Through Sequences of Data Using Arrays and the foreach Stateme
 
 Continuing on the C# course on freeCodeCamp today.
 Develop foreach and if-elseif-else structures to process array data in C#
+
+
+## 4 November 2023
+
+Continuing on the C# course on freeCodeCamp today.
+I'm going to add Logic to C# Console Applications.
