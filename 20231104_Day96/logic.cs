@@ -1,6 +1,3 @@
-//  Add Logic to C# Console Applications
-
-//  Unlock the power of logic in C# console applications. Learn how to add logic and decision-making capabilities to your code, enabling your applications to make dynamic choices and respond intelligently to different scenarios.
 //  Evaluate Boolean expressions to make decisions in C#
 
 /*      Exercise - Evaluate an expression
@@ -55,8 +52,7 @@ Console.WriteLine($"Discount: {discount}");
 Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
 */
 
-
-//  Exercise - Complete a challenge activity using conditional operators
+/*  Exercise - Complete a challenge activity using conditional operators
 
 //      Conditional operator challenge
 //      Code challenge: write code to display the result of a coin flip
@@ -66,3 +62,76 @@ Random coin = new Random();
 
 int coinFlip = coin.Next(2);
  Console.WriteLine($"Result: {(coinFlip == 0 ? "Heads" : "Tails") }");
+
+*/
+
+//  Exercise - Complete a challenge activity using conditional operators
+
+//      Decision logic challenge
+
+string permission = "Admin";
+int level = 55;
+
+//  First: check if the user is an admin or manager
+if (!permission.Contains("Admin") || !permission.Contains("Manager"))
+{
+    //  Not Admin or Manager:
+    Console.WriteLine("You do not have sufficient privileges.");
+}
+
+else
+
+{
+    //  Admin or Manager profile detected
+    //  Now determine level of access.
+    if ((level > 55 ) && (permission.Contains("Admin")))
+    {
+        Console.WriteLine("Welcome, Super Admin user.");
+    }
+    else if ((level <= 55 ) && (permission.Contains("Admin")))
+    {
+        Console.WriteLine("Welcome, Admin user.");
+    }
+    if ((level >= 20 ) && (permission.Contains("Manager")))
+    {
+        Console.WriteLine("Contact an Admin for access.");
+    }
+    if ((level < 20 ) && (permission.Contains("Manager")))
+    {
+        Console.WriteLine("You do not have sufficient privileges.");
+    }
+
+}
+
+
+/*  Assigment solution provided:
+string permission = "Admin|Manager";
+int level = 53;
+
+if (permission.Contains("Admin"))
+{
+    if (level > 55)
+    {
+        Console.WriteLine("Welcome, Super Admin user.");
+    }
+    else
+    {
+        Console.WriteLine("Welcome, Admin user.");
+    }
+}
+else if (permission.Contains("Manager"))
+{
+    if (level >= 20)
+    {
+        Console.WriteLine("Contact an Admin for access.");
+    }
+    else
+    {
+        Console.WriteLine("You do not have sufficient privileges.");
+    }
+}
+else
+{
+    Console.WriteLine("You do not have sufficient privileges.");
+}
+*/
