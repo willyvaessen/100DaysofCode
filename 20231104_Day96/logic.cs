@@ -54,3 +54,15 @@ Console.WriteLine($"Discount: {discount}");
 //  Inline:
 Console.WriteLine($"Discount: {(saleAmount > 1000 ? 100 : 50)}");
 */
+
+
+//  Exercise - Complete a challenge activity using conditional operators
+
+//      Conditional operator challenge
+//      Code challenge: write code to display the result of a coin flip
+
+//  Use the Random class to generate a value.
+Random coin = new Random();
+
+int coinFlip = coin.Next(2);
+ Console.WriteLine($"Result: {(coinFlip == 0 ? "Heads" : "Tails") }");
