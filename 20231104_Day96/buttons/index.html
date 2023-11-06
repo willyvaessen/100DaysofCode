@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Buttons</title>
+    <link rel="stylesheet" href="buttons.css">
+    <link rel="stylesheet" href="virtualKeys.css">
+</head>
+<body>
+<header>
+    <h1>Buttons</h1>
+</header>
+<main>
+    <article class="widget">
+
+        <!--    This section displays the input from the keypad.            -->
+        <!--    Below code builds the keyboard to be used in the app.       -->
+        <section id="keyboardArea" class="keyboardArea">
+            <!--    This part contains the left side of the action keys.
+            It's "hidden" and mainly used as a placeholder -->
+            <!--            <div class="actionKeys" id="functionKeyboardLeft">-->
+            <!--                <button class="leftActionButtonOne">L1</button>-->
+            <!--                <button class="leftActionButtonTwo">L2</button>-->
+            <!--            </div>-->
+            <div id="numKeyboard">
+                <div class="row">
+                    <button class="btn">A1</button><button class="btn">A2</button><button class="btn">A3</button><button class="btn">A4</button>
+                </div>
+                <div class="row">
+                    <button class="btn">B1</button><button class="btn">B2</button><button class="btn">B3</button><button class="btn">B4</button>
+                </div>
+                <div class="row">
+                    <button class="btn">C1</button><button class="btn">C2</button><button class="btn">C3</button><button class="btn">C4</button>
+                </div>
+                <div class="row">
+                    <button class="btn">D1</button><button class="btn">D2</button><button class="btn">D3</button><button class="btn">D4</button>
+                </div>
+            </div>
+            <!--    This part contains the left side of the action keys.    -->
+            <!--            <div class="actionKeys" id="functionKeyboardRight">-->
+            <!--                <button class="deleteButton"><-</button>-->
+            <!--                <button class="clearButton">Clr</button>-->
+            <!--                <button class="multiButton" id="multiActionButton">GO</button>-->
+            <!--            </div>-->
+        </section>
+    </article>
+</main>
+<footer></footer>
+
+<script src="virtualKeys.js" rev="0.1"></script>
+<script src="buttons.js" rev="0.1"></script>
+</body>
+</html>

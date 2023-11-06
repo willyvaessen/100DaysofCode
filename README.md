@@ -945,3 +945,19 @@ Develop foreach and if-elseif-else structures to process array data in C#
 
 Continuing on the C# course on freeCodeCamp today.
 I'm going to add Logic to C# Console Applications.
+
+
+## 5 November 2023
+
+Today I started a new project, based on an idea that's been slumbering.
+Titled The Coal Mine BBS, I want to try and mimic the look and feel of an 
+old-school BBS in a modern-day website.
+
+## 6 November 2023
+
+Today I want to take the time to continue on the C# course on freeCodeCamp, 
+Next up: Control Variable Scope and Logic Using Code Blocks in C#
+
+but also try to make some progress on the Coal Mine BBS.
+I have absolutely no illusion that this will be a fully working project any
+time soon, but I'm certain that I will be learning a lot from it.
