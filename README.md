@@ -961,3 +961,10 @@ Next up: Control Variable Scope and Logic Using Code Blocks in C#
 but also try to make some progress on the Coal Mine BBS.
 I have absolutely no illusion that this will be a fully working project any
 time soon, but I'm certain that I will be learning a lot from it.
+
+
+## 7 November 2023
+
+Only 2 dys left in this #100DaysofCode challenge.
+I will be continuing on the C# course as well as maybe some nice stuff that I 
+might run into, like the 2 Python applications by [anosike1](https://github.com/anosike1).
