@@ -965,6 +965,14 @@ time soon, but I'm certain that I will be learning a lot from it.
 
 ## 7 November 2023
 
-Only 2 dys left in this #100DaysofCode challenge.
+Only 2 days left in this #100DaysofCode challenge.
 I will be continuing on the C# course as well as maybe some nice stuff that I 
 might run into, like the 2 Python applications by [anosike1](https://github.com/anosike1).
+
+
+## 8 November 2023
+
+Day 100 of #100DaysofCode.
+I made it, all the way up to 100 days.
+I'll be working on the Challenge Project in the C# course on freeCodeCamp, 
+which is indeed challenging. 
