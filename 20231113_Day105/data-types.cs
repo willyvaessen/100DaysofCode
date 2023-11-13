@@ -111,7 +111,8 @@ else
 if (result >0)
     Console.WriteLine($"Measurement (w/ offset): {50 + result}");
 */
-//  Exercise - Complete a challenge to combine string array values as strings and as integers
+/*  Exercise - Complete a challenge to combine string array values as strings and as integers
+//  My solution
 string[] values = { "12.3", "45", "ABC", "11", "DEF" };
 decimal result = 0;
 decimal total = 0;
@@ -129,7 +130,7 @@ foreach (string value in values) {
 
 Console.WriteLine($"Message: {message}");
 Console.WriteLine($"Total: {total}");
-
+*/
 /*  Review a solution for combining string array values as strings and as integers challenge
 //  Solution provided by Microsoft:
 string[] values = { "12.3", "45", "ABC", "11", "DEF" };
@@ -151,4 +152,39 @@ foreach (var value in values)
 
 Console.WriteLine($"Message: {message}");
 Console.WriteLine($"Total: {total}");
+*/
+//  Exercise - Complete a challenge to output math operations as specific number types
+//  My solution
+int value1 = 12;
+decimal value2 = 6.2m;
+float value3 = 4.3f;
+
+// Your code here to set result1
+// Hint: You need to round the result to nearest integer (don't just truncate)
+int result1 = value1 / Convert.ToInt32(value2);
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+// Your code here to set result2
+decimal result2 = value2 / (decimal)value3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+// Your code here to set result3
+float result3 = value3 / (float)value1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+/*  Review a solution
+//  Solution provided by Microsoft
+int value1 = 12;
+decimal value2 = 6.2m;
+float value3 = 4.3f;
+
+// The Convert class is best for converting the fractional decimal numbers into whole integer numbers
+// Convert.ToInt32() rounds up the way you would expect.
+int result1 = Convert.ToInt32((decimal)value1 / value2);
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+
+decimal result2 = value2 / (decimal)value3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+
+float result3 = value3 / value1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
 */
