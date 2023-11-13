@@ -62,7 +62,7 @@ Console.WriteLine($"decimal: {myDecimal}");
 int myInt = (int)myDecimal;
 Console.WriteLine($"int: {myInt}");
 */
-/*  Casting deciaml into float
+/*  Casting decimal into float
 decimal myDecimal = 1.23456789m;
 float myFloat = (float)myDecimal;
 
@@ -95,7 +95,7 @@ Console.WriteLine(value);
 int value2 = Convert.ToInt32(1.5m); //  Converting rounds up
 Console.WriteLine(value2);
 */
-//  Exercise - Examine the TryParse() method
+/*  Exercise - Examine the TryParse() method
 //  string name = "Bob";
 //  Console.WriteLine(int.Parse(name));
 string value = "bad";
@@ -110,3 +110,45 @@ else
 }
 if (result >0)
     Console.WriteLine($"Measurement (w/ offset): {50 + result}");
+*/
+//  Exercise - Complete a challenge to combine string array values as strings and as integers
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+decimal result = 0;
+decimal total = 0;
+string message = "";
+
+foreach (string value in values) {
+    // Console.WriteLine(value);
+    if (decimal.TryParse(value, out result)) {
+        total += result;
+        // Console.WriteLine(result);
+    } else {
+        message += value;
+    }
+}
+
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {total}");
+
+/*  Review a solution for combining string array values as strings and as integers challenge
+//  Solution provided by Microsoft:
+string[] values = { "12.3", "45", "ABC", "11", "DEF" };
+
+decimal total = 0m;
+string message = "";
+
+foreach (var value in values)
+{
+    decimal number; // stores the TryParse "out" value
+    if (decimal.TryParse(value, out number))
+    {
+        total += number;
+    } else
+    {
+        message += value;
+    }
+}
+
+Console.WriteLine($"Message: {message}");
+Console.WriteLine($"Total: {total}");
+*/
