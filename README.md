@@ -976,3 +976,8 @@ Day 100 of #100DaysofCode.
 I made it, all the way up to 100 days.
 I'll be working on the Challenge Project in the C# course on freeCodeCamp, 
 which is indeed challenging. 
+
+
+## 14 November 2023
+
+I built a password generator today, based on the video on https://www.youtube.com/watch?v=XCIBOl3FTKo
