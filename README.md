@@ -981,3 +981,11 @@ which is indeed challenging.
 ## 14 November 2023
 
 I built a password generator today, based on the video on https://www.youtube.com/watch?v=XCIBOl3FTKo
+
+
+## 15 November 2023
+
+Today I didn't have a lot of time to code, but in the Microsoft Learning 
+environment there was an item that I had to finish, 
+so I made some steps there. Built a really simple website with a button to
+change the theme of the website.
