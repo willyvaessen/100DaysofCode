@@ -989,3 +989,8 @@ Today I didn't have a lot of time to code, but in the Microsoft Learning
 environment there was an item that I had to finish, 
 so I made some steps there. Built a really simple website with a button to
 change the theme of the website.
+
+
+## 16 November 2023
+
+I worked on a Python command line slot machine, a tutorial provided by Tech with Tim.
